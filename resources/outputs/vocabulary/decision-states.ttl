@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix revmeta: <https://w3id.org/revmeta/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/revmeta/state/AMBIGUOUS> rdf:type skos:Concept .
+<https://w3id.org/revmeta/state/AMBIGUOUS> skos:definition "Relevant passages admit materially different interpretations under the term's definition."@en .
+<https://w3id.org/revmeta/state/AMBIGUOUS> skos:inScheme revmeta:decisionStates .
+<https://w3id.org/revmeta/state/AMBIGUOUS> skos:notation "AMBIGUOUS" .
+<https://w3id.org/revmeta/state/AMBIGUOUS> skos:prefLabel "Ambiguous"@en .
+<https://w3id.org/revmeta/state/AMBIGUOUS> skos:scopeNote "Requires the competing readings and at least one anchored excerpt where the source is accessible."@en .
+<https://w3id.org/revmeta/state/AMBIGUOUS> skos:topConceptOf revmeta:decisionStates .
+<https://w3id.org/revmeta/state/INSUFFICIENT_ACCESS> rdf:type skos:Concept .
+<https://w3id.org/revmeta/state/INSUFFICIENT_ACCESS> skos:definition "Material needed for the decision, such as supplementary files, is missing or defective and could change the outcome."@en .
+<https://w3id.org/revmeta/state/INSUFFICIENT_ACCESS> skos:inScheme revmeta:decisionStates .
+<https://w3id.org/revmeta/state/INSUFFICIENT_ACCESS> skos:notation "INSUFFICIENT_ACCESS" .
+<https://w3id.org/revmeta/state/INSUFFICIENT_ACCESS> skos:prefLabel "Insufficient access"@en .
+<https://w3id.org/revmeta/state/INSUFFICIENT_ACCESS> skos:scopeNote "Requires identification of the missing or defective material."@en .
+<https://w3id.org/revmeta/state/INSUFFICIENT_ACCESS> skos:topConceptOf revmeta:decisionStates .
+<https://w3id.org/revmeta/state/NEGATIVE_VERIFIED> rdf:type skos:Concept .
+<https://w3id.org/revmeta/state/NEGATIVE_VERIFIED> skos:definition "A bounded full-text check, including a search for affirmative counter-evidence, establishes that the term does not apply to the publication."@en .
+<https://w3id.org/revmeta/state/NEGATIVE_VERIFIED> skos:inScheme revmeta:decisionStates .
+<https://w3id.org/revmeta/state/NEGATIVE_VERIFIED> skos:notation "NEGATIVE_VERIFIED" .
+<https://w3id.org/revmeta/state/NEGATIVE_VERIFIED> skos:prefLabel "Negative verified"@en .
+<https://w3id.org/revmeta/state/NEGATIVE_VERIFIED> skos:scopeNote "Requires the scope of the check, checks performed, counter-evidence considered, any missing material, and why absence can safely be established. Never inferred from a missing keyword, from the reference list alone, or from the lack of an explicit methods section."@en .
+<https://w3id.org/revmeta/state/NEGATIVE_VERIFIED> skos:topConceptOf revmeta:decisionStates .
+<https://w3id.org/revmeta/state/NOT_ESTABLISHED> rdf:type skos:Concept .
+<https://w3id.org/revmeta/state/NOT_ESTABLISHED> skos:definition "After appropriate inspection of the source, no sufficient affirmative evidence supports the term, but its absence has not been demonstrated."@en .
+<https://w3id.org/revmeta/state/NOT_ESTABLISHED> skos:inScheme revmeta:decisionStates .
+<https://w3id.org/revmeta/state/NOT_ESTABLISHED> skos:notation "NOT_ESTABLISHED" .
+<https://w3id.org/revmeta/state/NOT_ESTABLISHED> skos:prefLabel "Not established"@en .
+<https://w3id.org/revmeta/state/NOT_ESTABLISHED> skos:scopeNote "Record of the inspection performed. This is the default outcome of an unsuccessful positive check and is never read as false."@en .
+<https://w3id.org/revmeta/state/NOT_ESTABLISHED> skos:topConceptOf revmeta:decisionStates .
+<https://w3id.org/revmeta/state/NOT_IN_SCOPE> rdf:type skos:Concept .
+<https://w3id.org/revmeta/state/NOT_IN_SCOPE> skos:definition "The term is excluded from routine coding in the current release of the vocabulary."@en .
+<https://w3id.org/revmeta/state/NOT_IN_SCOPE> skos:inScheme revmeta:decisionStates .
+<https://w3id.org/revmeta/state/NOT_IN_SCOPE> skos:notation "NOT_IN_SCOPE" .
+<https://w3id.org/revmeta/state/NOT_IN_SCOPE> skos:prefLabel "Not in scope"@en .
+<https://w3id.org/revmeta/state/NOT_IN_SCOPE> skos:scopeNote "Applies only to terms with registry depth REVIEW."@en .
+<https://w3id.org/revmeta/state/NOT_IN_SCOPE> skos:topConceptOf revmeta:decisionStates .
+<https://w3id.org/revmeta/state/SATISFIED> rdf:type skos:Concept .
+<https://w3id.org/revmeta/state/SATISFIED> skos:definition "The term applies to the publication: the publication's own review provides affirmative and material evidence for it, and every gate the codebook defines for the term is met."@en .
+<https://w3id.org/revmeta/state/SATISFIED> skos:inScheme revmeta:decisionStates .
+<https://w3id.org/revmeta/state/SATISFIED> skos:notation "SATISFIED" .
+<https://w3id.org/revmeta/state/SATISFIED> skos:prefLabel "Satisfied"@en .
+<https://w3id.org/revmeta/state/SATISFIED> skos:scopeNote "Requires at least one exact quote with its locator and an explanation of how the passage supports the term in the publication's own review. Quotes from the reference list alone are insufficient."@en .
+<https://w3id.org/revmeta/state/SATISFIED> skos:topConceptOf revmeta:decisionStates .
+<https://w3id.org/revmeta/state/VOCABULARY_GAP> rdf:type skos:Concept .
+<https://w3id.org/revmeta/state/VOCABULARY_GAP> skos:definition "The publication documents a material methodological feature that no controlled term adequately represents."@en .
+<https://w3id.org/revmeta/state/VOCABULARY_GAP> skos:inScheme revmeta:decisionStates .
+<https://w3id.org/revmeta/state/VOCABULARY_GAP> skos:notation "VOCABULARY_GAP" .
+<https://w3id.org/revmeta/state/VOCABULARY_GAP> skos:prefLabel "Vocabulary gap"@en .
+<https://w3id.org/revmeta/state/VOCABULARY_GAP> skos:scopeNote "Requires the feature, at least one anchored excerpt, and the closest terms considered. No new term is created."@en .
+<https://w3id.org/revmeta/state/VOCABULARY_GAP> skos:topConceptOf revmeta:decisionStates .
+revmeta:decisionStates dcterms:license <https://www.apache.org/licenses/LICENSE-2.0> .
+revmeta:decisionStates rdf:type skos:ConceptScheme .
+revmeta:decisionStates skos:definition "Outcomes of assessing whether a controlled RevMeta term applies to a publication."@en .
+revmeta:decisionStates skos:prefLabel "RevMeta decision states"@en .
+revmeta:decisionStates skos:scopeNote "In a two-valued view, SATISFIED may be read as true and NEGATIVE_VERIFIED as false; every other state is read as unknown. NOT_ESTABLISHED and AMBIGUOUS are never read as false."@en .

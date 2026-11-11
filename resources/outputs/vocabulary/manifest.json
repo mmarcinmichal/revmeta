@@ -1,0 +1,21 @@
+{
+  "inputs_complete": true,
+  "output_sha256": {
+    "alignments.ttl": "a78a8f4b3f940f0eb295b38bae013bb0d94d93f8c5afa69ad3044c7a3637e0ba",
+    "decision-states.ttl": "bb0b89e27b632577f700c6ae8681fa5377f1cb7c79bbe1542edc5576a998d641",
+    "index.html": "d6c0f368fae5f3f1ca5fdeea589be397d0dcbe55b9b6aa1aaa602f2640451084",
+    "mappings.sssom.tsv": "43c0f3bab8522e630ee4d325d052200533167cb7aee434f1c3f5dead2dd2da82",
+    "mappings.sssom.ttl": "b4f6d3de4b5b920b8902662db95aa5a756381fe067ab735a165aba8b1ee270fd",
+    "vocabulary.jsonld": "283165a70b920d828697ae30c6ea6032063e5a3fc793acc6afa910330fa0322c",
+    "vocabulary.ttl": "3fc5593c3040499ab671602e538546f39e2426da09dde426020a56bb39d771fd"
+  },
+  "project": "RevMeta",
+  "source_identity_scheme": "logical-id-v1",
+  "source_sha256": {
+    "codebook": "2ba6f125705c5a58d9538182acd54b4488baa68086ba02a6e6fd003e96a5d94e",
+    "mappings": "6032e9ee37ca70dd6e4aa550fb0093f3c5ead05fb42a1cf117192998f739257a",
+    "registry": "352f832524975847b000ef097bcb2da98406791a511b5d6eecbb1491ab6b2e4e"
+  },
+  "status": "build-output",
+  "version": "1.0.0"
+}

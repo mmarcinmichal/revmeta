@@ -1,0 +1,2530 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RevMeta — SKOS vocabulary</title>
+<style>html{scroll-behavior:smooth}body{font:16px/1.6 system-ui,Arial,sans-serif;max-width:1100px;margin:auto;padding:1.5rem;color:#202735;background:#fff}a{color:#175a8e}a:focus-visible{outline:3px solid #e3a328;outline-offset:3px}header{border-bottom:2px solid #d9e2eb;margin-bottom:1.5rem}.notice{background:#fff4dd;padding:.8rem 1rem;border-left:4px solid #9b6700}.guidance{margin-top:1rem;padding-left:1rem;border-left:2px solid #e0e5eb}.guidance h4{margin:.8rem 0 .2rem}.guidance ol{margin-top:.2rem}nav ol{columns:2;column-gap:2rem;padding-left:1.5rem}section{margin:2.5rem 0}article{border-top:1px solid #d9e2eb;padding:1rem 0}article h3{margin:0}.meta{color:#4d5665;font-size:.94rem}code{overflow-wrap:anywhere}p{max-width:85ch}@media(max-width:650px){nav ol{columns:1}body{padding:1rem}}</style>
+</head>
+<body>
+<header><h1>RevMeta — Review Metadata</h1>
+<p class="meta">Resource version: <code>1.0.0</code></p>
+<p>SKOS vocabulary: 102 concepts in 14 facet collections, with source-derived coding instructions.</p>
+<p class="notice"><strong>License and identifiers.</strong> RevMeta project-owned content is licensed under Apache-2.0. Publication status and persistent identifier resolution are determined by the public repository release and registered redirects, not by this generated page. No independent scientific validation is implied.</p>
+<p>Files: <a href="vocabulary.ttl">Turtle</a> · <a href="vocabulary.jsonld">JSON-LD</a> · <a href="mappings.sssom.tsv">SSSOM mappings</a> · <a href="mappings.sssom.ttl">SSSOM/RDF records</a> · <a href="decision-states.ttl">Decision states</a> · <a href="alignments.ttl">RDF alignments</a> · <a href="manifest.json">Build manifest</a></p></header>
+<nav aria-label="Facet navigation"><h2>Facets</h2><ol>
+<li><a href="#facet-hasAgentConfiguration">agent configuration</a> (4)</li>
+<li><a href="#facet-hasAnalyticalObjectType">analytical object type</a> (25)</li>
+<li><a href="#facet-claimsContributionType">claimed contribution type</a> (9)</li>
+<li><a href="#facet-hasCorpusComposition">corpus composition</a> (3)</li>
+<li><a href="#facet-hasEvidenceSourceRole">evidence source role</a> (5)</li>
+<li><a href="#facet-hasExecutionMode">execution mode</a> (1)</li>
+<li><a href="#facet-hasOrganizingLens">organizing lens</a> (1)</li>
+<li><a href="#facet-producesOutputArtifact">output artifact</a> (8)</li>
+<li><a href="#facet-hasPublicationFunction">publication function</a> (9)</li>
+<li><a href="#facet-hasRegistrationStatus">registration status</a> (2)</li>
+<li><a href="#facet-hasReviewDesign">review design</a> (10)</li>
+<li><a href="#facet-hasSourceDocumentType">source document type</a> (13)</li>
+<li><a href="#facet-usesSynthesisMethod">synthesis method</a> (11)</li>
+<li><a href="#facet-hasUpdateMode">update mode</a> (1)</li>
+</ol></nav>
+<main id="main">
+<section id="facet-hasAgentConfiguration" aria-labelledby="facet-hasAgentConfiguration-title">
+<h2 id="facet-hasAgentConfiguration-title">agent configuration</h2>
+<p>Relates specified review workflow stages to the human, automated, or integrated human-machine configuration that performs substantive work at those stages.</p>
+<p><strong>Facet boundary:</strong> The primary boundary is AutomatedAgent versus HybridHumanMachine, plus coexistence of SingleHumanReviewer and MultipleHumanReviewers within a stage when procedures differ by substage.</p>
+<article id="concept-hasAgentConfiguration.AutomatedAgent">
+<h3><a href="#concept-hasAgentConfiguration.AutomatedAgent">Automated agent</a></h3>
+<p class="meta"><code>revmeta:hasAgentConfiguration.AutomatedAgent</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A stage-qualified configuration in which software or an algorithm executes a substantive review task without concurrent substantive human judgment in that execution step, although humans may configure, supervise, or review outputs before/afterward.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>A substantive review task at a specified workflow stage is executed by software/algorithmic automation without concurrent substantive human judgment in that execution step.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code passive database/search/reference-management software.</li>
+<li>Do not use when human and machine make integrated substantive decisions within the same task; use HybridHumanMachine.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Passive software/tool use is insufficient.</li>
+<li>Distinguish from HybridHumanMachine by whether substantive human judgment is concurrent/interdependent within the same task.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods explicitly state that a automated agent configuration performed a specified workflow stage, and the stage is recorded.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication has evidence of automated agent only by inference from authorship or generic software use, not an explicit stage-qualified workflow description.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAgentConfiguration.HybridHumanMachine">
+<h3><a href="#concept-hasAgentConfiguration.HybridHumanMachine">Hybrid human-machine</a></h3>
+<p class="meta"><code>revmeta:hasAgentConfiguration.HybridHumanMachine</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A stage-qualified configuration in which human and automated/AI agents make substantively interdependent contributions within the same review task or stage, rather than merely using software as a passive tool.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At a specified workflow stage, human and automated/AI components make substantively interdependent contributions to the same task.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code passive software assistance.</li>
+<li>Do not collapse clearly separate human-only and automation-only stages into a hybrid assertion.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Separate human and automated stages should be represented separately rather than forced into hybrid.</li>
+<li>Require substantive interdependence, not software-assisted administration.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods explicitly state that a hybrid human-machine configuration performed a specified workflow stage, and the stage is recorded.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication has evidence of hybrid human-machine only by inference from authorship or generic software use, not an explicit stage-qualified workflow description.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAgentConfiguration.MultipleHumanReviewers">
+<h3><a href="#concept-hasAgentConfiguration.MultipleHumanReviewers">Multiple human reviewers</a></h3>
+<p class="meta"><code>revmeta:hasAgentConfiguration.MultipleHumanReviewers</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A workflow stage is performed, checked, duplicated, or resolved by multiple human reviewers/analysts.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly states independent, duplicate, consensus, checked, or collaborative human work at the specified stage.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from multiple authors.</li>
+<li>Always pair with workflow_stage.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Do not infer from author count.</li>
+<li>Independent duplicate work, consensus, checking, or collaborative execution may support this value depending on the described stage.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods explicitly state that a multiple human reviewers configuration performed a specified workflow stage, and the stage is recorded.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication has evidence of multiple human reviewers only by inference from authorship or generic software use, not an explicit stage-qualified workflow description.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAgentConfiguration.SingleHumanReviewer">
+<h3><a href="#concept-hasAgentConfiguration.SingleHumanReviewer">Single human reviewer</a></h3>
+<p class="meta"><code>revmeta:hasAgentConfiguration.SingleHumanReviewer</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A workflow stage is performed by one human reviewer/analyst.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly states that one person performed the specified workflow stage.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from authorship count.</li>
+<li>Always pair with workflow_stage.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>May coexist with MultipleHumanReviewers at the same broad stage when distinct substages are explicitly reported.</li>
+<li>Always qualify by workflow stage.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods explicitly state that a single human reviewer configuration performed a specified workflow stage, and the stage is recorded.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication has evidence of single human reviewer only by inference from authorship or generic software use, not an explicit stage-qualified workflow description.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasAnalyticalObjectType" aria-labelledby="facet-hasAnalyticalObjectType-title">
+<h2 id="facet-hasAnalyticalObjectType-title">analytical object type</h2>
+<p>Relates the review to broad categories that themselves function as material analytical dimensions or direct targets of cross-corpus comparison, classification, mapping, appraisal, aggregation, interpretation, or synthesis. Mere evidence-carrier status, routine extraction, evaluation context, or named-instance occurrence is insufficient.</p>
+<p><strong>Facet boundary:</strong> Multi-label coexistence is allowed only when each neighbor has independent material evidence. Do not co-code broader/adjacent terms merely because one concrete object can be described in several everyday-language ways.</p>
+<article id="concept-hasAnalyticalObjectType.Algorithm">
+<h3><a href="#concept-hasAnalyticalObjectType.Algorithm">Algorithm</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Algorithm</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A computational or technical procedure, technique, strategy, or algorithmic approach for transforming inputs or solving a domain task that is itself materially compared, classified, evaluated, or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Computational/technical techniques or procedure families are direct analytical dimensions, including retrieval, ranking, prompting, fine-tuning, reasoning, search, optimization, generation, or comparable algorithmic strategies when materially synthesized.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code research-study designs, statistical analysis methods, or evaluation/review methodology; those are ResearchMethod.</li>
+<li>Do not code a named algorithm mentioned only as an implementation detail or example.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>The preferred label remains Algorithm for vocabulary stability, but operational scope includes materially analyzed computational/technical technique families. This is a label clarification, not a new class.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes algorithm objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Algorithm appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Architecture">
+<h3><a href="#concept-hasAnalyticalObjectType.Architecture">Architecture</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Architecture</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A system, software, model, or technical architecture treated as a material object of comparison, classification, or synthesis.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Architectures themselves are compared/categorized or their structural trade-offs are synthesized.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code when &#x27;architecture&#x27; is merely an attribute value assigned to studies.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish system/model structure from algorithm and from DesignArtifact output created by the review.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes architecture objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Architecture appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Benchmark">
+<h3><a href="#concept-hasAnalyticalObjectType.Benchmark">Benchmark</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Benchmark</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A benchmark, benchmark suite/task, or dataset functioning as an evaluative reference whose benchmark role, coverage, design, usage, or comparative properties are themselves materially synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Benchmarks are compared, categorized, counted/interpreted across the corpus, or analyzed as evaluative references.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code merely because papers report evaluation on named datasets or because generic benchmarking occurs.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A dataset can be Benchmark without Dataset if only its evaluative-reference role is analyzed; co-code Dataset only for independent dataset-level analysis.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes benchmark objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Benchmark appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.BibliographicMetadata">
+<h3><a href="#concept-hasAnalyticalObjectType.BibliographicMetadata">Bibliographic metadata</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.BibliographicMetadata</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>Publication-level metadata (for example year, venue, authorship, citation, keyword, affiliation, or publication counts) that are materially aggregated, modeled, compared, or interpreted across the corpus.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Metadata are aggregated/interpreted for trends, distributions, citation/bibliometric/network analysis, or comparable synthesis.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Routine extraction of author/year/venue alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Routine extraction of year/author/venue is insufficient.</li>
+<li>Simple descriptive counts may support this object type without necessarily supporting BibliometricNetworkSynthesis as a method.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes bibliographic metadata objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Bibliographic metadata appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.ComputationalModel">
+<h3><a href="#concept-hasAnalyticalObjectType.ComputationalModel">Computational model</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.ComputationalModel</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A computational or machine-learning model family or model instance treated as a material object of comparison, characterization, or synthesis.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Models are directly compared/classified/evaluated as objects.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code when model type is only a routine attribute used to classify studies.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish model/model family from Algorithm (procedure) and Architecture (structural organization).</li>
+<li>Named model instances remain entity-extension data; the RevMeta core assertion is the broad object category.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes computational model objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Computational model appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Concept">
+<h3><a href="#concept-hasAnalyticalObjectType.Concept">Concept</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Concept</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A concept, construct, term, or definition that is itself compared, synthesized, clarified, or organized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Concepts/definitions are direct targets of synthesis or comparison.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code every topic word or construct merely mentioned.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish concept/construct/definition from Theory (explanatory system) and Framework (organizing structure).</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes concept objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Concept appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Dataset">
+<h3><a href="#concept-hasAnalyticalObjectType.Dataset">Dataset</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Dataset</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A data collection/corpus whose dataset-level types, properties, availability, distribution, composition, limitations, or use patterns are themselves materially synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Datasets are systematically categorized, compared, counted, characterized, or evaluated at dataset level across the corpus.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code when a dataset merely identifies where another object (model/algorithm/framework) was evaluated.</li>
+<li>Do not infer Dataset solely because benchmark tables list dataset names.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Dataset and Benchmark may co-occur only when dataset characteristics are independently synthesized in addition to benchmark role.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes dataset objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Dataset appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.EffectEstimate">
+<h3><a href="#concept-hasAnalyticalObjectType.EffectEstimate">Effect estimate</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.EffectEstimate</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A quantitative effect/performance estimate or comparable normalized quantitative result that is itself extracted, compared, or aggregated across sources.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Effect sizes, odds/risk ratios, standardized effects, or directly comparable normalized performance deltas are synthesized across sources.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code simple raw metrics/counts that are not treated as comparable effect/performance estimates across sources.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Operational scope is cross-domain in v0.2.2: comparable computational performance deltas may qualify when functioning analogously to effect estimates.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes effect estimate objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Effect estimate appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.ExistingReview">
+<h3><a href="#concept-hasAnalyticalObjectType.ExistingReview">Existing review</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.ExistingReview</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A prior review publication whose review-level design, scope, quality, methods, coverage, or conclusions are themselves materially compared/appraised/mapped as review objects.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Existing reviews are direct units of review-level comparison/appraisal/synthesis.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code merely because prior reviews are evidence carriers or citations.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>EvidenceSourceRole SecondaryStudyReport does not entail AnalyticalObjectType ExistingReview.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes existing review objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Existing review appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.ExistingSurvey">
+<h3><a href="#concept-hasAnalyticalObjectType.ExistingSurvey">Existing survey</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.ExistingSurvey</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A prior survey publication whose survey-level scope, organization, coverage, methods, or features are directly compared, classified, appraised, or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Prior surveys are explicitly treated as survey objects, for example in a comparative matrix of survey features.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code surveys discussed only in Related Work or used as background evidence.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>EvidenceSourceRole ExistingSurvey does not entail AnalyticalObjectType ExistingSurvey.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes existing survey objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Existing survey appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Finding">
+<h3><a href="#concept-hasAnalyticalObjectType.Finding">Finding</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Finding</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A propositional result, conclusion, qualitative theme, interpretation, or source-level finding that is itself compared/integrated across sources as finding content.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Source findings/themes/conclusions are directly synthesized across sources.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code routine extraction of study results without finding-level synthesis.</li>
+<li>Do not automatically co-code Finding when the specific analytical object is an EffectEstimate.</li>
+<li>Do not treat the current review’s own conclusion as an included-source Finding.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Finding is content-level synthesis; EffectEstimate is a specific quantitative result object. Co-code only when both forms are independently synthesized.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes finding objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Finding appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Framework">
+<h3><a href="#concept-hasAnalyticalObjectType.Framework">Framework</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Framework</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A conceptual, methodological, evaluative, or organizational framework from the reviewed domain that is itself materially compared, classified, mapped, or appraised as an organizing structure.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Framework structures/components/relations/rules are direct analytical objects.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code executable software merely called a framework; evaluate SoftwareTool.</li>
+<li>Do not code a framework produced only by the current review; use producesOutputArtifact unless prior frameworks are also analyzed.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Framework denotes organizing structure; SoftwareTool denotes executable/operational software. Co-code only for distinct material roles.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes framework objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Framework appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Indicator">
+<h3><a href="#concept-hasAnalyticalObjectType.Indicator">Indicator</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Indicator</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A metric, indicator, criterion, index, score, or other operational quantity/dimension that is itself materially compared, categorized, evaluated, or synthesized across the reviewed corpus.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Metrics/indicators are direct analytical targets.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code every numeric variable extracted from a study.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>An indicator/metric/criterion is a measured quantity or evaluative dimension; MeasurementInstrument is the tool/procedure used to obtain measurements.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes indicator objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Indicator appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.InterventionOrProgramme">
+<h3><a href="#concept-hasAnalyticalObjectType.InterventionOrProgramme">Intervention or programme</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.InterventionOrProgramme</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>An intervention, service, programme, policy implementation, or organized practice intervention that is itself compared, characterized, evaluated, or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Interventions/programmes are direct synthesis targets.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code when intervention is only a study-level eligibility attribute without material synthesis.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Prefer InterventionOrProgramme when the analyzed object is a deliberately delivered/implemented intervention, programme, service or exposure configuration with components/timing. Do not additionally code Practice unless professional/operational practice itself is independently synthesized.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes intervention or programme objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Intervention or programme appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.MeasurementInstrument">
+<h3><a href="#concept-hasAnalyticalObjectType.MeasurementInstrument">Measurement instrument</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.MeasurementInstrument</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A scale, questionnaire, rubric, rating system, assessment instrument, or other structured instrument used to generate measurements and itself materially compared, appraised, or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Measurement instruments are direct objects of appraisal/comparison.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code an instrument merely because a study used it.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish scales/questionnaires/instruments from the indicators/metrics they operationalize.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes measurement instrument objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Measurement instrument appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Mechanism">
+<h3><a href="#concept-hasAnalyticalObjectType.Mechanism">Mechanism</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Mechanism</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A causal, explanatory, behavioral, organizational, or realist mechanism that is itself analyzed or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Mechanisms are explicitly compared, inferred, or synthesized as explanatory objects.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code ordinary causal language without mechanisms as analytical targets.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Require mechanisms themselves to be analyzed/synthesized, not merely mentioned as causal language.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes mechanism objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Mechanism appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Practice">
+<h3><a href="#concept-hasAnalyticalObjectType.Practice">Practice</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Practice</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A professional, organizational, engineering, clinical, or operational practice that is itself compared, classified, or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Practices are direct analytical targets.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code merely because practitioners are study participants.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Practice is a recurring professional/organizational/clinical/engineering way of working. If the object is a deliberately delivered intervention/programme with defined components/timing, prefer InterventionOrProgramme unless practice itself is independently analyzed.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes practice objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Practice appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Repository">
+<h3><a href="#concept-hasAnalyticalObjectType.Repository">Repository</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Repository</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A repository, archive, registry, or comparable collection service that is itself compared, characterized, or evaluated.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Repositories/registries are direct objects of review analysis.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code a repository merely because it hosts supplementary material.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish repository/archive/registry service from Dataset (content) and ResearchResource produced by the current review.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes repository objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Repository appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.ResearchMethod">
+<h3><a href="#concept-hasAnalyticalObjectType.ResearchMethod">Research method</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.ResearchMethod</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A method for conducting research, evaluation, measurement, evidence synthesis, or empirical investigation that is itself materially compared, classified, appraised, or synthesized. It does not include domain technical/computational techniques merely because authors call them methods or approaches.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Research/evaluation/investigation methods themselves are compared, categorized, appraised, or synthesized across sources.</li>
+<li>Examples include study designs, statistical/analytical methods, evaluation methodologies, qualitative/quantitative research procedures, or evidence-synthesis methods when they are objects of the review rather than methods used by the current review.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code domain techniques for solving the subject-matter task (e.g., prompting, retrieval, fine-tuning, ranking, reasoning, generation pipelines) merely because the source calls them methods/approaches.</li>
+<li>Do not code the current review’s own synthesis method here; use usesSynthesisMethod.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>ResearchMethod answers “how was research/evaluation/investigation conducted?”. Technical computational procedures answering “how does the system solve the domain task?” belong under Algorithm/ComputationalModel/Architecture as appropriate.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes research method objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Research method appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.ResearchTradition">
+<h3><a href="#concept-hasAnalyticalObjectType.ResearchTradition">Research tradition</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.ResearchTradition</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A distinct research tradition, paradigm, school, or lineage that is itself compared or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Research traditions/paradigms are explicit units of analysis.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer merely because included studies come from multiple disciplines.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A discipline label alone is insufficient; the tradition/paradigm must itself be compared or synthesized.</li>
+<li>Particularly relevant to meta-narrative work but not implied by that label alone.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes research tradition objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Research tradition appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.SoftwareTool">
+<h3><a href="#concept-hasAnalyticalObjectType.SoftwareTool">Software tool</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.SoftwareTool</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>Executable software, toolkit, library, platform, package, application, or operational software framework that is itself materially compared, classified, evaluated, or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Tools/toolkits/platforms are direct review objects and their capabilities, availability, features, use, or performance are synthesized.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code software mentioned only in background or used administratively by included studies.</li>
+<li>Do not code a conceptual/evaluative framework merely because it is called a framework.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Executable/operational implementation favors SoftwareTool; abstract organizing structure favors Framework.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes software tool objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Software tool appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Standard">
+<h3><a href="#concept-hasAnalyticalObjectType.Standard">Standard</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Standard</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A technical, methodological, professional, reporting, or regulatory standard whose requirements/content/structure are themselves materially compared, mapped, appraised, or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Standards are direct analytical reference objects, for example findings are systematically mapped against their requirements or standards are compared.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code a standard merely because the current review follows, cites, or reports compliance with it.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Standard-as-methodological-guidance-used-by-review is not Standard-as-analytical-object.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes standard objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Standard appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Study">
+<h3><a href="#concept-hasAnalyticalObjectType.Study">Study</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Study</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A primary study treated as an analytical carrier/object whose study-level design, setting, quality, methodology, population, distribution, or other study-level characteristics are themselves materially synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Study-level characteristics or quality/design distributions are systematically compared, mapped, appraised, or synthesized.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code Study merely because primary studies are the evidence sources or because their findings are synthesized.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Evidence-source role PrimaryStudyReport does not entail analytical-object Study.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes study objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Study appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Taxonomy">
+<h3><a href="#concept-hasAnalyticalObjectType.Taxonomy">Taxonomy</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Taxonomy</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A taxonomy or classification scheme from the reviewed literature that is itself compared, evaluated, mapped, or synthesized.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Existing taxonomies are analytical objects.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code a taxonomy produced by the current review as an AnalyticalObject unless prior taxonomies are also being analyzed; use TaxonomyArtifact for the produced output.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish taxonomies found in prior literature from TaxonomyArtifact produced by the current review.</li>
+<li>Taxonomy primarily classifies; Framework generally organizes relationships/processes beyond classification.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes taxonomy objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Taxonomy appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasAnalyticalObjectType.Theory">
+<h3><a href="#concept-hasAnalyticalObjectType.Theory">Theory</a></h3>
+<p class="meta"><code>revmeta:hasAnalyticalObjectType.Theory</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A theory or theoretical model that is itself compared, evaluated, synthesized, or mapped.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Theories themselves are direct analytical targets.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code when theory is only a study characteristic or background reference.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A theory cited as a study characteristic is insufficient; theories must themselves be compared/evaluated/synthesized.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review directly compares, classifies, appraises, or synthesizes theory objects across the corpus as a substantive part of the analysis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Theory appears only as a routine study attribute, implementation detail, or isolated example and is not itself synthesized.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-claimsContributionType" aria-labelledby="facet-claimsContributionType-title">
+<h2 id="facet-claimsContributionType-title">claimed contribution type</h2>
+<p>Relates the review publication to types of scholarly contribution that the authors explicitly present as principal value added by the work and materially realize.</p>
+<p><strong>Facet boundary:</strong> Claims are about principal value added, not merely what the paper does or contains. Type-fit overrides labels. Publication function and output artifact remain separate.</p>
+<article id="concept-claimsContributionType.ArgumentativeContribution">
+<h3><a href="#concept-claimsContributionType.ArgumentativeContribution">Argumentative contribution</a></h3>
+<p class="meta"><code>revmeta:claimsContributionType.ArgumentativeContribution</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A principal explicitly claimed contribution that advances a structured thesis, critique, position, or reasoned argument derived from the review synthesis rather than merely reporting evidence.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — principal claim: central text explicitly presents a structured thesis, critique, position, or argument as a principal contribution/value added by the publication.</li>
+<li>Gate 2 — type fit: the claimed contribution advances and supports a reasoned position/critique derived from the synthesis rather than merely interpreting results.</li>
+<li>Gate 3 — realization: the claimed contribution is materially developed in the publication rather than merely promised, mentioned, or implied by an artifact.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer a contribution claim solely from the existence of a corresponding artifact, method, section, or recommendation.</li>
+<li>Generic usefulness, ordinary synthesis, incidental outputs, and routine implications are insufficient.</li>
+<li>If the authors make no principal contribution claim of this type, code 0 even when related content is present.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Ordinary interpretation or critique is insufficient unless a structured argument/position is claimed as principal contribution.</li>
+<li>May overlap with PositionFunction but requires an independent contribution claim.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract or contribution statement explicitly presents a argumentative contribution as a principal contribution and the paper materially realizes it.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A related element appears in the paper, but it is not explicitly claimed as a principal argumentative contribution.</li>
+</ol>
+</div>
+</article>
+<article id="concept-claimsContributionType.BenchmarkContribution">
+<h3><a href="#concept-claimsContributionType.BenchmarkContribution">Benchmark contribution</a></h3>
+<p class="meta"><code>revmeta:claimsContributionType.BenchmarkContribution</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A principal explicitly claimed contribution that introduces or substantially develops a benchmark, benchmarking protocol, evaluation suite, or comparable standardized resource for comparative evaluation.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — principal claim: central text explicitly presents a benchmark, benchmarking protocol, or evaluation suite as a principal contribution/value added by the publication.</li>
+<li>Gate 2 — type fit: the claimed contribution creates/substantially develops a standardized comparative-evaluation resource or protocol.</li>
+<li>Gate 3 — realization: the claimed contribution is materially developed in the publication rather than merely promised, mentioned, or implied by an artifact.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer a contribution claim solely from the existence of a corresponding artifact, method, section, or recommendation.</li>
+<li>Generic usefulness, ordinary synthesis, incidental outputs, and routine implications are insufficient.</li>
+<li>If the authors make no principal contribution claim of this type, code 0 even when related content is present.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish claimed contribution from BenchmarkArtifact output and Benchmark analytical object.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract or contribution statement explicitly presents a benchmark contribution as a principal contribution and the paper materially realizes it.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A related element appears in the paper, but it is not explicitly claimed as a principal benchmark contribution.</li>
+</ol>
+</div>
+</article>
+<article id="concept-claimsContributionType.ConceptualContribution">
+<h3><a href="#concept-claimsContributionType.ConceptualContribution">Conceptual contribution</a></h3>
+<p class="meta"><code>revmeta:claimsContributionType.ConceptualContribution</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A principal explicitly claimed contribution consisting of conceptual clarification, synthesis, integration, reframing, or a conceptual model where no more specific controlled contribution type adequately captures the claimed value.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — principal claim: central text explicitly presents conceptual clarification, integration, reframing, or conceptual model as a principal contribution/value added by the publication.</li>
+<li>Gate 2 — type fit: the claimed contribution changes or consolidates the conceptual understanding of the domain and is not merely the generic broader label for a more specific taxonomy/framework claim.</li>
+<li>Gate 3 — realization: the claimed contribution is materially developed in the publication rather than merely promised, mentioned, or implied by an artifact.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer a contribution claim solely from the existence of a corresponding artifact, method, section, or recommendation.</li>
+<li>Generic usefulness, ordinary synthesis, incidental outputs, and routine implications are insufficient.</li>
+<li>If the authors make no principal contribution claim of this type, code 0 even when related content is present.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Use as the broader conceptual category only when a more specific taxonomy/framework contribution does not better capture the principal claim.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract or contribution statement explicitly presents a conceptual contribution as a principal contribution and the paper materially realizes it.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A related element appears in the paper, but it is not explicitly claimed as a principal conceptual contribution.</li>
+</ol>
+</div>
+</article>
+<article id="concept-claimsContributionType.DesignArtifactContribution">
+<h3><a href="#concept-claimsContributionType.DesignArtifactContribution">Design artifact contribution</a></h3>
+<p class="meta"><code>revmeta:claimsContributionType.DesignArtifactContribution</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A principal explicitly claimed contribution that proposes or develops an engineered/design solution—such as an architecture, prototype, reference design, or design specification—as scholarly value added by the review.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — principal claim: central text explicitly presents an engineered/design solution as a principal contribution/value added by the publication.</li>
+<li>Gate 2 — type fit: the claimed contribution proposes or develops an architecture, prototype, reference design, design specification, or comparable designed solution.</li>
+<li>Gate 3 — realization: the claimed contribution is materially developed in the publication rather than merely promised, mentioned, or implied by an artifact.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer a contribution claim solely from the existence of a corresponding artifact, method, section, or recommendation.</li>
+<li>Generic usefulness, ordinary synthesis, incidental outputs, and routine implications are insufficient.</li>
+<li>If the authors make no principal contribution claim of this type, code 0 even when related content is present.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish claimed design contribution from a DesignArtifact object/output.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract or contribution statement explicitly presents a design artifact contribution as a principal contribution and the paper materially realizes it.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A related element appears in the paper, but it is not explicitly claimed as a principal design artifact contribution.</li>
+</ol>
+</div>
+</article>
+<article id="concept-claimsContributionType.FrameworkContribution">
+<h3><a href="#concept-claimsContributionType.FrameworkContribution">Framework contribution</a></h3>
+<p class="meta"><code>revmeta:claimsContributionType.FrameworkContribution</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A principal explicitly claimed contribution that introduces, substantially revises, or consolidates an organizing structure of concepts, components, relations, stages, or rules intended to guide analysis, design, evaluation, or understanding.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — principal claim: central text explicitly presents a framework as a principal contribution/value added by the publication.</li>
+<li>Gate 2 — type fit: the claimed contribution organizes components/concepts/stages/relations/rules for analysis, design, evaluation, or understanding.</li>
+<li>Gate 3 — realization: the claimed contribution is materially developed in the publication rather than merely promised, mentioned, or implied by an artifact.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code solely because authors call a classification scheme a framework; if it only partitions phenomena into categories/dimensions, assess TaxonomyContribution.</li>
+<li>Do not infer from FrameworkArtifact presence alone.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>FrameworkContribution requires organizing components/relations/stages/rules beyond classification alone; lexical “framework” is insufficient.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract or contribution statement explicitly presents a framework contribution as a principal contribution and the paper materially realizes it.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A related element appears in the paper, but it is not explicitly claimed as a principal framework contribution.</li>
+</ol>
+</div>
+</article>
+<article id="concept-claimsContributionType.MethodologicalContribution">
+<h3><a href="#concept-claimsContributionType.MethodologicalContribution">Methodological contribution</a></h3>
+<p class="meta"><code>revmeta:claimsContributionType.MethodologicalContribution</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A principal explicitly claimed contribution that introduces, adapts, systematizes, or critically develops a method, procedure, protocol, or methodological approach as scholarly value added by the review.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Central contribution/value-added evidence presents a method, procedure, guideline, checklist, protocol or methodological workflow as principal scholarly value.</li>
+<li>The contribution prescribes/systematizes how research/evaluation/review work should be performed, rather than merely using an existing method.</li>
+<li>The method/guideline is materially developed.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer a contribution claim solely from the existence of a corresponding artifact, method, section, or recommendation.</li>
+<li>Generic usefulness, ordinary synthesis, incidental outputs, and routine implications are insufficient.</li>
+<li>If the authors make no principal contribution claim of this type, code 0 even when related content is present.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A structured checklist/guideline for conducting future research/evaluation can qualify as methodological contribution even if not labeled “methodology”.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract or contribution statement explicitly presents a methodological contribution as a principal contribution and the paper materially realizes it.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A related element appears in the paper, but it is not explicitly claimed as a principal methodological contribution.</li>
+</ol>
+</div>
+</article>
+<article id="concept-claimsContributionType.ResearchAgendaContribution">
+<h3><a href="#concept-claimsContributionType.ResearchAgendaContribution">Research agenda contribution</a></h3>
+<p class="meta"><code>revmeta:claimsContributionType.ResearchAgendaContribution</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A principal explicitly claimed contribution that formulates and organizes multiple future research problems, questions, directions, or priorities into a coherent agenda.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Central contribution/value-added evidence explicitly claims multiple future research directions/problems/opportunities/priorities.</li>
+<li>The paper materially organizes/develops those directions into a coherent agenda/roadmap/challenges-opportunities structure.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>A future-directions section alone is insufficient when future research is not itself claimed as principal value added.</li>
+<li>Generic future work is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A contribution bullet such as “pinpoint several potential directions” can qualify when a structured multi-item agenda is realized; a routine conclusion cannot.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract or contribution statement explicitly presents a research agenda contribution as a principal contribution and the paper materially realizes it.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A related element appears in the paper, but it is not explicitly claimed as a principal research agenda contribution.</li>
+</ol>
+</div>
+</article>
+<article id="concept-claimsContributionType.ResourceContribution">
+<h3><a href="#concept-claimsContributionType.ResourceContribution">Resource contribution</a></h3>
+<p class="meta"><code>revmeta:claimsContributionType.ResourceContribution</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A principal explicitly claimed contribution that provides a reusable research asset—such as a curated dataset, repository, codebase, tool, registry, or structured reference collection—beyond ordinary supplementary material.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Central text explicitly frames a curated/reusable collection, repository, dataset, codebase, tool, registry or structured reference collection as value added/resource.</li>
+<li>The resource has material identity/content beyond ordinary supplementary material.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer a contribution claim solely from the existence of a corresponding artifact, method, section, or recommendation.</li>
+<li>Generic usefulness, ordinary synthesis, incidental outputs, and routine implications are insufficient.</li>
+<li>If the authors make no principal contribution claim of this type, code 0 even when related content is present.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>“We compile/categorize the most exhaustive collection” plus an explicit resource/value claim may satisfy this term even when the resource is embedded rather than separately deposited.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract or contribution statement explicitly presents a resource contribution as a principal contribution and the paper materially realizes it.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A related element appears in the paper, but it is not explicitly claimed as a principal resource contribution.</li>
+</ol>
+</div>
+</article>
+<article id="concept-claimsContributionType.TaxonomyContribution">
+<h3><a href="#concept-claimsContributionType.TaxonomyContribution">Taxonomy contribution</a></h3>
+<p class="meta"><code>revmeta:claimsContributionType.TaxonomyContribution</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A principal explicitly claimed contribution that introduces, substantially revises, or consolidates a structured classification scheme whose categories and organizing distinctions classify phenomena in the reviewed domain.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — central contribution/value-added evidence explicitly presents a classification/categorization scheme as a principal output, even if authors label it a “classification framework”.</li>
+<li>Gate 2 — the output uses explicit categories, dimensions, distinctions or assignment principles to classify phenomena.</li>
+<li>Gate 3 — the classification is materially developed.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer a contribution claim solely from the existence of a corresponding artifact, method, section, or recommendation.</li>
+<li>Generic usefulness, ordinary synthesis, incidental outputs, and routine implications are insufficient.</li>
+<li>If the authors make no principal contribution claim of this type, code 0 even when related content is present.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Type-fit overrides label: a “classification framework” can be TaxonomyContribution when its substantive function is classification.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract or contribution statement explicitly presents a taxonomy contribution as a principal contribution and the paper materially realizes it.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A related element appears in the paper, but it is not explicitly claimed as a principal taxonomy contribution.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasCorpusComposition" aria-labelledby="facet-hasCorpusComposition-title">
+<h2 id="facet-hasCorpusComposition-title">corpus composition</h2>
+<p>Classifies the included analyzable evidence corpus by whether it consists of scholarly/academic literature, grey/practice literature, or a substantive combination of both.</p>
+<p><strong>Facet boundary:</strong> AcademicLiteratureCorpus, GreyLiteratureCorpus, and AcademicAndGreyLiteratureCorpus are mutually exclusive.</p>
+<article id="concept-hasCorpusComposition.AcademicAndGreyLiteratureCorpus">
+<h3><a href="#concept-hasCorpusComposition.AcademicAndGreyLiteratureCorpus">Academic and grey literature corpus</a></h3>
+<p class="meta"><code>revmeta:hasCorpusComposition.AcademicAndGreyLiteratureCorpus</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>An evidence corpus containing both academic literature and substantively included grey/practice literature.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Both academic and grey/practice sources enter the included analyzable corpus.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Searching grey literature without including it is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Requires substantive included sources from both categories.</li>
+<li>It is not triggered merely by broad eligibility or search scope.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final analyzable corpus contains both scholarly research publications and substantively included grey/practice sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Both academic and grey sources were eligible, but only academic sources appear in the final analyzed corpus.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasCorpusComposition.AcademicLiteratureCorpus">
+<h3><a href="#concept-hasCorpusComposition.AcademicLiteratureCorpus">Academic literature corpus</a></h3>
+<p class="meta"><code>revmeta:hasCorpusComposition.AcademicLiteratureCorpus</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>An evidence corpus composed of academic/scholarly literature under the review&#x27;s inclusion and analysis rules.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>A sufficiently bounded final analyzable corpus is demonstrated to consist of scholarly/academic literature, with no materially included grey/practice component.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer academic-only composition from scholarly tone, academic citations, database use, or lack of explicit grey-literature mention in an unbounded narrative survey.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Operationally includes scholarly preprints for RevMeta consistency.</li>
+<li>Do not infer academic-only composition if practice/grey sources materially enter analysis.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>All analyzable included sources are scholarly research publications/preprints and no substantive grey/practice sources enter the synthesis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The search included reports and practitioner material, and some of those sources enter the analysis; the corpus is not academic-only.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasCorpusComposition.GreyLiteratureCorpus">
+<h3><a href="#concept-hasCorpusComposition.GreyLiteratureCorpus">Grey literature corpus</a></h3>
+<p class="meta"><code>revmeta:hasCorpusComposition.GreyLiteratureCorpus</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>An evidence corpus composed of grey/practice/non-formally-published literature under the review&#x27;s inclusion and analysis rules.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Included analyzable sources are substantively grey/practice/non-formal literature without an academic-literature component.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer merely because grey-literature sources were searched but none were included.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Use only when the analyzable corpus is composed of grey/practice/non-conventional scholarly-publication sources.</li>
+<li>Searches of grey literature without included grey sources are insufficient.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The analyzable corpus consists of practice/technical/policy or other grey sources rather than scholarly research literature.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Grey-literature websites were searched, but the included analyzable corpus contains only scholarly papers.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasEvidenceSourceRole" aria-labelledby="facet-hasEvidenceSourceRole-title">
+<h2 id="facet-hasEvidenceSourceRole-title">evidence source role</h2>
+<p>Relates the review to semantic roles played by sources that materially contribute analyzable evidence to the included corpus, including primary/secondary/survey/practice-based evidence and methodological-guidance evidence.</p>
+<p><strong>Facet boundary:</strong> Source roles may coexist. MethodologicalGuidanceSource is role-based, not a document type: a Guideline/Standard/JournalArticle can bear this role, and a methodological empirical study can additionally be PrimaryStudyReport if both roles are material.</p>
+<article id="concept-hasEvidenceSourceRole.ExistingSurvey">
+<h3><a href="#concept-hasEvidenceSourceRole.ExistingSurvey">Existing survey</a></h3>
+<p class="meta"><code>revmeta:hasEvidenceSourceRole.ExistingSurvey</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>An included source whose semantic role is an existing survey publication that is itself analyzed by the current review/survey.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Existing survey papers are included as analyzable evidence units.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code the current paper&#x27;s own SurveyFunction here.</li>
+<li>Do not infer from references to surveys in background.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>An included survey publication is substantively used as evidence.</li>
+<li>Do not automatically treat it as SecondaryStudyReport; co-code only when the survey also satisfies that role.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The included-corpus description and synthesis show that existing survey sources materially contribute analyzable evidence.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Existing survey sources are mentioned in background/search eligibility but are not shown to contribute analyzable evidence to the final corpus.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasEvidenceSourceRole.MethodologicalGuidanceSource">
+<h3><a href="#concept-hasEvidenceSourceRole.MethodologicalGuidanceSource">Methodological guidance source</a></h3>
+<p class="meta"><code>revmeta:hasEvidenceSourceRole.MethodologicalGuidanceSource</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>An included source whose evidential role is to provide methodological knowledge, guidance, recommendations, reporting/conduct guidance, or method-focused evidence about how research, reviews, evidence synthesis, appraisal, measurement, or reporting should be designed or performed, where that methodological content materially contributes to the review synthesis.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Guidance documents, methodological recommendations, methodological studies, reporting/conduct guidance, or comparable method-focused sources materially contribute methodological evidence that is synthesized, compared, mapped, appraised, or interpreted.</li>
+<li>A methodological empirical study may also be PrimaryStudyReport when it reports original research; code each material role independently.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code domain-practice/policy guidance as methodological guidance when its role is operational or clinical/professional practice; evaluate PracticeBasedSource instead.</li>
+<li>Do not infer from document type alone: a Guideline or Standard document is not automatically a MethodologicalGuidanceSource.</li>
+<li>Do not code methodological guidance cited only as the current review’s own procedural authority unless it is itself part of the analyzed evidence corpus.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>This is an evidence-source role, not a document type. It is independent of Guideline, Standard, JournalArticle, TechnicalReport, etc.</li>
+<li>It can co-occur with PrimaryStudyReport or SecondaryStudyReport when the same included source materially bears both roles.</li>
+<li>This development-only term closes a vocabulary gap observed in v0.2.1 source adjudication and independently replicated in the fresh v0.2.2 held-out set (RT-H05).</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>A scoping review synthesizes reporting recommendations and methodological guidance studies to compare how mapping reviews should be conducted and reported.</li>
+<li>A review analyzes methodological papers and guidance documents about automation or evidence-synthesis methods as evidence units.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The authors state that they followed PRISMA or Cochrane guidance, but those documents are not analyzed as evidence.</li>
+<li>A clinical guideline is included for its practice recommendations rather than methodological guidance; evaluate PracticeBasedSource and document type independently.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasEvidenceSourceRole.PracticeBasedSource">
+<h3><a href="#concept-hasEvidenceSourceRole.PracticeBasedSource">Practice-based source</a></h3>
+<p class="meta"><code>revmeta:hasEvidenceSourceRole.PracticeBasedSource</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>An included source whose evidential role is to contribute practitioner, professional, operational, organizational, policy/practice, or other practice-origin knowledge/data substantively to the synthesis, regardless of document format.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Institutional, organizational, government, professional or practitioner-origin sources contribute substantive operational/practice/policy evidence or data used in synthesis.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not classify methodological guidance as practice-based solely because it gives recommendations.</li>
+<li>Document type or grey-literature status alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Organizational/government reports can qualify when they materially provide operational/practice/policy evidence. Methodological-guidance role remains a vocabulary-gap candidate.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The included-corpus description and synthesis show that practice-based source sources materially contribute analyzable evidence.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Practice-based source sources are mentioned in background/search eligibility but are not shown to contribute analyzable evidence to the final corpus.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasEvidenceSourceRole.PrimaryStudyReport">
+<h3><a href="#concept-hasEvidenceSourceRole.PrimaryStudyReport">Primary study report</a></h3>
+<p class="meta"><code>revmeta:hasEvidenceSourceRole.PrimaryStudyReport</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>An included source whose semantic role is to report original primary research that contributes analyzable evidence to the review.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Original primary research reports materially supply evidence that is synthesized, categorized, compared, or interpreted in the main analysis. A formal included-study table is helpful but not required for narrative surveys when the role is clear from substantive analysis.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from isolated/background primary-study citations or document format alone.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Document type does not determine primary-study role.</li>
+<li>Code only if primary reports materially contribute analyzable evidence.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The included-corpus description and synthesis show that primary study report sources materially contribute analyzable evidence.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Primary study report sources are mentioned in background/search eligibility but are not shown to contribute analyzable evidence to the final corpus.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasEvidenceSourceRole.SecondaryStudyReport">
+<h3><a href="#concept-hasEvidenceSourceRole.SecondaryStudyReport">Secondary study report</a></h3>
+<p class="meta"><code>revmeta:hasEvidenceSourceRole.SecondaryStudyReport</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>An included source whose semantic role is to report a prior secondary synthesis such as a review or meta-analysis.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Prior reviews/meta-analyses/secondary syntheses materially supply evidence used in the review’s analysis/results, whether or not they are the sole corpus type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code reviews cited only for background/positioning.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Do not infer from a paper being called a review unless it is included as evidence.</li>
+<li>ExistingSurvey is not automatically co-coded; apply each role definition independently.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The included-corpus description and synthesis show that secondary study report sources materially contribute analyzable evidence.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>Secondary study report sources are mentioned in background/search eligibility but are not shown to contribute analyzable evidence to the final corpus.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasExecutionMode" aria-labelledby="facet-hasExecutionMode-title">
+<h2 id="facet-hasExecutionMode-title">execution mode</h2>
+<p>Relates the review investigation to an explicit accelerated execution mode intended to shorten the review process through a recognized rapid-review approach.</p>
+<p><strong>Facet boundary:</strong> Rapid execution can coexist with a separately coded review design.</p>
+<article id="concept-hasExecutionMode.RapidExecutionMode">
+<h3><a href="#concept-hasExecutionMode.RapidExecutionMode">Rapid execution mode</a></h3>
+<p class="meta"><code>revmeta:hasExecutionMode.RapidExecutionMode</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A process modifier indicating that the review deliberately uses an accelerated or rapid review approach.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly identifies a rapid review/rapid evidence synthesis or deliberate rapid execution strategy.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer merely from a short publication timeline.</li>
+<li>If no positive rapid modifier is reported after relevant sections are checked, record no positive assertion rather than treating ordinary review as a separate value.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Short duration alone is insufficient; rapid/accelerated mode must be intentional and explicit.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly call the study a rapid review and describe accelerated review procedures.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The review was completed quickly, but no rapid-review execution mode is claimed or described.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasOrganizingLens" aria-labelledby="facet-hasOrganizingLens-title">
+<h2 id="facet-hasOrganizingLens-title">organizing lens</h2>
+<p>Relates the review to an explicit organizing perspective through which relationships among subject-matter levels or layers are synthesized.</p>
+<p><strong>Facet boundary:</strong> Current singleton vocabulary is domain-sensitive and showed a zero pooled Jaccard in confirmatory evaluation; extension-module treatment is preferable unless revalidated.</p>
+<article id="concept-hasOrganizingLens.CrossLayerLens">
+<h3><a href="#concept-hasOrganizingLens.CrossLayerLens">Cross-layer lens</a></h3>
+<p class="meta"><code>revmeta:hasOrganizingLens.CrossLayerLens</code> · Annotation depth: <code>REVIEW</code></p>
+<p>An organizing lens in which the review explicitly defines at least two distinct layers/levels of a system or phenomenon and materially synthesizes relationships between them—such as dependencies, interfaces, propagation, feedback, trade-offs, or co-design—rather than merely covering multiple components, axes, or phases.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Research-only Gate 1 — the review explicitly defines or operationally distinguishes at least two levels/layers that differ in scope, function, or abstraction and are treated as levels rather than merely categories.</li>
+<li>Research-only Gate 2 — relations between those layers (e.g. dependency, interface, propagation, feedback, trade-off, co-design) are themselves material synthesis targets.</li>
+<li>Both gates must be supported; borderline cases remain ambiguous in FULL_SEMANTIC_AUDIT.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code mere coverage of multiple axes, components, perspectives, phases, modules, or taxonomy dimensions.</li>
+<li>Do not code when the paper discusses several levels but does not synthesize relationships between them.</li>
+<li>Do not use in CORE_ONLY or CORE_PLUS_OPTIONAL production annotation.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Require at least two defensibly distinct layers and an explicit relation between them as an object of synthesis.</li>
+<li>Multiple taxonomy axes, train/test phases, components, or perspectives alone are insufficient.</li>
+<li>Because “layer” remains under-specified across domains, retain REVIEW status pending revalidation.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The synthesis explicitly links architecture-level, evaluation-level, and governance-level phenomena and analyzes dependencies/trade-offs among those defined layers.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A taxonomy has two axes or a method has train/test phases, but relationships between distinct layers are not themselves synthesized.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-producesOutputArtifact" aria-labelledby="facet-producesOutputArtifact-title">
+<h2 id="facet-producesOutputArtifact-title">output artifact</h2>
+<p>Relates the review to discrete, identifiable, reusable or independently referable scholarly artifacts generated as outputs of the review synthesis.</p>
+<p><strong>Facet boundary:</strong> Discreteness is functional, not file-based. Type-fit overrides labels; multi-typing requires independent structural fit for each type.</p>
+<article id="concept-producesOutputArtifact.BenchmarkArtifact">
+<h3><a href="#concept-producesOutputArtifact.BenchmarkArtifact">Benchmark artifact</a></h3>
+<p class="meta"><code>revmeta:producesOutputArtifact.BenchmarkArtifact</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A discrete reusable benchmark, evaluation suite, benchmarking protocol, or reference resource produced by the review to support standardized comparison or evaluation.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — production: the artifact is generated by the current review rather than merely analyzed from prior literature.</li>
+<li>Gate 2 — discrete identity: the output passes the DISCRETE_ARTIFACT test and can be identified as a bounded scholarly product even if embedded in the article.</li>
+<li>Gate 3 — type fit: The product is a reusable benchmark, evaluation suite, benchmarking protocol, or reference resource intended to standardize comparative evaluation.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Ordinary result tables, figures, lists, analysis steps, generic recommendations, or supplementary files without independent scholarly-product identity are insufficient.</li>
+<li>Do not infer a claimsContributionType value automatically from artifact presence.</li>
+<li>Do not multi-type the same product unless it independently satisfies every asserted artifact definition.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A benchmark discussed or compared is not a produced benchmark artifact.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review produces a named or otherwise discrete benchmark artifact that can be independently identified and reused/referred to.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>An ordinary table, figure, or discussion passage resembles a benchmark artifact but has no discrete artifact identity.</li>
+</ol>
+</div>
+</article>
+<article id="concept-producesOutputArtifact.ConceptualModelArtifact">
+<h3><a href="#concept-producesOutputArtifact.ConceptualModelArtifact">Conceptual model artifact</a></h3>
+<p class="meta"><code>revmeta:producesOutputArtifact.ConceptualModelArtifact</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A discrete conceptual model produced by the review that represents concepts/entities and meaningful relationships among them; a simple list or category table is insufficient.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>A review-produced model/process scheme explicitly represents entities/concepts/stages and meaningful relations among them, and the paper treats it as an output/contribution rather than ordinary illustration.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Ordinary result tables, figures, lists, analysis steps, generic recommendations, or supplementary files without independent scholarly-product identity are insufficient.</li>
+<li>Do not infer a claimsContributionType value automatically from artifact presence.</li>
+<li>Do not multi-type the same product unless it independently satisfies every asserted artifact definition.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A process diagram may qualify when it is a generalized review-produced model; an ordinary flowchart of the review procedure does not.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review produces a named or otherwise discrete conceptual model artifact that can be independently identified and reused/referred to.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>An ordinary table, figure, or discussion passage resembles a conceptual model artifact but has no discrete artifact identity.</li>
+</ol>
+</div>
+</article>
+<article id="concept-producesOutputArtifact.DesignArtifact">
+<h3><a href="#concept-producesOutputArtifact.DesignArtifact">Design artifact</a></h3>
+<p class="meta"><code>revmeta:producesOutputArtifact.DesignArtifact</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A discrete engineered or design-oriented output produced by the review, such as an architecture, prototype, reference design, design specification, or comparable solution with identity beyond descriptive analysis.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The current review proposes a bounded engineered/design solution such as a method, architecture, reference design or iterative system process with identifiable components/relations.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code a schematic that merely illustrates prior approaches or generic possibilities without a review-authored proposed design.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A review-authored “promising method” with specified components and feedback cycle can qualify even if conceptual rather than implemented.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review produces a named or otherwise discrete design artifact that can be independently identified and reused/referred to.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>An ordinary table, figure, or discussion passage resembles a design artifact but has no discrete artifact identity.</li>
+</ol>
+</div>
+</article>
+<article id="concept-producesOutputArtifact.EvidenceMap">
+<h3><a href="#concept-producesOutputArtifact.EvidenceMap">Evidence map</a></h3>
+<p class="meta"><code>revmeta:producesOutputArtifact.EvidenceMap</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A discrete structured representation of the distribution of evidence across defined dimensions or questions, intended to show coverage, concentration, and/or gaps; an ordinary results table is insufficient.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — production: the artifact is generated by the current review rather than merely analyzed from prior literature.</li>
+<li>Gate 2 — discrete identity: the output passes the DISCRETE_ARTIFACT test and can be identified as a bounded scholarly product even if embedded in the article.</li>
+<li>Gate 3 — type fit: The product is an identifiable structured representation of how evidence is distributed across defined dimensions/questions and is intended to show coverage, concentration, and/or gaps.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Ordinary result tables, figures, lists, analysis steps, generic recommendations, or supplementary files without independent scholarly-product identity are insufficient.</li>
+<li>Do not infer a claimsContributionType value automatically from artifact presence.</li>
+<li>Do not multi-type the same product unless it independently satisfies every asserted artifact definition.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>An ordinary result matrix/table is insufficient unless it functions as an evidence map showing distribution/coverage/gaps.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review produces a named or otherwise discrete evidence map that can be independently identified and reused/referred to.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>An ordinary table, figure, or discussion passage resembles an evidence map but has no discrete artifact identity.</li>
+</ol>
+</div>
+</article>
+<article id="concept-producesOutputArtifact.FrameworkArtifact">
+<h3><a href="#concept-producesOutputArtifact.FrameworkArtifact">Framework artifact</a></h3>
+<p class="meta"><code>revmeta:producesOutputArtifact.FrameworkArtifact</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A discrete, identifiable organizing or analytical framework produced by the review, with defined components/relations/rules that can be independently referred to or reused beyond an ordinary summary table.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The current review produces a bounded organizing structure with dimensions/components/stages/relations/rules that can guide analysis, design, evaluation, implementation or understanding.</li>
+<li>A structured checklist/template/recommendation model can qualify if it has explicit organized dimensions/stages and guiding function.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code a classification-only scheme that lacks framework structure beyond categories; use TaxonomyArtifact.</li>
+<li>Do not code an unstructured recommendation list.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Checklist/template form does not disqualify a framework; structure and guiding function control the decision.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review produces a named or otherwise discrete framework artifact that can be independently identified and reused/referred to.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>An ordinary table, figure, or discussion passage resembles a framework artifact but has no discrete artifact identity.</li>
+</ol>
+</div>
+</article>
+<article id="concept-producesOutputArtifact.ResearchAgenda">
+<h3><a href="#concept-producesOutputArtifact.ResearchAgenda">Research agenda</a></h3>
+<p class="meta"><code>revmeta:producesOutputArtifact.ResearchAgenda</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A discrete structured output that organizes multiple future research questions, problems, directions, or priorities into an identifiable agenda rather than a generic future-work paragraph.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The review produces an identifiable organized set of multiple future research questions/problems/challenges/directions/priorities, typically through a dedicated structured section/table/roadmap.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Generic future-work prose or one/two unstructured suggestions are insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A dedicated multi-heading Challenges/Future Directions section can be a ResearchAgenda artifact even without a separate file.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review produces a named or otherwise discrete research agenda that can be independently identified and reused/referred to.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>An ordinary table, figure, or discussion passage resembles a research agenda but has no discrete artifact identity.</li>
+</ol>
+</div>
+</article>
+<article id="concept-producesOutputArtifact.ResearchResource">
+<h3><a href="#concept-producesOutputArtifact.ResearchResource">Research resource</a></h3>
+<p class="meta"><code>revmeta:producesOutputArtifact.ResearchResource</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A discrete reusable research asset produced or released with the review, such as a curated dataset, codebase, repository, tool, registry, or structured reference collection that has identity beyond ordinary supplementary material.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The current review releases or produces a stably identifiable reusable repository, dataset, codebase, tool, registry or structured collection. A named public repository is sufficient evidence of identity when explicitly tied to review artifacts.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not require exhaustive in-paper inventory of every repository file once release and identity are explicit.</li>
+<li>Ordinary supplementary files without reusable research-resource identity remain insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Ordinary supplementary files are insufficient unless they constitute a discrete reusable research resource.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review produces a named or otherwise discrete research resource that can be independently identified and reused/referred to.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>An ordinary table, figure, or discussion passage resembles a research resource but has no discrete artifact identity.</li>
+</ol>
+</div>
+</article>
+<article id="concept-producesOutputArtifact.TaxonomyArtifact">
+<h3><a href="#concept-producesOutputArtifact.TaxonomyArtifact">Taxonomy artifact</a></h3>
+<p class="meta"><code>revmeta:producesOutputArtifact.TaxonomyArtifact</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A discrete classification scheme produced by the review that organizes domain entities or concepts into named categories using explicit distinctions, dimensions, or assignment principles.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — production: the artifact is generated by the current review rather than merely analyzed from prior literature.</li>
+<li>Gate 2 — discrete identity: the output passes the DISCRETE_ARTIFACT test and can be identified as a bounded scholarly product even if embedded in the article.</li>
+<li>Gate 3 — type fit: The product classifies domain entities/concepts into explicit categories using meaningful distinctions, dimensions, or assignment principles; a mere labeled list/table is insufficient.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Ordinary result tables, figures, lists, analysis steps, generic recommendations, or supplementary files without independent scholarly-product identity are insufficient.</li>
+<li>Do not infer a claimsContributionType value automatically from artifact presence.</li>
+<li>Do not multi-type the same product unless it independently satisfies every asserted artifact definition.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Classification-only structures are TaxonomyArtifact even when authors call them frameworks. Multi-type FrameworkArtifact only if additional organizing relations/rules/stages are genuinely present.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The review produces a named or otherwise discrete taxonomy artifact that can be independently identified and reused/referred to.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>An ordinary table, figure, or discussion passage resembles a taxonomy artifact but has no discrete artifact identity.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasPublicationFunction" aria-labelledby="facet-hasPublicationFunction-title">
+<h2 id="facet-hasPublicationFunction-title">publication function</h2>
+<p>Relates a review publication to a principal communicative or scholarly function that is explicitly cued and materially realized in the publication.</p>
+<p><strong>Facet boundary:</strong> The same publication may realize several functions. Distinguish function from design, contribution claim, and output artifact.</p>
+<article id="concept-hasPublicationFunction.AgendaSettingFunction">
+<h3><a href="#concept-hasPublicationFunction.AgendaSettingFunction">Agenda-setting function</a></h3>
+<p class="meta"><code>revmeta:hasPublicationFunction.AgendaSettingFunction</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A principal publication function that explicitly structures, prioritizes, or formulates multiple future research directions or questions as a major purpose of the publication.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>A paper-level cue or substantial dedicated section organizes multiple future research directions/questions/challenges/priorities as a material function.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Brief routine future-work/open-problem prose is insufficient even if mentioned in the abstract.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A substantial dedicated Challenges/Future Directions section can establish function; principality is materiality-based, not restricted to being the sole objective.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract/objective explicitly gives the publication an agenda-setting function role and a substantial section or output realizes that role.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper contains incidental material resembling agenda-setting function, but no principal function cue and material realization are both present.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasPublicationFunction.CriticalSynthesisFunction">
+<h3><a href="#concept-hasPublicationFunction.CriticalSynthesisFunction">Critical synthesis function</a></h3>
+<p class="meta"><code>revmeta:hasPublicationFunction.CriticalSynthesisFunction</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A principal publication function explicitly aimed at interpretive critique of assumptions, contradictions, limitations, validity, paradigms, or applicability across the literature.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>A central objective explicitly frames the work as critical examination/synthesis and the paper materially critiques assumptions, reporting, contradictions, limitations, validity or applicability across the literature.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>The adjective “critical” without sustained critique is insufficient; routine limitations or quality scoring alone remain insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Risk-of-bias scoring alone is not critical synthesis.</li>
+<li>Ordinary limitations discussion is insufficient; critique must be a principal function.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract/objective explicitly gives the publication a critical synthesis function role and a substantial section or output realizes that role.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper contains incidental material resembling critical synthesis function, but no principal function cue and material realization are both present.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasPublicationFunction.PerspectiveFunction">
+<h3><a href="#concept-hasPublicationFunction.PerspectiveFunction">Perspective function</a></h3>
+<p class="meta"><code>revmeta:hasPublicationFunction.PerspectiveFunction</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A principal publication function that explicitly offers a perspective or interpretive viewpoint on a field rather than only summarizing evidence.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly identifies the article as a perspective or states that its purpose is to offer an interpretive perspective.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from ordinary author interpretation in Discussion.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish from PositionFunction; ordinary author interpretation is insufficient.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract/objective explicitly gives the publication a perspective function role and a substantial section or output realizes that role.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper contains incidental material resembling perspective function, but no principal function cue and material realization are both present.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasPublicationFunction.PositionFunction">
+<h3><a href="#concept-hasPublicationFunction.PositionFunction">Position function</a></h3>
+<p class="meta"><code>revmeta:hasPublicationFunction.PositionFunction</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A principal publication function that explicitly advances or defends a scholarly position, stance, or normative claim.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The paper explicitly frames a position/stance and develops arguments supporting it.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code ordinary conclusions or recommendations as a position function.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish from PerspectiveFunction: position defends/advances a substantive stance; perspective may offer interpretation without advocating a proposition.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract/objective explicitly gives the publication a position function role and a substantial section or output realizes that role.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper contains incidental material resembling position function, but no principal function cue and material realization are both present.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasPublicationFunction.ProtocolFunction">
+<h3><a href="#concept-hasPublicationFunction.ProtocolFunction">Protocol function</a></h3>
+<p class="meta"><code>revmeta:hasPublicationFunction.ProtocolFunction</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A principal publication function that presents the planned methods or protocol for a review or synthesis before or independently of reporting completed review findings.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly identifies itself as a review protocol or its main purpose is to specify a planned review procedure.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code a completed review merely because it cites or summarizes its protocol.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A completed review is not a protocol merely because it references a prior protocol.</li>
+<li>Code dual function only if the same publication materially serves both protocol and completed-report roles.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract/objective explicitly gives the publication a protocol function role and a substantial section or output realizes that role.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper contains incidental material resembling protocol function, but no principal function cue and material realization are both present.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasPublicationFunction.StateOfTheArtFunction">
+<h3><a href="#concept-hasPublicationFunction.StateOfTheArtFunction">State-of-the-art function</a></h3>
+<p class="meta"><code>revmeta:hasPublicationFunction.StateOfTheArtFunction</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A principal publication function whose explicit objective is to characterize the current state, current landscape, or current research frontier of a field at a defined time and which materially realizes that temporal/current-state characterization.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly frames a principal objective/function as characterizing the current state, state of the art, current landscape, frontier, or equivalent present-time status of a field.</li>
+<li>The paper materially realizes this by synthesizing what is currently established, dominant, emerging, limited, or open at the stated time.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from “state-of-the-art/SOTA” modifying methods/approaches/models; the cue must characterize the publication’s own objective/function.</li>
+<li>Do not infer from recency alone.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>“Current methods/frameworks” or “how X is currently assessed” can establish paper-level current-state function when this is an explicit objective and materially synthesized.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract/objective explicitly gives the publication a state-of-the-art function role and a substantial section or output realizes that role.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper contains incidental material resembling state-of-the-art function, but no principal function cue and material realization are both present.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasPublicationFunction.SurveyFunction">
+<h3><a href="#concept-hasPublicationFunction.SurveyFunction">Survey function</a></h3>
+<p class="meta"><code>revmeta:hasPublicationFunction.SurveyFunction</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A principal publication function that explicitly presents the article as a survey or field-organizing survey and materially realizes that role.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication self-identifies as a survey in title, abstract, metadata, introduction or comparable central text and materially organizes/synthesizes a field.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Generic &#x27;overview&#x27; or &#x27;comprehensive overview&#x27; wording alone is insufficient.</li>
+<li>Do not infer solely from being a systematic/scoping/umbrella review.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A statement that the work is not a “systematic survey” does not negate SurveyFunction; function and design are separate.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract/objective explicitly gives the publication a survey function role and a substantial section or output realizes that role.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper contains incidental material resembling survey function, but no principal function cue and material realization are both present.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasPublicationFunction.TutorialFunction">
+<h3><a href="#concept-hasPublicationFunction.TutorialFunction">Tutorial function</a></h3>
+<p class="meta"><code>revmeta:hasPublicationFunction.TutorialFunction</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A principal publication function that explicitly teaches or explains a field, method, or body of concepts to enable reader understanding or practice.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly frames the article as a tutorial/primer/educational guide and materially explains concepts or procedures.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from background explanations that are normal parts of any review.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Background explanation common to reviews is insufficient.</li>
+<li>Require an explicit educational/tutorial role plus material teaching content.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract/objective explicitly gives the publication a tutorial function role and a substantial section or output realizes that role.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper contains incidental material resembling tutorial function, but no principal function cue and material realization are both present.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasPublicationFunction.VisionFunction">
+<h3><a href="#concept-hasPublicationFunction.VisionFunction">Vision function</a></h3>
+<p class="meta"><code>revmeta:hasPublicationFunction.VisionFunction</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A principal publication function that explicitly articulates a desired or anticipated future state, architecture, principles, or development trajectory for a field and substantively develops that future-oriented view.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly presents a principal future-oriented vision, target state, architecture, set of principles, or development trajectory for the field/system.</li>
+<li>That future state/trajectory is materially developed beyond generic implications or future-work remarks.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from generic future-work paragraphs or isolated predictions.</li>
+<li>Do not code merely because the paper proposes research questions or priorities; those support AgendaSettingFunction unless a distinct future target state/trajectory is also articulated.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A vision specifies a future target state/trajectory; an agenda structures research work to pursue.</li>
+<li>VisionFunction and AgendaSettingFunction may coexist when independently explicit.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The abstract/objective explicitly gives the publication a vision function role and a substantial section or output realizes that role.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper contains incidental material resembling vision function, but no principal function cue and material realization are both present.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasRegistrationStatus" aria-labelledby="facet-hasRegistrationStatus-title">
+<h2 id="facet-hasRegistrationStatus-title">registration status</h2>
+<p>Classifies whether the review is explicitly registered in a formal review registry/comparable registration system or explicitly states that it was not registered.</p>
+<p><strong>Facet boundary:</strong> Registration status is optional detail; timing is a qualifier, not an additional status value.</p>
+<article id="concept-hasRegistrationStatus.ExplicitlyNotRegistered">
+<h3><a href="#concept-hasRegistrationStatus.ExplicitlyNotRegistered">Explicitly not registered</a></h3>
+<p class="meta"><code>revmeta:hasRegistrationStatus.ExplicitlyNotRegistered</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>The publication explicitly states that the review was not registered.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly states no registration/not registered.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Absence of registration information is not this value; it is a non-positive/NotReported assessment.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Silence is not explicit non-registration.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly state that the review was not registered.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper says nothing about registration.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasRegistrationStatus.Registered">
+<h3><a href="#concept-hasRegistrationStatus.Registered">Registered</a></h3>
+<p class="meta"><code>revmeta:hasRegistrationStatus.Registered</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>The review investigation is explicitly registered in a review registry or comparable formal registration system.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>A registry record or registration identifier is reported.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>A published protocol alone is not equivalent to registration.</li>
+<li>Do not infer prospective timing from a registration number alone.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A protocol publication is not registration.</li>
+<li>Registration timing is a separate qualifier; a registration number alone does not prove prospective timing.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods provide a registry name and registration identifier for the review.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A protocol article is cited, but no registry registration is reported.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasReviewDesign" aria-labelledby="facet-hasReviewDesign-title">
+<h2 id="facet-hasReviewDesign-title">review design</h2>
+<p>Relates a review publication to the methodological review design realized by the reported review investigation, not merely to a synthesis technique, speed modifier, update mode, or publication genre label.</p>
+<p><strong>Facet boundary:</strong> Design values are not globally mutually exclusive. SystematicReviewDesign requires conjunction of review-level systematic framing + process realization; label alone and search alone are each insufficient.</p>
+<article id="concept-hasReviewDesign.IntegrativeReviewDesign">
+<h3><a href="#concept-hasReviewDesign.IntegrativeReviewDesign">Integrative review design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.IntegrativeReviewDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review design explicitly using an integrative review approach to combine heterogeneous forms of literature or evidence within one review design.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly declares an integrative review or describes an integrative-review methodology as its design.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from the ordinary fact that several kinds of evidence are discussed.</li>
+<li>Do not use as a generic synonym for mixed-methods synthesis.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Do not infer from heterogeneous evidence alone.</li>
+<li>Do not conflate with MixedMethodsSynthesis; an integrative review can use different synthesis methods.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly state that the review was conducted as an integrative review design, and the methods are compatible with that declared design.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication never declares or substantively supports an integrative review design; a superficially similar output or writing style is the only cue.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasReviewDesign.MetaNarrativeReviewDesign">
+<h3><a href="#concept-hasReviewDesign.MetaNarrativeReviewDesign">Meta-narrative review design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.MetaNarrativeReviewDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review design explicitly using meta-narrative methodology to examine how different research traditions have conceptualized and studied a topic.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly identifies a meta-narrative review and analyzes research traditions or paradigmatic narratives.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code ordinary historical review.</li>
+<li>Do not code merely because several disciplines are included.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Require explicit meta-narrative design and research-tradition logic.</li>
+<li>Distinguish from MetaNarrativeSynthesis, which is a synthesis-method assertion.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly state that the review was conducted as a meta-narrative review design, and the methods are compatible with that declared design.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication never declares or substantively supports a meta-narrative review design; a superficially similar output or writing style is the only cue.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasReviewDesign.NarrativeReviewDesign">
+<h3><a href="#concept-hasReviewDesign.NarrativeReviewDesign">Narrative review design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.NarrativeReviewDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review design explicitly presented as a narrative review or clearly organized as an author-led narrative review design rather than merely using narrative prose for synthesis.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly identifies its review design as narrative review, or equivalent wording clearly names the design.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer this design merely because no systematic protocol is reported.</li>
+<li>Do not code it only because the results are written narratively.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Do not confuse with NarrativeSynthesis; design and synthesis method are independently coded.</li>
+<li>Lack of a systematic protocol is not positive evidence for narrative review design.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly state that the review was conducted as a narrative review design, and the methods are compatible with that declared design.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication never declares or substantively supports a narrative review design; a superficially similar output or writing style is the only cue.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasReviewDesign.QualitativeEvidenceSynthesisDesign">
+<h3><a href="#concept-hasReviewDesign.QualitativeEvidenceSynthesisDesign">Qualitative evidence synthesis design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.QualitativeEvidenceSynthesisDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review design whose primary methodological design is synthesis of qualitative evidence or qualitative findings.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly identifies qualitative evidence synthesis, qualitative systematic review, or an equivalent qualitative-synthesis design.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code solely because the review contains qualitative discussion.</li>
+<li>Do not conflate with ThematicSynthesis, which is a synthesis method.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Do not infer from qualitative discussion alone.</li>
+<li>Distinguish design from ThematicSynthesis, QualitativeMetaSynthesis, or QualitativeContentAnalysis methods.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly state that the review was conducted as a qualitative evidence synthesis design, and the methods are compatible with that declared design.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication never declares or substantively supports a qualitative evidence synthesis design; a superficially similar output or writing style is the only cue.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasReviewDesign.RealistReviewDesign">
+<h3><a href="#concept-hasReviewDesign.RealistReviewDesign">Realist review design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.RealistReviewDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review design explicitly using realist review methodology to explain how and why outcomes arise in contexts through mechanisms or comparable realist constructs.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly identifies itself as a realist review/synthesis design and applies realist explanatory logic.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code merely because mechanisms or context are mentioned.</li>
+<li>Do not infer from causal discussion without realist methodology.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Require explicit realist methodology, not mere mention of mechanisms/context.</li>
+<li>RealistReviewDesign and RealistSynthesis can coexist but require independent design/method evidence.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly state that the review was conducted as a realist review design, and the methods are compatible with that declared design.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication never declares or substantively supports a realist review design; a superficially similar output or writing style is the only cue.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasReviewDesign.ScopingReviewDesign">
+<h3><a href="#concept-hasReviewDesign.ScopingReviewDesign">Scoping review design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.ScopingReviewDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review design explicitly conducted as a scoping review to map the extent, characteristics, concepts, or evidence landscape of a field.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly identifies the work as a scoping review or follows a clearly stated scoping-review design.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code ordinary broad reviews solely because they cover a wide topic.</li>
+<li>Do not equate scoping review with systematic mapping unless both are independently supported.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Do not treat broad topical scope as sufficient.</li>
+<li>ScopingReviewDesign and SystematicMappingDesign may look similar; use declared methodology/procedural framing, not output tables alone.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly state that the review was conducted as a scoping review design, and the methods are compatible with that declared design.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication never declares or substantively supports a scoping review design; a superficially similar output or writing style is the only cue.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasReviewDesign.SystematicMappingDesign">
+<h3><a href="#concept-hasReviewDesign.SystematicMappingDesign">Systematic mapping design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.SystematicMappingDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review design whose declared methodological purpose is systematic mapping/classification of a research area using an explicit systematic study-selection process.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly declares a systematic mapping study/review or a mapping design with systematic search/selection procedures.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer merely from tables, taxonomies, or descriptive organization.</li>
+<li>A multivocal literature review is not automatically a systematic mapping design.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A taxonomy or evidence map output alone does not establish a systematic mapping design.</li>
+<li>A multivocal literature review is not automatically systematic mapping.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly state that the review was conducted as a systematic mapping design, and the methods are compatible with that declared design.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication never declares or substantively supports a systematic mapping design; a superficially similar output or writing style is the only cue.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasReviewDesign.SystematicReviewDesign">
+<h3><a href="#concept-hasReviewDesign.SystematicReviewDesign">Systematic review design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.SystematicReviewDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review design in which the publication frames the review itself as systematic and realizes that framing through an explicit, structured/reproducible evidence search or retrieval process plus explicit screening/selection/eligibility decisions for a bounded evidence set.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication frames the review itself as a systematic review (or equivalent review-level systematic design) AND documents a structured/reproducible search or retrieval process AND explicit screening/selection/eligibility decisions for a bounded evidence set.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code from the self-label “systematic review” alone when compatible structured search/retrieval and explicit selection/screening are not documented.</li>
+<li>Do not infer from systematic searching/retrieval alone when the paper does not frame the review/survey itself as systematic.</li>
+<li>Do not require quality appraisal as a universal condition for SystematicReviewDesign.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>SystematicSurvey = evaluate SurveyFunction and SystematicReviewDesign separately.</li>
+<li>For SystematicReviewDesign, self-label is necessary/strong framing evidence but is not sufficient without compatible minimum process realization: structured search/retrieval + explicit selection/screening.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors identify the publication as a systematic review and report structured database/search procedures plus explicit eligibility screening/selection of the evidence set.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper calls itself a systematic review but does not document a structured search/retrieval procedure and explicit screening/selection.</li>
+<li>The paper performs a structured literature search but does not frame the review itself as systematic.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasReviewDesign.SystematizedReviewDesign">
+<h3><a href="#concept-hasReviewDesign.SystematizedReviewDesign">Systematized review design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.SystematizedReviewDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review design explicitly presented as systematized/systematised or semi-systematic: it deliberately applies substantial systematic-review elements while not claiming, or not meeting the publication’s own claim of, a full systematic review design.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly self-identifies the design as systematized/systematised/semi-systematic review, OR explicitly states that it intentionally applies substantial systematic-review elements while presenting the design as partial/semi-systematic rather than a full systematic review.</li>
+<li>The declared partial/systematized design is reflected in the described review procedure.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not use as a fallback label for a systematic review that is incompletely reported, methodologically weak, or judged noncompliant.</li>
+<li>Do not infer solely from use of some systematic-search/screening practices without an explicit partial/systematized design cue.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>SystematizedReviewDesign is a declared design family, not a quality grade.</li>
+<li>A single design claim should not be normalized simultaneously to SystematicReviewDesign and SystematizedReviewDesign; co-coding would require distinct independently reported design components.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods explicitly describe a semi-systematic review that applies a structured search and screening process without claiming a full systematic review.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A paper is missing several PRISMA items, but the authors still explicitly claim a systematic review; incompleteness alone does not make it systematized.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasReviewDesign.UmbrellaReviewDesign">
+<h3><a href="#concept-hasReviewDesign.UmbrellaReviewDesign">Umbrella review design</a></h3>
+<p class="meta"><code>revmeta:hasReviewDesign.UmbrellaReviewDesign</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A review-of-reviews design in which existing systematic reviews or comparable secondary syntheses are the principal evidence units.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The publication explicitly identifies an umbrella review/overview of reviews, or the design clearly appraises and synthesizes existing reviews as the main corpus.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code merely because some reviews are cited.</li>
+<li>Do not add automatically to every meta-narrative review of reviews unless the umbrella role is independently supported.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Existing reviews must be the principal evidence units; citations to prior reviews are insufficient.</li>
+<li>Do not automatically add ExistingReview analytical object unless prior reviews are directly analyzed as objects under that property test.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors explicitly state that the review was conducted as an umbrella review design, and the methods are compatible with that declared design.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication never declares or substantively supports an umbrella review design; a superficially similar output or writing style is the only cue.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasSourceDocumentType" aria-labelledby="facet-hasSourceDocumentType-title">
+<h2 id="facet-hasSourceDocumentType-title">source document type</h2>
+<p>Relates the review to document or publication types demonstrably present in the included analyzable corpus.</p>
+<p><strong>Facet boundary:</strong> Documentary forms are independent of evidence roles and corpus-composition boundedness. Do not import the stronger bounded-final-corpus threshold from hasCorpusComposition into source-document presence decisions.</p>
+<article id="concept-hasSourceDocumentType.BlogPost">
+<h3><a href="#concept-hasSourceDocumentType.BlogPost">Blog post</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.BlogPost</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A blog or web-post publication used as an included source.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a blog post, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A web page is not automatically a blog post; use publication form and provenance.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included blog post.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that blog post sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.BookOrChapter">
+<h3><a href="#concept-hasSourceDocumentType.BookOrChapter">Book or chapter</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.BookOrChapter</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A book or book chapter used as an included source.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a book or chapter, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included book or chapter.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that book or chapter sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.ConferencePaper">
+<h3><a href="#concept-hasSourceDocumentType.ConferencePaper">Conference paper</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.ConferencePaper</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A paper published in or as part of a scholarly conference/proceedings venue.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a conference paper, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included conference paper.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that conference paper sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.Documentation">
+<h3><a href="#concept-hasSourceDocumentType.Documentation">Documentation</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.Documentation</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>Technical, software, platform, API, or other formal documentation used as an included source.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be documentation, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish technical/software/API documentation from ProgrammeManual and from general web pages.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included documentation.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that documentation sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.EditorialCommentary">
+<h3><a href="#concept-hasSourceDocumentType.EditorialCommentary">Editorial or commentary</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.EditorialCommentary</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>An editorial, commentary, viewpoint, or comparable short opinion/interpretive publication used as an included source.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be an editorial or commentary, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish formal editorial/commentary publication from informal BlogPost or generic perspective article.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included editorial or commentary.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that editorial or commentary sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.Guideline">
+<h3><a href="#concept-hasSourceDocumentType.Guideline">Guideline</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.Guideline</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A formal guideline or recommendations document used as an included source.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a guideline, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A guideline gives recommendations for practice/policy; a Standard sets normative technical/professional requirements.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included guideline.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that guideline sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.JournalArticle">
+<h3><a href="#concept-hasSourceDocumentType.JournalArticle">Journal article</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.JournalArticle</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A scholarly article published in a journal.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a journal article, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included journal article.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that journal article sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.Preprint">
+<h3><a href="#concept-hasSourceDocumentType.Preprint">Preprint</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.Preprint</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A manuscript publicly disseminated before or without formal version-of-record publication.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a preprint, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Code the version actually included; do not automatically add JournalArticle for a later version of the same work.</li>
+<li>For corpus composition, RevMeta operationally treats scholarly preprints as academic literature unless contrary corpus logic is explicit.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included preprint.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that preprint sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.ProgrammeManual">
+<h3><a href="#concept-hasSourceDocumentType.ProgrammeManual">Programme manual</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.ProgrammeManual</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A manual describing the operation, delivery, or procedures of a programme/intervention used as an included source.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a programme manual, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish operational programme/intervention manual from general Documentation or Guideline.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included programme manual.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that programme manual sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.Standard">
+<h3><a href="#concept-hasSourceDocumentType.Standard">Standard</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.Standard</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A formal technical, professional, or regulatory standard used as an included source.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a standard, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>This is the documentary form of an included standards publication.</li>
+<li>Do not confuse with revmeta:hasAnalyticalObjectType.Standard, which asks whether standards are themselves analyzed.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included standard.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that standard sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.TechnicalReport">
+<h3><a href="#concept-hasSourceDocumentType.TechnicalReport">Technical report</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.TechnicalReport</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A formal technical or research report issued outside ordinary journal/conference publication.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a technical report, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish from WhitePaper by purpose/provenance: technical/research reporting versus advocacy/authoritative explanatory document.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included technical report.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that technical report sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.Thesis">
+<h3><a href="#concept-hasSourceDocumentType.Thesis">Thesis</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.Thesis</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>A dissertation or thesis submitted for an academic degree.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a thesis, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included thesis.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that thesis sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+<article id="concept-hasSourceDocumentType.WhitePaper">
+<h3><a href="#concept-hasSourceDocumentType.WhitePaper">White paper</a></h3>
+<p class="meta"><code>revmeta:hasSourceDocumentType.WhitePaper</code> · Annotation depth: <code>OPTIONAL_DETAIL</code></p>
+<p>An authoritative or policy/industry-oriented white paper used as an included source.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>At least one included analyzable source is demonstrated to be a white paper, or a mandatory restrictive criterion establishes that all included sources are of this type.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>An allowed/eligible-type list alone is insufficient.</li>
+<li>Search scope alone is insufficient.</li>
+<li>Reference-list formatting alone is insufficient.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Distinguish from TechnicalReport; use source self-identification and purpose rather than publisher type alone.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The final included-corpus table or text demonstrates at least one included white paper.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The protocol says that white paper sources were eligible, but the final corpus does not demonstrate that any were included.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-usesSynthesisMethod" aria-labelledby="facet-usesSynthesisMethod-title">
+<h2 id="facet-usesSynthesisMethod-title">synthesis method</h2>
+<p>Relates the review to substantive methods used to integrate, aggregate, code, map, interpret, or otherwise synthesize evidence across included sources.</p>
+<p><strong>Facet boundary:</strong> Explicit label plus substantive realization is sufficient; label alone is not. Nested synthesis methods may coexist. Local framework use, presentation style, and extraction are not independent synthesis methods.</p>
+<article id="concept-usesSynthesisMethod.BibliometricNetworkSynthesis">
+<h3><a href="#concept-usesSynthesisMethod.BibliometricNetworkSynthesis">Bibliometric/network synthesis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.BibliometricNetworkSynthesis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A substantive bibliometric/scientometric or network synthesis that integrates publication/citation/co-authorship/co-word or related metadata to characterize corpus-level structure, relationships, or trends; routine publication counts alone are insufficient.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The review performs bibliometric/network analysis as a substantive synthesis.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Publication-year counts alone do not necessarily establish network/bibliometric synthesis unless used as a substantive bibliometric analysis.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Routine publication-year counts alone are insufficient.</li>
+<li>BibliographicMetadata analytical object may be positive even when the synthesis method is only descriptive mapping rather than bibliometric/network synthesis.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show bibliometric/network synthesis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling bibliometric/network synthesis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.DescriptiveMappingSynthesis">
+<h3><a href="#concept-usesSynthesisMethod.DescriptiveMappingSynthesis">Descriptive mapping synthesis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.DescriptiveMappingSynthesis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A substantive synthesis method that systematically maps the included evidence across explicit categories, dimensions, or cells and interprets corpus-level distributions, patterns, concentrations, or gaps produced by that mapping.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>Gate 1 — mapping structure: the review defines or derives explicit categories, dimensions, cells, or comparable variables for mapping the evidence.</li>
+<li>Gate 2 — corpus application: included evidence is systematically assigned/aggregated across that mapping structure at corpus level, rather than shown only illustratively.</li>
+<li>Gate 3 — synthesis use: the mapped distributions, concentrations, gaps, patterns, or cross-category relations are interpreted as substantive synthesis results.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code a taxonomy, table, matrix, or evidence-map display that merely organizes/presents extracted information without a substantive corpus-level mapping synthesis.</li>
+<li>Do not infer from the publication calling itself a survey/mapping paper unless the three mapping-synthesis gates are met.</li>
+<li>If structured organization exists but it is unclear whether the mapping operation itself constitutes synthesis, use ambiguous rather than forcing a positive value.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>All three mapping-synthesis gates are required: structure, corpus-wide application, and interpretive synthesis use.</li>
+<li>In v0.2.3 a code=1 decision is invalid unless structured dms_gate_checks provide evidence for all three gates.</li>
+<li>A produced EvidenceMap artifact and DescriptiveMappingSynthesis are independent decisions; either can occur without the other.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>A review assigns all included sources to defined categories, reports category frequencies/distributions, and interprets concentrations/gaps.</li>
+<li>A review maps all guidance documents across process stages/topic areas and interprets which areas are covered or missing.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>A taxonomy or table displays extracted categories but no corpus-wide assignment/distribution is synthesized.</li>
+<li>A few publication-year counts are shown without systematic mapping and interpretive use.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.FrameworkSynthesis">
+<h3><a href="#concept-usesSynthesisMethod.FrameworkSynthesis">Framework synthesis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.FrameworkSynthesis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A synthesis method that systematically codes, organizes, maps, or interprets evidence across sources through an explicit analytical/a priori framework.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The review explicitly uses framework synthesis with substantive cross-source realization; OR evidence across the corpus/subcorpus is systematically coded/organized through a defined analytical framework.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from producing/displaying a framework.</li>
+<li>Do not code a one-off/local comparison of findings to a standard/framework when the main synthesis is another method and the framework is not a systematic synthesis structure.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A priori framework-based coding across evidence qualifies even when paired with thematic analysis; local framework reference does not.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show framework synthesis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling framework synthesis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.MetaAnalysis">
+<h3><a href="#concept-usesSynthesisMethod.MetaAnalysis">Meta-analysis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.MetaAnalysis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A quantitative synthesis method that statistically combines effect estimates or comparable quantitative results across studies.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The review statistically pools or meta-analyzes effect estimates/results.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code simple descriptive statistics or counts.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Statistical combination of comparable quantitative estimates is required; reporting pooled results from another review is insufficient.</li>
+<li>EffectEstimate object type is independently coded when estimates themselves are analytical objects.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show meta-analysis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling meta-analysis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.MetaNarrativeSynthesis">
+<h3><a href="#concept-usesSynthesisMethod.MetaNarrativeSynthesis">Meta-narrative synthesis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.MetaNarrativeSynthesis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A synthesis method that compares and integrates the narratives, paradigms, or trajectories of distinct research traditions.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The review explicitly performs meta-narrative synthesis across research traditions.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not equate with generic narrative synthesis.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Requires synthesis across research traditions/narratives.</li>
+<li>Distinguish from MetaNarrativeReviewDesign.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show meta-narrative synthesis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling meta-narrative synthesis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.MixedMethodsSynthesis">
+<h3><a href="#concept-usesSynthesisMethod.MixedMethodsSynthesis">Mixed-methods synthesis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.MixedMethodsSynthesis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A synthesis method that explicitly integrates quantitative and qualitative evidence or synthesis components within one mixed-methods synthesis.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The review explicitly integrates qualitative and quantitative synthesis components.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code merely because the corpus contains both qualitative and quantitative studies.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Requires explicit integration of quantitative and qualitative synthesis components.</li>
+<li>Do not infer from an IntegrativeReviewDesign or a mixed corpus alone.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show mixed-methods synthesis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling mixed-methods synthesis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.NarrativeSynthesis">
+<h3><a href="#concept-usesSynthesisMethod.NarrativeSynthesis">Narrative synthesis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.NarrativeSynthesis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A substantive synthesis method that integrates evidence across sources through a deliberate narrative procedure. An explicit narrative-synthesis statement plus a described cross-source organization/integration step is sufficient; narrative prose alone is not.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly reports narrative synthesis in a synthesis/analysis context and describes cross-source integration/organization; OR an identifiable narrative-synthesis procedure is described without the label.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not code ordinary narrative reporting or discussion prose without cross-source integration.</li>
+<li>Do not reject a substantive narrative-synthesis stage merely because it is nested within thematic/framework/meta-synthesis.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Nested coexistence is allowed. The minimum positive evidence is explicit method cue + substantive cross-source realization, not a full textbook protocol.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show narrative synthesis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling narrative synthesis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.QualitativeContentAnalysis">
+<h3><a href="#concept-usesSynthesisMethod.QualitativeContentAnalysis">Qualitative content analysis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.QualitativeContentAnalysis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A synthesis method using explicit qualitative content-analysis procedures to code and interpret textual material across the evidence corpus.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly uses content analysis as a synthesis/analysis method.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not silently map content analysis to ThematicSynthesis.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Require explicit systematic content coding/analysis across sources.</li>
+<li>Do not automatically co-code ThematicSynthesis unless theme-generation criteria are independently met.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show qualitative content analysis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling qualitative content analysis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.QualitativeMetaSynthesis">
+<h3><a href="#concept-usesSynthesisMethod.QualitativeMetaSynthesis">Qualitative meta-synthesis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.QualitativeMetaSynthesis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A qualitative synthesis method explicitly described as qualitative meta-synthesis or an equivalent meta-synthetic procedure.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly identifies and performs qualitative meta-synthesis.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not use as a generic label for any qualitative synthesis.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Require an explicit qualitative meta-synthesis or methodologically equivalent meta-synthetic procedure; generic qualitative summary is insufficient.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show qualitative meta-synthesis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling qualitative meta-synthesis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.RealistSynthesis">
+<h3><a href="#concept-usesSynthesisMethod.RealistSynthesis">Realist synthesis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.RealistSynthesis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A synthesis method that explains how outcomes arise through mechanisms in contexts using realist synthesis logic.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The synthesis explicitly uses realist context-mechanism-outcome or equivalent realist explanatory analysis.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Do not infer from generic discussion of context and mechanisms.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Requires realist context-mechanism-outcome or equivalent explanatory integration.</li>
+<li>Can coexist with RealistReviewDesign but neither entails the other automatically.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show realist synthesis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling realist synthesis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+<article id="concept-usesSynthesisMethod.ThematicSynthesis">
+<h3><a href="#concept-usesSynthesisMethod.ThematicSynthesis">Thematic synthesis</a></h3>
+<p class="meta"><code>revmeta:usesSynthesisMethod.ThematicSynthesis</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A synthesis method that develops or synthesizes themes across qualitative or textual evidence.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly uses thematic synthesis/analysis as the synthesis procedure.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>Open/axial/grounded coding is not automatically ThematicSynthesis.</li>
+<li>Do not infer from results being organized under headings/themes without a thematic method.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>Require theme development/synthesis across textual evidence.</li>
+<li>Do not silently normalize generic content analysis or open/axial coding into thematic synthesis.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The methods/results show thematic synthesis being used to integrate evidence across multiple included sources.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The paper uses a presentation or analysis element resembling thematic synthesis, but it does not perform substantive cross-source synthesis by that method.</li>
+</ol>
+</div>
+</article>
+</section>
+<section id="facet-hasUpdateMode" aria-labelledby="facet-hasUpdateMode-title">
+<h2 id="facet-hasUpdateMode-title">update mode</h2>
+<p>Relates the review investigation to an explicit living/continuous update mode in which the evidence synthesis is intended to be updated as new evidence becomes available.</p>
+<p><strong>Facet boundary:</strong> Living update mode is orthogonal to review design and publication function.</p>
+<article id="concept-hasUpdateMode.LivingUpdateMode">
+<h3><a href="#concept-hasUpdateMode.LivingUpdateMode">Living update mode</a></h3>
+<p class="meta"><code>revmeta:hasUpdateMode.LivingUpdateMode</code> · Annotation depth: <code>CORE_FACET</code></p>
+<p>A process modifier indicating an intentionally ongoing review that is planned to be updated as new evidence becomes available.</p>
+<div class="guidance" aria-label="Source Codebook guidance">
+<h4>CODE WHEN</h4><ol>
+<li>The source explicitly identifies the review as living or specifies an ongoing update mechanism.</li>
+</ol>
+<h4>DO NOT CODE WHEN</h4><ol>
+<li>A one-off update of an earlier review is insufficient.</li>
+<li>A rerunnable repository alone does not imply living mode.</li>
+</ol>
+<h4>Boundary notes</h4><ol>
+<li>A one-off updated review is not living; ongoing update commitment is required.</li>
+</ol>
+<h4>Positive examples</h4><ol>
+<li>The authors state that the review is living and will be updated as new evidence appears.</li>
+</ol>
+<h4>Negative examples</h4><ol>
+<li>The publication is a one-time update of an older review with no ongoing update commitment.</li>
+</ol>
+</div>
+</article>
+</section>
+</main>
+<footer><p>Generated from the SKOS Turtle graph. Facet groups are SKOS collections, not inferred OWL properties.</p></footer>
+</body>
+</html>

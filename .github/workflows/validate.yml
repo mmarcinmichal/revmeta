@@ -1,0 +1,33 @@
+# Public portable validation; no private repository access or release tagging.
+name: Validate RevMeta public candidate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install declared validation dependencies
+        run: python -m pip install -e ".[validation]"
+      - name: Run the portable source and RDF/SSSOM tests
+        run: PYTHONPATH=src python -m unittest discover -s tests/build -v
+      - name: Independently rebuild and compare eight committed files byte-for-byte
+        run: |
+          set -euo pipefail
+          python -m revmeta build --require-complete --output /tmp/revmeta-public-rebuild
+          for file in index.html vocabulary.ttl vocabulary.jsonld mappings.sssom.tsv mappings.sssom.ttl alignments.ttl decision-states.ttl manifest.json; do
+            cmp "resources/outputs/vocabulary/$file" "/tmp/revmeta-public-rebuild/$file"
+          done

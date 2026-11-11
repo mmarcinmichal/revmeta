@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 600" width="1220" height="600" role="img" aria-labelledby="title description">
+<title id="title">Illustrative RevMeta coding contrasted with title-label search</title><desc id="description">The left panel shows that review titles do not establish methodological attributes. The right panel sketches how terms are assessed against the Codebook and require source quotes and locators. No real retrieval result or independently checked publication profile is shown.</desc>
+<defs>
+ <style>
+  .t{font-family:'TeX Gyre Termes','Times New Roman',serif;fill:#0b0b0b}
+  .m{font-family:'DejaVu Sans Mono',monospace}
+  .muted{fill:#52514e}
+  .line{stroke:#52514e;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round}
+  .skin{fill:#f3d9c4;stroke:#52514e;stroke-width:2}
+  .shirt{fill:#2a78d6;stroke:#52514e;stroke-width:2}
+  .screen{fill:#ffffff;stroke:#52514e;stroke-width:2.5}
+  .ph{fill:#dcdbd6}
+  .chip{fill:#cde2fb;stroke:#2a78d6;stroke-width:1.5}
+  .chipg{fill:#f0efec;stroke:#a3a29c;stroke-width:1.5}
+ </style>
+ <g id="person">
+  <!-- chair -->
+  <rect x="-58" y="128" width="16" height="120" rx="4" fill="#a3a29c"/>
+  <!-- body -->
+  <path class="shirt" d="M-44 230 L-40 140 Q-38 108 0 104 Q38 108 42 140 L46 230 Z"/>
+  <!-- legs -->
+  <!-- neck + head -->
+  <rect x="-9" y="86" width="18" height="22" class="skin"/>
+  <circle cx="0" cy="58" r="38" class="skin"/>
+  <path d="M-38 52 Q-36 14 2 16 Q38 16 38 50 Q26 34 4 34 Q-18 32 -38 52 Z" fill="#52514e"/>
+  <circle cx="22" cy="62" r="3.5" fill="#0b0b0b"/>
+ </g>
+</defs>
+<rect width="1220" height="600" fill="#fcfcfb"/>
+
+<!-- ================= LEFT PANEL ================= -->
+<text class="t" x="290" y="38" text-anchor="middle" font-size="27" font-weight="bold">Searching by review labels</text>
+<!-- desk -->
+
+<!-- monitor -->
+<rect class="screen" x="200" y="66" width="370" height="300" rx="10"/>
+<path d="M370 366 L362 404 L408 404 L400 366" fill="#a3a29c"/><rect x="340" y="402" width="90" height="10" rx="4" fill="#a3a29c"/>
+<!-- search box -->
+<rect x="218" y="84" width="334" height="38" rx="19" fill="#f0efec" stroke="#a3a29c" stroke-width="1.5"/>
+<circle cx="240" cy="102" r="8" class="line"/><line x1="246" y1="108" x2="252" y2="114" class="line"/>
+<text class="t" x="260" y="109" font-size="17">umbrella reviews of earlier reviews</text>
+<text class="t muted" x="220" y="146" font-size="15">labels are not coding evidence</text>
+<!-- results with ambiguous labels -->
+<g font-size="16">
+ <rect x="220" y="160" width="330" height="40" rx="6" fill="#ffffff" stroke="#dcdbd6"/>
+ <rect x="232" y="170" width="150" height="8" rx="4" class="ph"/><rect x="232" y="184" width="210" height="7" rx="3.5" class="ph"/>
+ <rect x="458" y="170" width="80" height="22" rx="11" class="chipg"/><text class="t" x="498" y="186" text-anchor="middle">Review</text>
+ <rect x="220" y="208" width="330" height="40" rx="6" fill="#ffffff" stroke="#dcdbd6"/>
+ <rect x="232" y="218" width="170" height="8" rx="4" class="ph"/><rect x="232" y="232" width="190" height="7" rx="3.5" class="ph"/>
+ <rect x="436" y="218" width="102" height="22" rx="11" class="chipg"/><text class="t" x="487" y="234" text-anchor="middle">Meta-review?</text>
+ <rect x="220" y="256" width="330" height="40" rx="6" fill="#ffffff" stroke="#dcdbd6"/>
+ <rect x="232" y="266" width="140" height="8" rx="4" class="ph"/><rect x="232" y="280" width="200" height="7" rx="3.5" class="ph"/>
+ <rect x="458" y="266" width="80" height="22" rx="11" class="chipg"/><text class="t" x="498" y="282" text-anchor="middle">Survey</text>
+ <rect x="220" y="304" width="330" height="40" rx="6" fill="#ffffff" stroke="#dcdbd6"/>
+ <rect x="232" y="314" width="160" height="8" rx="4" class="ph"/><rect x="232" y="328" width="180" height="7" rx="3.5" class="ph"/>
+ <rect x="408" y="314" width="130" height="22" rx="11" class="chipg"/><text class="t" x="473" y="330" text-anchor="middle">Systematic review</text>
+</g>
+<!-- person (frustrated) -->
+<g transform="translate(96,170)">
+ <use href="#person"/>
+ <!-- frown + angled brow -->
+ <path class="line" d="M10 80 Q20 72 32 80"/>
+ <path class="line" d="M12 46 L30 52"/>
+ <!-- hand on head -->
+ <path class="line" style="stroke-width:11;stroke:#2a78d6" d="M-30 150 Q-70 70 -30 30"/>
+ <circle cx="-28" cy="28" r="9" class="skin"/>
+ <!-- arm to desk -->
+ <path class="line" style="stroke-width:11;stroke:#2a78d6" d="M30 150 L92 210 L118 212"/>
+</g>
+<!-- frustration marks -->
+<text class="t" x="150" y="104" font-size="40" font-weight="bold" style="fill:#e34948">?!</text>
+<!-- thought bubble -->
+<g>
+ <rect x="20" y="452" width="540" height="64" rx="18" fill="#ffffff" stroke="#52514e" stroke-width="2"/>
+ <text class="t" x="290" y="480" text-anchor="middle" font-size="19">“Which of these actually analyse other reviews?</text>
+ <text class="t" x="290" y="504" text-anchor="middle" font-size="19">the source needs to be examined.”</text>
+</g>
+
+<!-- ================= MIDDLE: thin RSP layer ================= -->
+<rect x="598" y="70" width="24" height="440" rx="12" fill="#104281"/>
+<text class="t" x="610" y="290" font-size="17" fill="#ffffff" font-weight="bold" text-anchor="middle" transform="rotate(-90 610 290)">RevMeta · 14 facets · 102 terms · 7 states</text>
+<path d="M578 290 L596 290" class="line"/><path d="M624 290 L644 290 M636 282 L644 290 L636 298" class="line"/>
+
+<!-- ================= RIGHT PANEL ================= -->
+<text class="t" x="930" y="38" text-anchor="middle" font-size="27" font-weight="bold">Codebook-guided assessment</text>
+
+<rect class="screen" x="820" y="66" width="380" height="300" rx="10"/>
+<path d="M995 366 L987 404 L1033 404 L1025 366" fill="#a3a29c"/><rect x="965" y="402" width="90" height="10" rx="4" fill="#a3a29c"/>
+<!-- facet query -->
+<g class="m" font-size="12.5">
+ <rect x="836" y="80" width="348" height="26" rx="13" class="chip"/>
+ <text x="1010" y="98" text-anchor="middle" fill="#0b0b0b">Term: UmbrellaReviewDesign</text>
+ <text class="t" x="1010" y="122" text-anchor="middle" font-size="14" font-weight="bold">AND</text>
+ <rect x="836" y="128" width="348" height="26" rx="13" class="chip"/>
+ <text x="1010" y="146" text-anchor="middle" fill="#0b0b0b">Term: ExistingReview</text>
+</g>
+<text class="t muted" x="838" y="176" font-size="15">Illustrative candidates — not verified</text>
+<!-- card H014 -->
+<rect x="836" y="184" width="348" height="82" rx="8" fill="#ffffff" stroke="#2a78d6" stroke-width="1.5"/>
+<text class="t" x="848" y="204" font-size="15" font-weight="bold">Ex. A</text>
+<text class="t muted" x="916" y="204" font-size="14">“umbrella review and meta-analysis…”</text>
+<g class="m" font-size="11">
+ <rect x="848" y="214" width="140" height="20" rx="10" class="chip"/><text x="918" y="228" text-anchor="middle">? meta-analysis</text>
+ <rect x="996" y="214" width="112" height="20" rx="10" class="chip"/><text x="1052" y="228" text-anchor="middle">? registration</text>
+</g>
+<text class="t muted" x="848" y="254" font-size="13">Evidence requirement: quote + locator</text>
+<!-- card H035 -->
+<rect x="836" y="274" width="348" height="82" rx="8" fill="#ffffff" stroke="#2a78d6" stroke-width="1.5"/>
+<text class="t" x="848" y="294" font-size="15" font-weight="bold">Ex. B</text>
+<text class="t muted" x="916" y="294" font-size="14">“scoping review of reviews (meta-review)”</text>
+<g class="m" font-size="11">
+ <rect x="848" y="304" width="176" height="20" rx="10" class="chip"/><text x="936" y="318" text-anchor="middle">? scoping design</text>
+ <rect x="1032" y="304" width="140" height="20" rx="10" class="chipg"/><text x="1102" y="318" text-anchor="middle">? registration</text>
+</g>
+<text class="t muted" x="848" y="344" font-size="13">Evidence requirement: quote + locator</text>
+<!-- person (relaxed) -->
+<g transform="translate(716,170)">
+ <use href="#person"/>
+ <path class="line" d="M10 76 Q21 88 32 76"/>
+ <path class="line" d="M13 48 Q21 43 30 46"/>
+ <path class="line" style="stroke-width:11;stroke:#2a78d6" d="M30 150 L92 210 L118 212"/>
+ <path class="line" style="stroke-width:11;stroke:#2a78d6" d="M-30 150 L40 198 L70 200"/>
+</g>
+<g>
+ <rect x="640" y="452" width="560" height="64" rx="18" fill="#ffffff" stroke="#52514e" stroke-width="2"/>
+ <text class="t" x="920" y="480" text-anchor="middle" font-size="19">“Titles do not establish coding states;</text>
+ <text class="t" x="920" y="504" text-anchor="middle" font-size="19">source passages and rules must be checked.”</text>
+</g>
+<rect x="20" y="410" width="560" height="16" rx="4" fill="#a3a29c"/>
+<rect x="640" y="410" width="560" height="16" rx="4" fill="#a3a29c"/>
+<text class="t muted" x="610" y="570" text-anchor="middle" font-size="15">Schematic only: no measured retrieval gain, real index, or verified profiles.</text>
+</svg>

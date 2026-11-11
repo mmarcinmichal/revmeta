@@ -1,0 +1,76 @@
+# PUB-02: approved public Pages deployment, NOT final GitHub Release.
+# Verify the exact public commit; run manually after enabling Pages (GitHub Actions).
+name: Deploy owner-approved RevMeta Pages release
+
+on:
+  workflow_dispatch:
+    inputs:
+      approval:
+        description: "Owner's explicit publication approval: APPROVED"
+        required: true
+        type: string
+      expected_sha:
+        description: "Exact approved release commit SHA (40 hex characters)"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: revmeta-pages-release
+  cancel-in-progress: false
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify manual authorization and exact approved commit
+        env:
+          APPROVAL: ${{ inputs.approval }}
+          EXPECTED_SHA: ${{ inputs.expected_sha }}
+          ACTUAL_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          test "$APPROVAL" = "APPROVED"
+          echo "$EXPECTED_SHA" | grep -Eq '^[a-f0-9]{40}$'
+          test "$ACTUAL_SHA" = "$EXPECTED_SHA"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install project dependencies
+        run: python -m pip install -e ".[validation]"
+      - name: Rebuild and byte-compare all approved public outputs
+        run: |
+          set -euo pipefail
+          PYTHONPATH=src python -m unittest discover -s tests/build -v
+          python -m revmeta build --require-complete --output /tmp/revmeta-pages-clean
+          for file in index.html vocabulary.ttl vocabulary.jsonld mappings.sssom.tsv mappings.sssom.ttl alignments.ttl decision-states.ttl manifest.json; do
+            cmp "resources/outputs/vocabulary/$file" "/tmp/revmeta-pages-clean/$file"
+          done
+      - name: Stage verified static site; block provisional documentation
+        run: |
+          python -m revmeta release pages --source /tmp/revmeta-pages-clean --output /tmp/revmeta-pages-site
+          if grep -q 'Development preview' /tmp/revmeta-pages-site/index.html; then
+            echo "::error::This is still the private provisional HTML. Publication blocked."
+            exit 1
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: /tmp/revmeta-pages-site
+
+  deploy:
+    needs: build-site
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
