@@ -1,36 +1,27 @@
 # RevMeta — Review Metadata
 
-RevMeta is a versioned, self-contained SKOS vocabulary and SSSOM mapping resource
-for describing research review publications. This source package contains
-102 concepts in 14 facet collections, 691 Codebook guidance items and
-141 reviewed mapping decisions (107 concrete external links and 34 bounded
-NoTermFound outcomes). The 34 negative decisions describe the default
-external vocabulary families considered in RevMeta; they do not prove
-universal nonexistence of equivalents.
+RevMeta is a controlled vocabulary and mapping resource for describing research review publications. It provides **102 SKOS concepts** grouped into **14 facets**, **691 Codebook guidance items**, and **141 reviewed SSSOM mapping decisions**: 107 links to external terms and 34 `NoTermFound` outcomes. A `NoTermFound` outcome indicates that no suitable counterpart was identified in the vocabularies examined; it does not imply that no equivalent exists elsewhere.
 
-## Build and provenance
+## Explore RevMeta
 
-This repository content is derived from a private validated source snapshot
-using an explicit file allowlist. The three authoritative scientific inputs
-are preserved in resources/inputs/vocabulary/. The eight reproducible output
-files, including their content-hash manifest, are in resources/outputs/vocabulary/.
-The manifest describes a deterministic build, **not** whether its owner
-authorized publication. Only a specific public GitHub tag/Release, after the
-owner's explicit approval, establishes release status for that commit.
+- [Browse the vocabulary](https://mmarcinmichal.github.io/revmeta/) — definitions and structured HTML documentation.
+- [User guide](docs/user/README.md) — concept definitions, coding guidance, decision states, mapping provenance, and illustrations.
+- [Source data](resources/inputs/vocabulary/) — the registry, Codebook, and reviewed mapping table.
+- [RDF and SSSOM exports](resources/outputs/vocabulary/) — Turtle, JSON-LD, SSSOM TSV/Turtle, alignments, decision states, and the [SHA-256 manifest](resources/outputs/vocabulary/manifest.json).
 
-Project-owned content is licensed under Apache-2.0 (LICENSE).
-The confirmed resource author and current baseline version are in CITATION.cff.
-Do not invent a DOI or public release date from the build manifest.
+## Reproducibility
 
-For independent rebuild instructions, Codebook rules, decision states,
-mapping provenance and illustrations see the
-[RevMeta user guide](docs/user/README.md).
-Browsable generated HTML is at
-[resources/outputs/vocabulary/index.html](resources/outputs/vocabulary/index.html).
+The vocabulary and its exports can be regenerated from the included source data using Python 3.12 or later:
 
-## Identifier and release scope
+```bash
+python -m pip install -e ".[validation]"
+python -m revmeta build --require-complete
+```
 
-The base IRI https://w3id.org/revmeta/ is a proposed stable identifier.
-Actual registration, redirect resolution, content negotiation and the published
-version must be checked against the *live* W3ID registry and public release.
-This README alone does not authorize publishing, DOI deposition or W3ID changes.
+Generated files and their checksums are listed in [`manifest.json`](resources/outputs/vocabulary/manifest.json).
+
+## License and citation
+
+RevMeta project-owned content is available under the [Apache License 2.0](LICENSE). See [`CITATION.cff`](CITATION.cff) for citation metadata.
+
+The RDF uses `https://w3id.org/revmeta/` as its identifier namespace. HTTP resolution through W3ID is not yet available.
