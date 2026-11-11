@@ -1,0 +1,723 @@
+{
+  "registry_id": "revmeta-102-terms-source-v2",
+  "vocabulary_version": "revmeta-source-v2",
+  "source_reference_filename": "codebook.md",
+  "source_reference_sha256": "2ba6f125705c5a58d9538182acd54b4488baa68086ba02a6e6fd003e96a5d94e",
+  "terms": [
+    {
+      "property": "revmeta:claimsContributionType",
+      "term": "revmeta:claimsContributionType.ArgumentativeContribution",
+      "label": "Argumentative contribution",
+      "definition": "A principal explicitly claimed contribution that advances a structured thesis, critique, position, or reasoned argument derived from the review synthesis rather than merely reporting evidence.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:claimsContributionType",
+      "term": "revmeta:claimsContributionType.BenchmarkContribution",
+      "label": "Benchmark contribution",
+      "definition": "A principal explicitly claimed contribution that introduces or substantially develops a benchmark, benchmarking protocol, evaluation suite, or comparable standardized resource for comparative evaluation.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:claimsContributionType",
+      "term": "revmeta:claimsContributionType.ConceptualContribution",
+      "label": "Conceptual contribution",
+      "definition": "A principal explicitly claimed contribution consisting of conceptual clarification, synthesis, integration, reframing, or a conceptual model where no more specific controlled contribution type adequately captures the claimed value.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:claimsContributionType",
+      "term": "revmeta:claimsContributionType.DesignArtifactContribution",
+      "label": "Design artifact contribution",
+      "definition": "A principal explicitly claimed contribution that proposes or develops an engineered/design solution—such as an architecture, prototype, reference design, or design specification—as scholarly value added by the review.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:claimsContributionType",
+      "term": "revmeta:claimsContributionType.FrameworkContribution",
+      "label": "Framework contribution",
+      "definition": "A principal explicitly claimed contribution that introduces, substantially revises, or consolidates an organizing structure of concepts, components, relations, stages, or rules intended to guide analysis, design, evaluation, or understanding.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:claimsContributionType",
+      "term": "revmeta:claimsContributionType.MethodologicalContribution",
+      "label": "Methodological contribution",
+      "definition": "A principal explicitly claimed contribution that introduces, adapts, systematizes, or critically develops a method, procedure, protocol, or methodological approach as scholarly value added by the review.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:claimsContributionType",
+      "term": "revmeta:claimsContributionType.ResearchAgendaContribution",
+      "label": "Research agenda contribution",
+      "definition": "A principal explicitly claimed contribution that formulates and organizes multiple future research problems, questions, directions, or priorities into a coherent agenda.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:claimsContributionType",
+      "term": "revmeta:claimsContributionType.ResourceContribution",
+      "label": "Resource contribution",
+      "definition": "A principal explicitly claimed contribution that provides a reusable research asset—such as a curated dataset, repository, codebase, tool, registry, or structured reference collection—beyond ordinary supplementary material.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:claimsContributionType",
+      "term": "revmeta:claimsContributionType.TaxonomyContribution",
+      "label": "Taxonomy contribution",
+      "definition": "A principal explicitly claimed contribution that introduces, substantially revises, or consolidates a structured classification scheme whose categories and organizing distinctions classify phenomena in the reviewed domain.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasAgentConfiguration",
+      "term": "revmeta:hasAgentConfiguration.AutomatedAgent",
+      "label": "Automated agent",
+      "definition": "A stage-qualified configuration in which software or an algorithm executes a substantive review task without concurrent substantive human judgment in that execution step, although humans may configure, supervise, or review outputs before/afterward.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasAgentConfiguration",
+      "term": "revmeta:hasAgentConfiguration.HybridHumanMachine",
+      "label": "Hybrid human-machine",
+      "definition": "A stage-qualified configuration in which human and automated/AI agents make substantively interdependent contributions within the same review task or stage, rather than merely using software as a passive tool.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasAgentConfiguration",
+      "term": "revmeta:hasAgentConfiguration.MultipleHumanReviewers",
+      "label": "Multiple human reviewers",
+      "definition": "A workflow stage is performed, checked, duplicated, or resolved by multiple human reviewers/analysts.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasAgentConfiguration",
+      "term": "revmeta:hasAgentConfiguration.SingleHumanReviewer",
+      "label": "Single human reviewer",
+      "definition": "A workflow stage is performed by one human reviewer/analyst.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Algorithm",
+      "label": "Algorithm",
+      "definition": "A computational or technical procedure, technique, strategy, or algorithmic approach for transforming inputs or solving a domain task that is itself materially compared, classified, evaluated, or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Architecture",
+      "label": "Architecture",
+      "definition": "A system, software, model, or technical architecture treated as a material object of comparison, classification, or synthesis.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Benchmark",
+      "label": "Benchmark",
+      "definition": "A benchmark, benchmark suite/task, or dataset functioning as an evaluative reference whose benchmark role, coverage, design, usage, or comparative properties are themselves materially synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.BibliographicMetadata",
+      "label": "Bibliographic metadata",
+      "definition": "Publication-level metadata (for example year, venue, authorship, citation, keyword, affiliation, or publication counts) that are materially aggregated, modeled, compared, or interpreted across the corpus.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.ComputationalModel",
+      "label": "Computational model",
+      "definition": "A computational or machine-learning model family or model instance treated as a material object of comparison, characterization, or synthesis.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Concept",
+      "label": "Concept",
+      "definition": "A concept, construct, term, or definition that is itself compared, synthesized, clarified, or organized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Dataset",
+      "label": "Dataset",
+      "definition": "A data collection/corpus whose dataset-level types, properties, availability, distribution, composition, limitations, or use patterns are themselves materially synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.EffectEstimate",
+      "label": "Effect estimate",
+      "definition": "A quantitative effect/performance estimate or comparable normalized quantitative result that is itself extracted, compared, or aggregated across sources.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.ExistingReview",
+      "label": "Existing review",
+      "definition": "A prior review publication whose review-level design, scope, quality, methods, coverage, or conclusions are themselves materially compared/appraised/mapped as review objects.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.ExistingSurvey",
+      "label": "Existing survey",
+      "definition": "A prior survey publication whose survey-level scope, organization, coverage, methods, or features are directly compared, classified, appraised, or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Finding",
+      "label": "Finding",
+      "definition": "A propositional result, conclusion, qualitative theme, interpretation, or source-level finding that is itself compared/integrated across sources as finding content.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Framework",
+      "label": "Framework",
+      "definition": "A conceptual, methodological, evaluative, or organizational framework from the reviewed domain that is itself materially compared, classified, mapped, or appraised as an organizing structure.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Indicator",
+      "label": "Indicator",
+      "definition": "A metric, indicator, criterion, index, score, or other operational quantity/dimension that is itself materially compared, categorized, evaluated, or synthesized across the reviewed corpus.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.InterventionOrProgramme",
+      "label": "Intervention or programme",
+      "definition": "An intervention, service, programme, policy implementation, or organized practice intervention that is itself compared, characterized, evaluated, or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.MeasurementInstrument",
+      "label": "Measurement instrument",
+      "definition": "A scale, questionnaire, rubric, rating system, assessment instrument, or other structured instrument used to generate measurements and itself materially compared, appraised, or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Mechanism",
+      "label": "Mechanism",
+      "definition": "A causal, explanatory, behavioral, organizational, or realist mechanism that is itself analyzed or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Practice",
+      "label": "Practice",
+      "definition": "A professional, organizational, engineering, clinical, or operational practice that is itself compared, classified, or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Repository",
+      "label": "Repository",
+      "definition": "A repository, archive, registry, or comparable collection service that is itself compared, characterized, or evaluated.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.ResearchMethod",
+      "label": "Research method",
+      "definition": "A method for conducting research, evaluation, measurement, evidence synthesis, or empirical investigation that is itself materially compared, classified, appraised, or synthesized. It does not include domain technical/computational techniques merely because authors call them methods or approaches.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.ResearchTradition",
+      "label": "Research tradition",
+      "definition": "A distinct research tradition, paradigm, school, or lineage that is itself compared or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.SoftwareTool",
+      "label": "Software tool",
+      "definition": "Executable software, toolkit, library, platform, package, application, or operational software framework that is itself materially compared, classified, evaluated, or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Standard",
+      "label": "Standard",
+      "definition": "A technical, methodological, professional, reporting, or regulatory standard whose requirements/content/structure are themselves materially compared, mapped, appraised, or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Study",
+      "label": "Study",
+      "definition": "A primary study treated as an analytical carrier/object whose study-level design, setting, quality, methodology, population, distribution, or other study-level characteristics are themselves materially synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Taxonomy",
+      "label": "Taxonomy",
+      "definition": "A taxonomy or classification scheme from the reviewed literature that is itself compared, evaluated, mapped, or synthesized.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasAnalyticalObjectType",
+      "term": "revmeta:hasAnalyticalObjectType.Theory",
+      "label": "Theory",
+      "definition": "A theory or theoretical model that is itself compared, evaluated, synthesized, or mapped.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasCorpusComposition",
+      "term": "revmeta:hasCorpusComposition.AcademicAndGreyLiteratureCorpus",
+      "label": "Academic and grey literature corpus",
+      "definition": "An evidence corpus containing both academic literature and substantively included grey/practice literature.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasCorpusComposition",
+      "term": "revmeta:hasCorpusComposition.AcademicLiteratureCorpus",
+      "label": "Academic literature corpus",
+      "definition": "An evidence corpus composed of academic/scholarly literature under the review's inclusion and analysis rules.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasCorpusComposition",
+      "term": "revmeta:hasCorpusComposition.GreyLiteratureCorpus",
+      "label": "Grey literature corpus",
+      "definition": "An evidence corpus composed of grey/practice/non-formally-published literature under the review's inclusion and analysis rules.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasEvidenceSourceRole",
+      "term": "revmeta:hasEvidenceSourceRole.ExistingSurvey",
+      "label": "Existing survey",
+      "definition": "An included source whose semantic role is an existing survey publication that is itself analyzed by the current review/survey.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasEvidenceSourceRole",
+      "term": "revmeta:hasEvidenceSourceRole.MethodologicalGuidanceSource",
+      "label": "Methodological guidance source",
+      "definition": "An included source whose evidential role is to provide methodological knowledge, guidance, recommendations, reporting/conduct guidance, or method-focused evidence about how research, reviews, evidence synthesis, appraisal, measurement, or reporting should be designed or performed, where that methodological content materially contributes to the review synthesis.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasEvidenceSourceRole",
+      "term": "revmeta:hasEvidenceSourceRole.PracticeBasedSource",
+      "label": "Practice-based source",
+      "definition": "An included source whose evidential role is to contribute practitioner, professional, operational, organizational, policy/practice, or other practice-origin knowledge/data substantively to the synthesis, regardless of document format.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasEvidenceSourceRole",
+      "term": "revmeta:hasEvidenceSourceRole.PrimaryStudyReport",
+      "label": "Primary study report",
+      "definition": "An included source whose semantic role is to report original primary research that contributes analyzable evidence to the review.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasEvidenceSourceRole",
+      "term": "revmeta:hasEvidenceSourceRole.SecondaryStudyReport",
+      "label": "Secondary study report",
+      "definition": "An included source whose semantic role is to report a prior secondary synthesis such as a review or meta-analysis.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasExecutionMode",
+      "term": "revmeta:hasExecutionMode.RapidExecutionMode",
+      "label": "Rapid execution mode",
+      "definition": "A process modifier indicating that the review deliberately uses an accelerated or rapid review approach.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasOrganizingLens",
+      "term": "revmeta:hasOrganizingLens.CrossLayerLens",
+      "label": "Cross-layer lens",
+      "definition": "An organizing lens in which the review explicitly defines at least two distinct layers/levels of a system or phenomenon and materially synthesizes relationships between them—such as dependencies, interfaces, propagation, feedback, trade-offs, or co-design—rather than merely covering multiple components, axes, or phases.",
+      "depth": "REVIEW"
+    },
+    {
+      "property": "revmeta:hasPublicationFunction",
+      "term": "revmeta:hasPublicationFunction.AgendaSettingFunction",
+      "label": "Agenda-setting function",
+      "definition": "A principal publication function that explicitly structures, prioritizes, or formulates multiple future research directions or questions as a major purpose of the publication.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasPublicationFunction",
+      "term": "revmeta:hasPublicationFunction.CriticalSynthesisFunction",
+      "label": "Critical synthesis function",
+      "definition": "A principal publication function explicitly aimed at interpretive critique of assumptions, contradictions, limitations, validity, paradigms, or applicability across the literature.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasPublicationFunction",
+      "term": "revmeta:hasPublicationFunction.PerspectiveFunction",
+      "label": "Perspective function",
+      "definition": "A principal publication function that explicitly offers a perspective or interpretive viewpoint on a field rather than only summarizing evidence.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasPublicationFunction",
+      "term": "revmeta:hasPublicationFunction.PositionFunction",
+      "label": "Position function",
+      "definition": "A principal publication function that explicitly advances or defends a scholarly position, stance, or normative claim.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasPublicationFunction",
+      "term": "revmeta:hasPublicationFunction.ProtocolFunction",
+      "label": "Protocol function",
+      "definition": "A principal publication function that presents the planned methods or protocol for a review or synthesis before or independently of reporting completed review findings.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasPublicationFunction",
+      "term": "revmeta:hasPublicationFunction.StateOfTheArtFunction",
+      "label": "State-of-the-art function",
+      "definition": "A principal publication function whose explicit objective is to characterize the current state, current landscape, or current research frontier of a field at a defined time and which materially realizes that temporal/current-state characterization.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasPublicationFunction",
+      "term": "revmeta:hasPublicationFunction.SurveyFunction",
+      "label": "Survey function",
+      "definition": "A principal publication function that explicitly presents the article as a survey or field-organizing survey and materially realizes that role.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasPublicationFunction",
+      "term": "revmeta:hasPublicationFunction.TutorialFunction",
+      "label": "Tutorial function",
+      "definition": "A principal publication function that explicitly teaches or explains a field, method, or body of concepts to enable reader understanding or practice.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasPublicationFunction",
+      "term": "revmeta:hasPublicationFunction.VisionFunction",
+      "label": "Vision function",
+      "definition": "A principal publication function that explicitly articulates a desired or anticipated future state, architecture, principles, or development trajectory for a field and substantively develops that future-oriented view.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasRegistrationStatus",
+      "term": "revmeta:hasRegistrationStatus.ExplicitlyNotRegistered",
+      "label": "Explicitly not registered",
+      "definition": "The publication explicitly states that the review was not registered.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasRegistrationStatus",
+      "term": "revmeta:hasRegistrationStatus.Registered",
+      "label": "Registered",
+      "definition": "The review investigation is explicitly registered in a review registry or comparable formal registration system.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.IntegrativeReviewDesign",
+      "label": "Integrative review design",
+      "definition": "A review design explicitly using an integrative review approach to combine heterogeneous forms of literature or evidence within one review design.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.MetaNarrativeReviewDesign",
+      "label": "Meta-narrative review design",
+      "definition": "A review design explicitly using meta-narrative methodology to examine how different research traditions have conceptualized and studied a topic.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.NarrativeReviewDesign",
+      "label": "Narrative review design",
+      "definition": "A review design explicitly presented as a narrative review or clearly organized as an author-led narrative review design rather than merely using narrative prose for synthesis.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.QualitativeEvidenceSynthesisDesign",
+      "label": "Qualitative evidence synthesis design",
+      "definition": "A review design whose primary methodological design is synthesis of qualitative evidence or qualitative findings.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.RealistReviewDesign",
+      "label": "Realist review design",
+      "definition": "A review design explicitly using realist review methodology to explain how and why outcomes arise in contexts through mechanisms or comparable realist constructs.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.ScopingReviewDesign",
+      "label": "Scoping review design",
+      "definition": "A review design explicitly conducted as a scoping review to map the extent, characteristics, concepts, or evidence landscape of a field.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.SystematicMappingDesign",
+      "label": "Systematic mapping design",
+      "definition": "A review design whose declared methodological purpose is systematic mapping/classification of a research area using an explicit systematic study-selection process.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.SystematicReviewDesign",
+      "label": "Systematic review design",
+      "definition": "A review design in which the publication frames the review itself as systematic and realizes that framing through an explicit, structured/reproducible evidence search or retrieval process plus explicit screening/selection/eligibility decisions for a bounded evidence set.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.SystematizedReviewDesign",
+      "label": "Systematized review design",
+      "definition": "A review design explicitly presented as systematized/systematised or semi-systematic: it deliberately applies substantial systematic-review elements while not claiming, or not meeting the publication’s own claim of, a full systematic review design.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasReviewDesign",
+      "term": "revmeta:hasReviewDesign.UmbrellaReviewDesign",
+      "label": "Umbrella review design",
+      "definition": "A review-of-reviews design in which existing systematic reviews or comparable secondary syntheses are the principal evidence units.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.BlogPost",
+      "label": "Blog post",
+      "definition": "A blog or web-post publication used as an included source.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.BookOrChapter",
+      "label": "Book or chapter",
+      "definition": "A book or book chapter used as an included source.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.ConferencePaper",
+      "label": "Conference paper",
+      "definition": "A paper published in or as part of a scholarly conference/proceedings venue.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.Documentation",
+      "label": "Documentation",
+      "definition": "Technical, software, platform, API, or other formal documentation used as an included source.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.EditorialCommentary",
+      "label": "Editorial or commentary",
+      "definition": "An editorial, commentary, viewpoint, or comparable short opinion/interpretive publication used as an included source.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.Guideline",
+      "label": "Guideline",
+      "definition": "A formal guideline or recommendations document used as an included source.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.JournalArticle",
+      "label": "Journal article",
+      "definition": "A scholarly article published in a journal.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.Preprint",
+      "label": "Preprint",
+      "definition": "A manuscript publicly disseminated before or without formal version-of-record publication.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.ProgrammeManual",
+      "label": "Programme manual",
+      "definition": "A manual describing the operation, delivery, or procedures of a programme/intervention used as an included source.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.Standard",
+      "label": "Standard",
+      "definition": "A formal technical, professional, or regulatory standard used as an included source.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.TechnicalReport",
+      "label": "Technical report",
+      "definition": "A formal technical or research report issued outside ordinary journal/conference publication.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.Thesis",
+      "label": "Thesis",
+      "definition": "A dissertation or thesis submitted for an academic degree.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasSourceDocumentType",
+      "term": "revmeta:hasSourceDocumentType.WhitePaper",
+      "label": "White paper",
+      "definition": "An authoritative or policy/industry-oriented white paper used as an included source.",
+      "depth": "OPTIONAL_DETAIL"
+    },
+    {
+      "property": "revmeta:hasUpdateMode",
+      "term": "revmeta:hasUpdateMode.LivingUpdateMode",
+      "label": "Living update mode",
+      "definition": "A process modifier indicating an intentionally ongoing review that is planned to be updated as new evidence becomes available.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:producesOutputArtifact",
+      "term": "revmeta:producesOutputArtifact.BenchmarkArtifact",
+      "label": "Benchmark artifact",
+      "definition": "A discrete reusable benchmark, evaluation suite, benchmarking protocol, or reference resource produced by the review to support standardized comparison or evaluation.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:producesOutputArtifact",
+      "term": "revmeta:producesOutputArtifact.ConceptualModelArtifact",
+      "label": "Conceptual model artifact",
+      "definition": "A discrete conceptual model produced by the review that represents concepts/entities and meaningful relationships among them; a simple list or category table is insufficient.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:producesOutputArtifact",
+      "term": "revmeta:producesOutputArtifact.DesignArtifact",
+      "label": "Design artifact",
+      "definition": "A discrete engineered or design-oriented output produced by the review, such as an architecture, prototype, reference design, design specification, or comparable solution with identity beyond descriptive analysis.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:producesOutputArtifact",
+      "term": "revmeta:producesOutputArtifact.EvidenceMap",
+      "label": "Evidence map",
+      "definition": "A discrete structured representation of the distribution of evidence across defined dimensions or questions, intended to show coverage, concentration, and/or gaps; an ordinary results table is insufficient.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:producesOutputArtifact",
+      "term": "revmeta:producesOutputArtifact.FrameworkArtifact",
+      "label": "Framework artifact",
+      "definition": "A discrete, identifiable organizing or analytical framework produced by the review, with defined components/relations/rules that can be independently referred to or reused beyond an ordinary summary table.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:producesOutputArtifact",
+      "term": "revmeta:producesOutputArtifact.ResearchAgenda",
+      "label": "Research agenda",
+      "definition": "A discrete structured output that organizes multiple future research questions, problems, directions, or priorities into an identifiable agenda rather than a generic future-work paragraph.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:producesOutputArtifact",
+      "term": "revmeta:producesOutputArtifact.ResearchResource",
+      "label": "Research resource",
+      "definition": "A discrete reusable research asset produced or released with the review, such as a curated dataset, codebase, repository, tool, registry, or structured reference collection that has identity beyond ordinary supplementary material.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:producesOutputArtifact",
+      "term": "revmeta:producesOutputArtifact.TaxonomyArtifact",
+      "label": "Taxonomy artifact",
+      "definition": "A discrete classification scheme produced by the review that organizes domain entities or concepts into named categories using explicit distinctions, dimensions, or assignment principles.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.BibliometricNetworkSynthesis",
+      "label": "Bibliometric/network synthesis",
+      "definition": "A substantive bibliometric/scientometric or network synthesis that integrates publication/citation/co-authorship/co-word or related metadata to characterize corpus-level structure, relationships, or trends; routine publication counts alone are insufficient.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.DescriptiveMappingSynthesis",
+      "label": "Descriptive mapping synthesis",
+      "definition": "A substantive synthesis method that systematically maps the included evidence across explicit categories, dimensions, or cells and interprets corpus-level distributions, patterns, concentrations, or gaps produced by that mapping.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.FrameworkSynthesis",
+      "label": "Framework synthesis",
+      "definition": "A synthesis method that systematically codes, organizes, maps, or interprets evidence across sources through an explicit analytical/a priori framework.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.MetaAnalysis",
+      "label": "Meta-analysis",
+      "definition": "A quantitative synthesis method that statistically combines effect estimates or comparable quantitative results across studies.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.MetaNarrativeSynthesis",
+      "label": "Meta-narrative synthesis",
+      "definition": "A synthesis method that compares and integrates the narratives, paradigms, or trajectories of distinct research traditions.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.MixedMethodsSynthesis",
+      "label": "Mixed-methods synthesis",
+      "definition": "A synthesis method that explicitly integrates quantitative and qualitative evidence or synthesis components within one mixed-methods synthesis.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.NarrativeSynthesis",
+      "label": "Narrative synthesis",
+      "definition": "A substantive synthesis method that integrates evidence across sources through a deliberate narrative procedure. An explicit narrative-synthesis statement plus a described cross-source organization/integration step is sufficient; narrative prose alone is not.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.QualitativeContentAnalysis",
+      "label": "Qualitative content analysis",
+      "definition": "A synthesis method using explicit qualitative content-analysis procedures to code and interpret textual material across the evidence corpus.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.QualitativeMetaSynthesis",
+      "label": "Qualitative meta-synthesis",
+      "definition": "A qualitative synthesis method explicitly described as qualitative meta-synthesis or an equivalent meta-synthetic procedure.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.RealistSynthesis",
+      "label": "Realist synthesis",
+      "definition": "A synthesis method that explains how outcomes arise through mechanisms in contexts using realist synthesis logic.",
+      "depth": "CORE_FACET"
+    },
+    {
+      "property": "revmeta:usesSynthesisMethod",
+      "term": "revmeta:usesSynthesisMethod.ThematicSynthesis",
+      "label": "Thematic synthesis",
+      "definition": "A synthesis method that develops or synthesizes themes across qualitative or textual evidence.",
+      "depth": "CORE_FACET"
+    }
+  ],
+  "inference_rules": "NONE: no inferred subtypes, equivalences, disjointness or closed-world negatives"
+}

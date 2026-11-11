@@ -1,0 +1,1471 @@
+# RevMeta SSSOM/RDF mapping records; no direct SKOS mapping triples.
+<https://w3id.org/revmeta/mappings> <http://purl.org/dc/terms/description> "Frozen source mappings with 34 NoTermFound placeholders." .
+<https://w3id.org/revmeta/mappings> <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0> .
+<https://w3id.org/revmeta/mappings> <http://purl.org/dc/terms/title> "RevMeta reviewed terminology mappings" .
+<https://w3id.org/revmeta/mappings> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/sssom/MappingSet> .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0001 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0002 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0003 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0004 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0005 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0006 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0007 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0008 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0009 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0010 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0011 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0012 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0013 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0014 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0015 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0016 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0017 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0018 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0019 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0020 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0021 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0022 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0023 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0024 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0025 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0026 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0027 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0028 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0029 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0030 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0031 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0032 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0033 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0034 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0035 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0036 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0037 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0038 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0039 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0040 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0041 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0042 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0043 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0044 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0045 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0046 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0047 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0048 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0049 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0050 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0051 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0052 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0053 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0054 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0055 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0056 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0057 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0058 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0059 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0060 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0061 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0062 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0063 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0064 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0065 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0066 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0067 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0068 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0069 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0070 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0071 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0072 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0073 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0074 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0075 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0076 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0077 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0078 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0079 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0080 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0081 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0082 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0083 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0084 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0085 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0086 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0087 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0088 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0089 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0090 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0091 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0092 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0093 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0094 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0095 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0096 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0097 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0098 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0099 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0100 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0101 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0102 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0103 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0104 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0105 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0106 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0107 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0108 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0109 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0110 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0111 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0112 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0113 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0114 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0115 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0116 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0117 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0118 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0119 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0120 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0121 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0122 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0123 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0124 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0125 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0126 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0127 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0128 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0129 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0130 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0131 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0132 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0133 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0134 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0135 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0136 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0137 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0138 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0139 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0140 .
+<https://w3id.org/revmeta/mappings> <https://w3id.org/sssom/mappings> _:revmeta_mapping_0141 .
+_:revmeta_mapping_0001 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0001 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0001 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0001 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/claimsContributionType.ArgumentativeContribution> .
+_:revmeta_mapping_0001 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0001 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0001 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0001 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0001 <https://w3id.org/sssom/subject_label> "Argumentative contribution" .
+_:revmeta_mapping_0002 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0002 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0002 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0002 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/claimsContributionType.BenchmarkContribution> .
+_:revmeta_mapping_0002 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0002 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0002 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0002 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0002 <https://w3id.org/sssom/subject_label> "Benchmark contribution" .
+_:revmeta_mapping_0003 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0003 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0003 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0003 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/claimsContributionType.ConceptualContribution> .
+_:revmeta_mapping_0003 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0003 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0003 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0003 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0003 <https://w3id.org/sssom/subject_label> "Conceptual contribution" .
+_:revmeta_mapping_0004 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0004 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0004 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0004 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/claimsContributionType.DesignArtifactContribution> .
+_:revmeta_mapping_0004 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0004 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0004 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0004 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0004 <https://w3id.org/sssom/subject_label> "Design artifact contribution" .
+_:revmeta_mapping_0005 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0005 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0005 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0005 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/claimsContributionType.FrameworkContribution> .
+_:revmeta_mapping_0005 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0005 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0005 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0005 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0005 <https://w3id.org/sssom/subject_label> "Framework contribution" .
+_:revmeta_mapping_0006 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0006 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0006 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/claimsContributionType.MethodologicalContribution> .
+_:revmeta_mapping_0006 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/MethodsPaper> .
+_:revmeta_mapping_0006 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0006 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0006 <https://w3id.org/sssom/object_label> "MethodsPaper" .
+_:revmeta_mapping_0006 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0006 <https://w3id.org/sssom/subject_label> "Methodological contribution" .
+_:revmeta_mapping_0007 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0007 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0007 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0007 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/claimsContributionType.ResearchAgendaContribution> .
+_:revmeta_mapping_0007 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0007 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0007 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0007 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0007 <https://w3id.org/sssom/subject_label> "Research agenda contribution" .
+_:revmeta_mapping_0008 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0008 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0008 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/claimsContributionType.ResourceContribution> .
+_:revmeta_mapping_0008 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ResourcePaper> .
+_:revmeta_mapping_0008 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0008 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0008 <https://w3id.org/sssom/object_label> "ResourcePaper" .
+_:revmeta_mapping_0008 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0008 <https://w3id.org/sssom/subject_label> "Resource contribution" .
+_:revmeta_mapping_0009 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0009 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0009 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/claimsContributionType.TaxonomyContribution> .
+_:revmeta_mapping_0009 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Taxonomy> .
+_:revmeta_mapping_0009 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0009 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0009 <https://w3id.org/sssom/object_label> "Taxonomy" .
+_:revmeta_mapping_0009 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0009 <https://w3id.org/sssom/subject_label> "Taxonomy contribution" .
+_:revmeta_mapping_0010 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0010 <http://www.w3.org/2000/01/rdf-schema#comment> "Weak association kept by author decision: RevMeta term is a stage-level workflow configuration, prov:SoftwareAgent is an agent type." .
+_:revmeta_mapping_0010 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0010 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAgentConfiguration.AutomatedAgent> .
+_:revmeta_mapping_0010 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/prov#SoftwareAgent> .
+_:revmeta_mapping_0010 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0010 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0010 <https://w3id.org/sssom/object_label> "SoftwareAgent" .
+_:revmeta_mapping_0010 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0010 <https://w3id.org/sssom/subject_label> "Automated agent" .
+_:revmeta_mapping_0011 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0011 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0011 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0011 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAgentConfiguration.HybridHumanMachine> .
+_:revmeta_mapping_0011 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0011 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0011 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0011 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0011 <https://w3id.org/sssom/subject_label> "Hybrid human-machine" .
+_:revmeta_mapping_0012 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0012 <http://www.w3.org/2000/01/rdf-schema#comment> "No counterpart in checked sources; prov:Person rejected (agent type, not a workflow configuration)." .
+_:revmeta_mapping_0012 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0012 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAgentConfiguration.MultipleHumanReviewers> .
+_:revmeta_mapping_0012 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0012 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0012 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0012 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0012 <https://w3id.org/sssom/subject_label> "Multiple human reviewers" .
+_:revmeta_mapping_0013 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0013 <http://www.w3.org/2000/01/rdf-schema#comment> "No counterpart in checked sources; prov:Person rejected (agent type, not a workflow configuration)." .
+_:revmeta_mapping_0013 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0013 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAgentConfiguration.SingleHumanReviewer> .
+_:revmeta_mapping_0013 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0013 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0013 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0013 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0013 <https://w3id.org/sssom/subject_label> "Single human reviewer" .
+_:revmeta_mapping_0014 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0014 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0014 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Algorithm> .
+_:revmeta_mapping_0014 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Algorithm> .
+_:revmeta_mapping_0014 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0014 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0014 <https://w3id.org/sssom/object_label> "Algorithm" .
+_:revmeta_mapping_0014 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0014 <https://w3id.org/sssom/subject_label> "Algorithm" .
+_:revmeta_mapping_0015 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0015 <http://www.w3.org/2000/01/rdf-schema#comment> "ML-specific" .
+_:revmeta_mapping_0015 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0015 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Algorithm> .
+_:revmeta_mapping_0015 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/mls#Algorithm> .
+_:revmeta_mapping_0015 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0015 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0015 <https://w3id.org/sssom/object_label> "Algorithm" .
+_:revmeta_mapping_0015 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0015 <https://w3id.org/sssom/subject_label> "Algorithm" .
+_:revmeta_mapping_0016 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0016 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0016 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0016 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Architecture> .
+_:revmeta_mapping_0016 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0016 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0016 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0016 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0016 <https://w3id.org/sssom/subject_label> "Architecture" .
+_:revmeta_mapping_0017 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0017 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0017 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0017 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Benchmark> .
+_:revmeta_mapping_0017 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0017 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0017 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0017 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0017 <https://w3id.org/sssom/subject_label> "Benchmark" .
+_:revmeta_mapping_0018 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0018 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0018 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.BibliographicMetadata> .
+_:revmeta_mapping_0018 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/BibliographicMetadata> .
+_:revmeta_mapping_0018 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0018 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0018 <https://w3id.org/sssom/object_label> "BibliographicMetadata" .
+_:revmeta_mapping_0018 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0018 <https://w3id.org/sssom/subject_label> "Bibliographic metadata" .
+_:revmeta_mapping_0019 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0019 <http://www.w3.org/2000/01/rdf-schema#comment> "ML-specific" .
+_:revmeta_mapping_0019 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0019 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.ComputationalModel> .
+_:revmeta_mapping_0019 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/mls#Model> .
+_:revmeta_mapping_0019 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0019 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0019 <https://w3id.org/sssom/object_label> "Model" .
+_:revmeta_mapping_0019 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0019 <https://w3id.org/sssom/subject_label> "Computational model" .
+_:revmeta_mapping_0020 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0020 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0020 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.ComputationalModel> .
+_:revmeta_mapping_0020 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Model> .
+_:revmeta_mapping_0020 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0020 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0020 <https://w3id.org/sssom/object_label> "Model" .
+_:revmeta_mapping_0020 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0020 <https://w3id.org/sssom/subject_label> "Computational model" .
+_:revmeta_mapping_0021 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0021 <http://www.w3.org/2000/01/rdf-schema#comment> "No counterpart in checked sources; skos:Concept rejected (SKOS meta-class of all concepts, including RevMeta terms; uninformative)." .
+_:revmeta_mapping_0021 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0021 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Concept> .
+_:revmeta_mapping_0021 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0021 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0021 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0021 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0021 <https://w3id.org/sssom/subject_label> "Concept" .
+_:revmeta_mapping_0022 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0022 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0022 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Dataset> .
+_:revmeta_mapping_0022 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/dcat#Dataset> .
+_:revmeta_mapping_0022 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0022 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0022 <https://w3id.org/sssom/object_label> "Dataset" .
+_:revmeta_mapping_0022 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0022 <https://w3id.org/sssom/subject_label> "Dataset" .
+_:revmeta_mapping_0023 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0023 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0023 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Dataset> .
+_:revmeta_mapping_0023 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Dataset> .
+_:revmeta_mapping_0023 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0023 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0023 <https://w3id.org/sssom/object_label> "Dataset" .
+_:revmeta_mapping_0023 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0023 <https://w3id.org/sssom/subject_label> "Dataset" .
+_:revmeta_mapping_0024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0024 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0024 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Dataset> .
+_:revmeta_mapping_0024 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/mls#Dataset> .
+_:revmeta_mapping_0024 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0024 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0024 <https://w3id.org/sssom/object_label> "Dataset" .
+_:revmeta_mapping_0024 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0024 <https://w3id.org/sssom/subject_label> "Dataset" .
+_:revmeta_mapping_0025 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0025 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0025 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.EffectEstimate> .
+_:revmeta_mapping_0025 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.obolibrary.org/obo/STATO_0000085> .
+_:revmeta_mapping_0025 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0025 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0025 <https://w3id.org/sssom/object_label> "effect size estimate" .
+_:revmeta_mapping_0025 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0025 <https://w3id.org/sssom/subject_label> "Effect estimate" .
+_:revmeta_mapping_0026 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0026 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0026 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.ExistingReview> .
+_:revmeta_mapping_0026 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReviewArticle> .
+_:revmeta_mapping_0026 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0026 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0026 <https://w3id.org/sssom/object_label> "ReviewArticle" .
+_:revmeta_mapping_0026 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0026 <https://w3id.org/sssom/subject_label> "Existing review" .
+_:revmeta_mapping_0027 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0027 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0027 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.ExistingReview> .
+_:revmeta_mapping_0027 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_dcae04bc> .
+_:revmeta_mapping_0027 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0027 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0027 <https://w3id.org/sssom/object_label> "review article" .
+_:revmeta_mapping_0027 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0027 <https://w3id.org/sssom/subject_label> "Existing review" .
+_:revmeta_mapping_0028 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0028 <http://www.w3.org/2000/01/rdf-schema#comment> "surveys are review papers in FaBiO" .
+_:revmeta_mapping_0028 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0028 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.ExistingSurvey> .
+_:revmeta_mapping_0028 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReviewPaper> .
+_:revmeta_mapping_0028 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0028 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0028 <https://w3id.org/sssom/object_label> "review paper" .
+_:revmeta_mapping_0028 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0028 <https://w3id.org/sssom/subject_label> "Existing survey" .
+_:revmeta_mapping_0029 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0029 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0029 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0029 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Finding> .
+_:revmeta_mapping_0029 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0029 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0029 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0029 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0029 <https://w3id.org/sssom/subject_label> "Finding" .
+_:revmeta_mapping_0030 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0030 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0030 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0030 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Framework> .
+_:revmeta_mapping_0030 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0030 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0030 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0030 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0030 <https://w3id.org/sssom/subject_label> "Framework" .
+_:revmeta_mapping_0031 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0031 <http://www.w3.org/2000/01/rdf-schema#comment> "ML-specific, narrower than RevMeta Indicator" .
+_:revmeta_mapping_0031 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0031 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Indicator> .
+_:revmeta_mapping_0031 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/mls#EvaluationMeasure> .
+_:revmeta_mapping_0031 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0031 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0031 <https://w3id.org/sssom/object_label> "EvaluationMeasure" .
+_:revmeta_mapping_0031 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0031 <https://w3id.org/sssom/subject_label> "Indicator" .
+_:revmeta_mapping_0032 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0032 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0032 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0032 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.InterventionOrProgramme> .
+_:revmeta_mapping_0032 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0032 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0032 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0032 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0032 <https://w3id.org/sssom/subject_label> "Intervention or programme" .
+_:revmeta_mapping_0033 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0033 <http://www.w3.org/2000/01/rdf-schema#comment> "questionnaires only" .
+_:revmeta_mapping_0033 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0033 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.MeasurementInstrument> .
+_:revmeta_mapping_0033 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Questionnaire> .
+_:revmeta_mapping_0033 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0033 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0033 <https://w3id.org/sssom/object_label> "Questionnaire" .
+_:revmeta_mapping_0033 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0033 <https://w3id.org/sssom/subject_label> "Measurement instrument" .
+_:revmeta_mapping_0034 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0034 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0034 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0034 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Mechanism> .
+_:revmeta_mapping_0034 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0034 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0034 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0034 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0034 <https://w3id.org/sssom/subject_label> "Mechanism" .
+_:revmeta_mapping_0035 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0035 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0035 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0035 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Practice> .
+_:revmeta_mapping_0035 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0035 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0035 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0035 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0035 <https://w3id.org/sssom/subject_label> "Practice" .
+_:revmeta_mapping_0036 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0036 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0036 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Repository> .
+_:revmeta_mapping_0036 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Repository> .
+_:revmeta_mapping_0036 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0036 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0036 <https://w3id.org/sssom/object_label> "Repository" .
+_:revmeta_mapping_0036 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0036 <https://w3id.org/sssom/subject_label> "Repository" .
+_:revmeta_mapping_0037 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0037 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0037 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Repository> .
+_:revmeta_mapping_0037 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/DataRepository> .
+_:revmeta_mapping_0037 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0037 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0037 <https://w3id.org/sssom/object_label> "DataRepository" .
+_:revmeta_mapping_0037 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0037 <https://w3id.org/sssom/subject_label> "Repository" .
+_:revmeta_mapping_0038 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0038 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0038 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Repository> .
+_:revmeta_mapping_0038 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/dcat#Catalog> .
+_:revmeta_mapping_0038 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0038 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0038 <https://w3id.org/sssom/object_label> "Catalog" .
+_:revmeta_mapping_0038 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0038 <https://w3id.org/sssom/subject_label> "Repository" .
+_:revmeta_mapping_0039 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0039 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0039 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0039 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.ResearchMethod> .
+_:revmeta_mapping_0039 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0039 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0039 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0039 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0039 <https://w3id.org/sssom/subject_label> "Research method" .
+_:revmeta_mapping_0040 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0040 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0040 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0040 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.ResearchTradition> .
+_:revmeta_mapping_0040 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0040 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0040 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0040 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0040 <https://w3id.org/sssom/subject_label> "Research tradition" .
+_:revmeta_mapping_0041 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0041 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0041 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.SoftwareTool> .
+_:revmeta_mapping_0041 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ComputerProgram> .
+_:revmeta_mapping_0041 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0041 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0041 <https://w3id.org/sssom/object_label> "ComputerProgram" .
+_:revmeta_mapping_0041 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0041 <https://w3id.org/sssom/subject_label> "Software tool" .
+_:revmeta_mapping_0042 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0042 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0042 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.SoftwareTool> .
+_:revmeta_mapping_0042 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://www.w3.org/ns/mls#Software> .
+_:revmeta_mapping_0042 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0042 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0042 <https://w3id.org/sssom/object_label> "Software" .
+_:revmeta_mapping_0042 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0042 <https://w3id.org/sssom/subject_label> "Software tool" .
+_:revmeta_mapping_0043 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0043 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0043 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.SoftwareTool> .
+_:revmeta_mapping_0043 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_5ce6> .
+_:revmeta_mapping_0043 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0043 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0043 <https://w3id.org/sssom/object_label> "software" .
+_:revmeta_mapping_0043 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0043 <https://w3id.org/sssom/subject_label> "Software tool" .
+_:revmeta_mapping_0044 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0044 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0044 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Standard> .
+_:revmeta_mapping_0044 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/TechnicalStandard> .
+_:revmeta_mapping_0044 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0044 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0044 <https://w3id.org/sssom/object_label> "TechnicalStandard" .
+_:revmeta_mapping_0044 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0044 <https://w3id.org/sssom/subject_label> "Standard" .
+_:revmeta_mapping_0045 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0045 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0045 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Standard> .
+_:revmeta_mapping_0045 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReportingStandard> .
+_:revmeta_mapping_0045 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0045 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0045 <https://w3id.org/sssom/object_label> "ReportingStandard" .
+_:revmeta_mapping_0045 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0045 <https://w3id.org/sssom/subject_label> "Standard" .
+_:revmeta_mapping_0046 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0046 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0046 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0046 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Study> .
+_:revmeta_mapping_0046 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0046 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0046 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0046 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0046 <https://w3id.org/sssom/subject_label> "Study" .
+_:revmeta_mapping_0047 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0047 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0047 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Taxonomy> .
+_:revmeta_mapping_0047 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Taxonomy> .
+_:revmeta_mapping_0047 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0047 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0047 <https://w3id.org/sssom/object_label> "Taxonomy" .
+_:revmeta_mapping_0047 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0047 <https://w3id.org/sssom/subject_label> "Taxonomy" .
+_:revmeta_mapping_0048 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0048 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0048 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0048 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasAnalyticalObjectType.Theory> .
+_:revmeta_mapping_0048 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0048 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0048 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0048 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0048 <https://w3id.org/sssom/subject_label> "Theory" .
+_:revmeta_mapping_0049 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0049 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0049 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0049 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasCorpusComposition.AcademicAndGreyLiteratureCorpus> .
+_:revmeta_mapping_0049 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0049 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0049 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0049 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0049 <https://w3id.org/sssom/subject_label> "Academic and grey literature corpus" .
+_:revmeta_mapping_0050 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0050 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0050 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0050 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasCorpusComposition.AcademicLiteratureCorpus> .
+_:revmeta_mapping_0050 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0050 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0050 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0050 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0050 <https://w3id.org/sssom/subject_label> "Academic literature corpus" .
+_:revmeta_mapping_0051 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0051 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0051 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0051 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasCorpusComposition.GreyLiteratureCorpus> .
+_:revmeta_mapping_0051 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0051 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0051 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0051 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0051 <https://w3id.org/sssom/subject_label> "Grey literature corpus" .
+_:revmeta_mapping_0052 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0052 <http://www.w3.org/2000/01/rdf-schema#comment> "surveys are review papers in FaBiO" .
+_:revmeta_mapping_0052 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0052 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasEvidenceSourceRole.ExistingSurvey> .
+_:revmeta_mapping_0052 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReviewPaper> .
+_:revmeta_mapping_0052 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0052 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0052 <https://w3id.org/sssom/object_label> "review paper" .
+_:revmeta_mapping_0052 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0052 <https://w3id.org/sssom/subject_label> "Existing survey" .
+_:revmeta_mapping_0053 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0053 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0053 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasEvidenceSourceRole.MethodologicalGuidanceSource> .
+_:revmeta_mapping_0053 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/MethodsPaper> .
+_:revmeta_mapping_0053 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0053 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0053 <https://w3id.org/sssom/object_label> "MethodsPaper" .
+_:revmeta_mapping_0053 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0053 <https://w3id.org/sssom/subject_label> "Methodological guidance source" .
+_:revmeta_mapping_0054 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0054 <http://www.w3.org/2000/01/rdf-schema#comment> "reporting/conduct guidance sources" .
+_:revmeta_mapping_0054 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0054 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasEvidenceSourceRole.MethodologicalGuidanceSource> .
+_:revmeta_mapping_0054 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReportingStandard> .
+_:revmeta_mapping_0054 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0054 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0054 <https://w3id.org/sssom/object_label> "reporting standard" .
+_:revmeta_mapping_0054 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0054 <https://w3id.org/sssom/subject_label> "Methodological guidance source" .
+_:revmeta_mapping_0055 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0055 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0055 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0055 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasEvidenceSourceRole.PracticeBasedSource> .
+_:revmeta_mapping_0055 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0055 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0055 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0055 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0055 <https://w3id.org/sssom/subject_label> "Practice-based source" .
+_:revmeta_mapping_0056 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0056 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0056 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasEvidenceSourceRole.PrimaryStudyReport> .
+_:revmeta_mapping_0056 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ResearchPaper> .
+_:revmeta_mapping_0056 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0056 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0056 <https://w3id.org/sssom/object_label> "ResearchPaper" .
+_:revmeta_mapping_0056 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0056 <https://w3id.org/sssom/subject_label> "Primary study report" .
+_:revmeta_mapping_0057 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0057 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0057 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasEvidenceSourceRole.PrimaryStudyReport> .
+_:revmeta_mapping_0057 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_2df8fbb1> .
+_:revmeta_mapping_0057 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0057 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0057 <https://w3id.org/sssom/object_label> "research article" .
+_:revmeta_mapping_0057 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0057 <https://w3id.org/sssom/subject_label> "Primary study report" .
+_:revmeta_mapping_0058 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0058 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0058 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasEvidenceSourceRole.SecondaryStudyReport> .
+_:revmeta_mapping_0058 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReviewArticle> .
+_:revmeta_mapping_0058 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0058 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0058 <https://w3id.org/sssom/object_label> "ReviewArticle" .
+_:revmeta_mapping_0058 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0058 <https://w3id.org/sssom/subject_label> "Secondary study report" .
+_:revmeta_mapping_0059 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0059 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0059 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasEvidenceSourceRole.SecondaryStudyReport> .
+_:revmeta_mapping_0059 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_dcae04bc> .
+_:revmeta_mapping_0059 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0059 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0059 <https://w3id.org/sssom/object_label> "review article" .
+_:revmeta_mapping_0059 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0059 <https://w3id.org/sssom/subject_label> "Secondary study report" .
+_:revmeta_mapping_0060 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0060 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0060 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0060 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasExecutionMode.RapidExecutionMode> .
+_:revmeta_mapping_0060 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0060 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0060 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0060 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0060 <https://w3id.org/sssom/subject_label> "Rapid execution mode" .
+_:revmeta_mapping_0061 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0061 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0061 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0061 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasOrganizingLens.CrossLayerLens> .
+_:revmeta_mapping_0061 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0061 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0061 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0061 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0061 <https://w3id.org/sssom/subject_label> "Cross-layer lens" .
+_:revmeta_mapping_0062 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0062 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0062 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0062 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.AgendaSettingFunction> .
+_:revmeta_mapping_0062 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0062 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0062 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0062 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0062 <https://w3id.org/sssom/subject_label> "Agenda-setting function" .
+_:revmeta_mapping_0063 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0063 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0063 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0063 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.CriticalSynthesisFunction> .
+_:revmeta_mapping_0063 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0063 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0063 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0063 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0063 <https://w3id.org/sssom/subject_label> "Critical synthesis function" .
+_:revmeta_mapping_0064 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0064 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0064 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.PerspectiveFunction> .
+_:revmeta_mapping_0064 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Opinion> .
+_:revmeta_mapping_0064 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0064 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0064 <https://w3id.org/sssom/object_label> "Opinion" .
+_:revmeta_mapping_0064 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0064 <https://w3id.org/sssom/subject_label> "Perspective function" .
+_:revmeta_mapping_0065 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0065 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0065 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.PositionFunction> .
+_:revmeta_mapping_0065 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/PositionPaper> .
+_:revmeta_mapping_0065 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0065 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0065 <https://w3id.org/sssom/object_label> "PositionPaper" .
+_:revmeta_mapping_0065 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0065 <https://w3id.org/sssom/subject_label> "Position function" .
+_:revmeta_mapping_0066 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0066 <http://www.w3.org/2000/01/rdf-schema#comment> "Function vs document type; COAR research protocol is broader than synthesis protocols." .
+_:revmeta_mapping_0066 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0066 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.ProtocolFunction> .
+_:revmeta_mapping_0066 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/YZ1N-ZFT9> .
+_:revmeta_mapping_0066 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0066 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0066 <https://w3id.org/sssom/object_label> "research protocol" .
+_:revmeta_mapping_0066 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0066 <https://w3id.org/sssom/subject_label> "Protocol function" .
+_:revmeta_mapping_0067 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0067 <http://www.w3.org/2000/01/rdf-schema#comment> "COAR 3.2 knowledge synthesis protocol is a document type; RevMeta describes a publication function, hence relatedMatch, consistent with all other hasPublicationFunction mappings." .
+_:revmeta_mapping_0067 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0067 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.ProtocolFunction> .
+_:revmeta_mapping_0067 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/DX5J-TA9R> .
+_:revmeta_mapping_0067 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0067 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0067 <https://w3id.org/sssom/object_label> "knowledge synthesis protocol" .
+_:revmeta_mapping_0067 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0067 <https://w3id.org/sssom/subject_label> "Protocol function" .
+_:revmeta_mapping_0068 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0068 <http://www.w3.org/2000/01/rdf-schema#comment> "FaBiO review paper surveys the state of the art" .
+_:revmeta_mapping_0068 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0068 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.StateOfTheArtFunction> .
+_:revmeta_mapping_0068 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReviewPaper> .
+_:revmeta_mapping_0068 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0068 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0068 <https://w3id.org/sssom/object_label> "review paper" .
+_:revmeta_mapping_0068 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0068 <https://w3id.org/sssom/subject_label> "State-of-the-art function" .
+_:revmeta_mapping_0069 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0069 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0069 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.SurveyFunction> .
+_:revmeta_mapping_0069 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReviewArticle> .
+_:revmeta_mapping_0069 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0069 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0069 <https://w3id.org/sssom/object_label> "ReviewArticle" .
+_:revmeta_mapping_0069 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0069 <https://w3id.org/sssom/subject_label> "Survey function" .
+_:revmeta_mapping_0070 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0070 <http://www.w3.org/2000/01/rdf-schema#comment> "better fit than ReviewArticle" .
+_:revmeta_mapping_0070 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0070 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.SurveyFunction> .
+_:revmeta_mapping_0070 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReviewPaper> .
+_:revmeta_mapping_0070 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0070 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0070 <https://w3id.org/sssom/object_label> "review paper" .
+_:revmeta_mapping_0070 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0070 <https://w3id.org/sssom/subject_label> "Survey function" .
+_:revmeta_mapping_0071 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0071 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0071 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.TutorialFunction> .
+_:revmeta_mapping_0071 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/InstructionalWork> .
+_:revmeta_mapping_0071 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0071 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0071 <https://w3id.org/sssom/object_label> "InstructionalWork" .
+_:revmeta_mapping_0071 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0071 <https://w3id.org/sssom/subject_label> "Tutorial function" .
+_:revmeta_mapping_0072 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0072 <http://www.w3.org/2000/01/rdf-schema#comment> "Weak association kept by author decision: a vision paper may be a position paper, but PositionPaper does not require a future-oriented view." .
+_:revmeta_mapping_0072 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0072 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasPublicationFunction.VisionFunction> .
+_:revmeta_mapping_0072 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/PositionPaper> .
+_:revmeta_mapping_0072 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0072 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0072 <https://w3id.org/sssom/object_label> "position paper" .
+_:revmeta_mapping_0072 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0072 <https://w3id.org/sssom/subject_label> "Vision function" .
+_:revmeta_mapping_0073 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0073 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0073 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0073 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasRegistrationStatus.ExplicitlyNotRegistered> .
+_:revmeta_mapping_0073 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0073 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0073 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0073 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0073 <https://w3id.org/sssom/subject_label> "Explicitly not registered" .
+_:revmeta_mapping_0074 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0074 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0074 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0074 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasRegistrationStatus.Registered> .
+_:revmeta_mapping_0074 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0074 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0074 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0074 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0074 <https://w3id.org/sssom/subject_label> "Registered" .
+_:revmeta_mapping_0075 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0075 <http://www.w3.org/2000/01/rdf-schema#comment> "Every review design is narrower than the generic MeSH Review publication type; hierarchical match kept across design/publication-type axes for retrieval." .
+_:revmeta_mapping_0075 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0075 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.IntegrativeReviewDesign> .
+_:revmeta_mapping_0075 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D016454> .
+_:revmeta_mapping_0075 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0075 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0075 <https://w3id.org/sssom/object_label> "Review (Publication Type)" .
+_:revmeta_mapping_0075 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0075 <https://w3id.org/sssom/subject_label> "Integrative review design" .
+_:revmeta_mapping_0076 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0076 <http://www.w3.org/2000/01/rdf-schema#comment> "Every review design is narrower than the generic MeSH Review publication type; hierarchical match kept across design/publication-type axes for retrieval." .
+_:revmeta_mapping_0076 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0076 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.MetaNarrativeReviewDesign> .
+_:revmeta_mapping_0076 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D016454> .
+_:revmeta_mapping_0076 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0076 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0076 <https://w3id.org/sssom/object_label> "Review (Publication Type)" .
+_:revmeta_mapping_0076 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0076 <https://w3id.org/sssom/subject_label> "Meta-narrative review design" .
+_:revmeta_mapping_0077 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0077 <http://www.w3.org/2000/01/rdf-schema#comment> "Every review design is narrower than the generic MeSH Review publication type; hierarchical match kept across design/publication-type axes for retrieval." .
+_:revmeta_mapping_0077 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0077 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.NarrativeReviewDesign> .
+_:revmeta_mapping_0077 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D016454> .
+_:revmeta_mapping_0077 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0077 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0077 <https://w3id.org/sssom/object_label> "Review (Publication Type)" .
+_:revmeta_mapping_0077 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0077 <https://w3id.org/sssom/subject_label> "Narrative review design" .
+_:revmeta_mapping_0078 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0078 <http://www.w3.org/2000/01/rdf-schema#comment> "Every review design is narrower than the generic MeSH Review publication type; hierarchical match kept across design/publication-type axes for retrieval." .
+_:revmeta_mapping_0078 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0078 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.QualitativeEvidenceSynthesisDesign> .
+_:revmeta_mapping_0078 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D016454> .
+_:revmeta_mapping_0078 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0078 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0078 <https://w3id.org/sssom/object_label> "Review (Publication Type)" .
+_:revmeta_mapping_0078 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0078 <https://w3id.org/sssom/subject_label> "Qualitative evidence synthesis design" .
+_:revmeta_mapping_0079 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0079 <http://www.w3.org/2000/01/rdf-schema#comment> "MeSH Evidence Synthesis is a publication type (V02.912.625) under Review; design narrower than publication type." .
+_:revmeta_mapping_0079 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0079 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.QualitativeEvidenceSynthesisDesign> .
+_:revmeta_mapping_0079 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0079 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0079 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0079 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0079 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0079 <https://w3id.org/sssom/subject_label> "Qualitative evidence synthesis design" .
+_:revmeta_mapping_0080 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0080 <http://www.w3.org/2000/01/rdf-schema#comment> "Every review design is narrower than the generic MeSH Review publication type; hierarchical match kept across design/publication-type axes for retrieval." .
+_:revmeta_mapping_0080 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0080 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.RealistReviewDesign> .
+_:revmeta_mapping_0080 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D016454> .
+_:revmeta_mapping_0080 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0080 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0080 <https://w3id.org/sssom/object_label> "Review (Publication Type)" .
+_:revmeta_mapping_0080 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0080 <https://w3id.org/sssom/subject_label> "Realist review design" .
+_:revmeta_mapping_0081 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0081 <http://www.w3.org/2000/01/rdf-schema#comment> "MeSH Scoping Review [PT] (entry terms include Mapping Review); RevMeta additionally requires evidence of realized design." .
+_:revmeta_mapping_0081 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0081 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.ScopingReviewDesign> .
+_:revmeta_mapping_0081 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000098583> .
+_:revmeta_mapping_0081 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0081 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0081 <https://w3id.org/sssom/object_label> "Scoping Review (Publication Type)" .
+_:revmeta_mapping_0081 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0081 <https://w3id.org/sssom/subject_label> "Scoping review design" .
+_:revmeta_mapping_0082 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0082 <http://www.w3.org/2000/01/rdf-schema#comment> "Every review design is narrower than the generic MeSH Review publication type; hierarchical match kept across design/publication-type axes for retrieval." .
+_:revmeta_mapping_0082 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0082 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.ScopingReviewDesign> .
+_:revmeta_mapping_0082 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D016454> .
+_:revmeta_mapping_0082 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0082 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0082 <https://w3id.org/sssom/object_label> "Review (Publication Type)" .
+_:revmeta_mapping_0082 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0082 <https://w3id.org/sssom/subject_label> "Scoping review design" .
+_:revmeta_mapping_0083 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0083 <http://www.w3.org/2000/01/rdf-schema#comment> "Every review design is narrower than the generic MeSH Review publication type; hierarchical match kept across design/publication-type axes for retrieval." .
+_:revmeta_mapping_0083 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0083 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.SystematicMappingDesign> .
+_:revmeta_mapping_0083 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D016454> .
+_:revmeta_mapping_0083 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0083 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0083 <https://w3id.org/sssom/object_label> "Review (Publication Type)" .
+_:revmeta_mapping_0083 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0083 <https://w3id.org/sssom/subject_label> "Systematic mapping design" .
+_:revmeta_mapping_0084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0084 <http://www.w3.org/2000/01/rdf-schema#comment> "relatedMatch, not closeMatch or broadMatch: MeSH Mapping Review is entry term T001147017 under Scoping Review concept M000767015, not a separate concept. Systematic mapping and scoping review overlap but differ in methodological criteria, especially explicit systematic selection in RevMeta. Source: https://meshb.nlm.nih.gov/record/ui?ui=D000098583 ; supporting distinction: https://pubmed.ncbi.nlm.nih.gov/35636593/" .
+_:revmeta_mapping_0084 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0084 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.SystematicMappingDesign> .
+_:revmeta_mapping_0084 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000098583> .
+_:revmeta_mapping_0084 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0084 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0084 <https://w3id.org/sssom/object_label> "Scoping Review (Publication Type; Mapping Review entry term)" .
+_:revmeta_mapping_0084 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0084 <https://w3id.org/sssom/subject_label> "Systematic mapping design" .
+_:revmeta_mapping_0085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0085 <http://www.w3.org/2000/01/rdf-schema#comment> "Approximate: MeSH Systematic Review [PT] also requires appraisal and is scoped to health; RevMeta requires reproducible search and screening." .
+_:revmeta_mapping_0085 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0085 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.SystematicReviewDesign> .
+_:revmeta_mapping_0085 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000078182> .
+_:revmeta_mapping_0085 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0085 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0085 <https://w3id.org/sssom/object_label> "Systematic Review (Publication Type)" .
+_:revmeta_mapping_0085 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0085 <https://w3id.org/sssom/subject_label> "Systematic review design" .
+_:revmeta_mapping_0086 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0086 <http://www.w3.org/2000/01/rdf-schema#comment> "Approximate: FaBiO SystematicReview also requires a single question and appraisal." .
+_:revmeta_mapping_0086 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0086 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.SystematicReviewDesign> .
+_:revmeta_mapping_0086 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/SystematicReview> .
+_:revmeta_mapping_0086 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0086 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0086 <https://w3id.org/sssom/object_label> "SystematicReview" .
+_:revmeta_mapping_0086 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0086 <https://w3id.org/sssom/subject_label> "Systematic review design" .
+_:revmeta_mapping_0087 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0087 <http://www.w3.org/2000/01/rdf-schema#comment> "Every review design is narrower than the generic MeSH Review publication type; hierarchical match kept across design/publication-type axes for retrieval." .
+_:revmeta_mapping_0087 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0087 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.SystematizedReviewDesign> .
+_:revmeta_mapping_0087 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D016454> .
+_:revmeta_mapping_0087 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0087 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0087 <https://w3id.org/sssom/object_label> "Review (Publication Type)" .
+_:revmeta_mapping_0087 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0087 <https://w3id.org/sssom/subject_label> "Systematized review design" .
+_:revmeta_mapping_0088 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0088 <http://www.w3.org/2000/01/rdf-schema#comment> "Every review design is narrower than the generic MeSH Review publication type; hierarchical match kept across design/publication-type axes for retrieval." .
+_:revmeta_mapping_0088 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0088 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.UmbrellaReviewDesign> .
+_:revmeta_mapping_0088 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D016454> .
+_:revmeta_mapping_0088 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0088 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0088 <https://w3id.org/sssom/object_label> "Review (Publication Type)" .
+_:revmeta_mapping_0088 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0088 <https://w3id.org/sssom/subject_label> "Umbrella review design" .
+_:revmeta_mapping_0089 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0089 <http://www.w3.org/2000/01/rdf-schema#comment> "MeSH Concept UI (Umbrella Review, entry term under Systematic Review [PT] D000078182), not a Descriptor UI." .
+_:revmeta_mapping_0089 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0089 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasReviewDesign.UmbrellaReviewDesign> .
+_:revmeta_mapping_0089 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/M000761886> .
+_:revmeta_mapping_0089 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0089 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0089 <https://w3id.org/sssom/object_label> "Umbrella Review (concept under D000078182 Systematic Review)" .
+_:revmeta_mapping_0089 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0089 <https://w3id.org/sssom/subject_label> "Umbrella review design" .
+_:revmeta_mapping_0090 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0090 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0090 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.BlogPost> .
+_:revmeta_mapping_0090 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/BlogPost> .
+_:revmeta_mapping_0090 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0090 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0090 <https://w3id.org/sssom/object_label> "BlogPost" .
+_:revmeta_mapping_0090 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0090 <https://w3id.org/sssom/subject_label> "Blog post" .
+_:revmeta_mapping_0091 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0091 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0091 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.BlogPost> .
+_:revmeta_mapping_0091 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_6947> .
+_:revmeta_mapping_0091 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0091 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0091 <https://w3id.org/sssom/object_label> "blog post" .
+_:revmeta_mapping_0091 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0091 <https://w3id.org/sssom/subject_label> "Blog post" .
+_:revmeta_mapping_0092 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0092 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0092 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.BookOrChapter> .
+_:revmeta_mapping_0092 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Book> .
+_:revmeta_mapping_0092 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0092 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0092 <https://w3id.org/sssom/object_label> "Book" .
+_:revmeta_mapping_0092 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0092 <https://w3id.org/sssom/subject_label> "Book or chapter" .
+_:revmeta_mapping_0093 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0093 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0093 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.BookOrChapter> .
+_:revmeta_mapping_0093 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/BookChapter> .
+_:revmeta_mapping_0093 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0093 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0093 <https://w3id.org/sssom/object_label> "BookChapter" .
+_:revmeta_mapping_0093 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0093 <https://w3id.org/sssom/subject_label> "Book or chapter" .
+_:revmeta_mapping_0094 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0094 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0094 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.BookOrChapter> .
+_:revmeta_mapping_0094 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_2f33> .
+_:revmeta_mapping_0094 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0094 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0094 <https://w3id.org/sssom/object_label> "book" .
+_:revmeta_mapping_0094 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0094 <https://w3id.org/sssom/subject_label> "Book or chapter" .
+_:revmeta_mapping_0095 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0095 <http://www.w3.org/2000/01/rdf-schema#comment> "COAR book part also covers book sections" .
+_:revmeta_mapping_0095 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0095 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.BookOrChapter> .
+_:revmeta_mapping_0095 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_3248> .
+_:revmeta_mapping_0095 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0095 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0095 <https://w3id.org/sssom/object_label> "book part" .
+_:revmeta_mapping_0095 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0095 <https://w3id.org/sssom/subject_label> "Book or chapter" .
+_:revmeta_mapping_0096 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0096 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0096 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.ConferencePaper> .
+_:revmeta_mapping_0096 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ConferencePaper> .
+_:revmeta_mapping_0096 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0096 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0096 <https://w3id.org/sssom/object_label> "ConferencePaper" .
+_:revmeta_mapping_0096 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0096 <https://w3id.org/sssom/subject_label> "Conference paper" .
+_:revmeta_mapping_0097 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0097 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0097 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.ConferencePaper> .
+_:revmeta_mapping_0097 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_5794> .
+_:revmeta_mapping_0097 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0097 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0097 <https://w3id.org/sssom/object_label> "conference paper" .
+_:revmeta_mapping_0097 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0097 <https://w3id.org/sssom/subject_label> "Conference paper" .
+_:revmeta_mapping_0098 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0098 <http://www.w3.org/2000/01/rdf-schema#comment> "COAR technical documentation is narrower than RevMeta Documentation, which also covers API and platform documentation." .
+_:revmeta_mapping_0098 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0098 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.Documentation> .
+_:revmeta_mapping_0098 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_71bd> .
+_:revmeta_mapping_0098 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0098 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0098 <https://w3id.org/sssom/object_label> "technical documentation" .
+_:revmeta_mapping_0098 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0098 <https://w3id.org/sssom/subject_label> "Documentation" .
+_:revmeta_mapping_0099 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0099 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0099 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.EditorialCommentary> .
+_:revmeta_mapping_0099 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Editorial> .
+_:revmeta_mapping_0099 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0099 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0099 <https://w3id.org/sssom/object_label> "Editorial" .
+_:revmeta_mapping_0099 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0099 <https://w3id.org/sssom/subject_label> "Editorial or commentary" .
+_:revmeta_mapping_0100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0100 <http://www.w3.org/2000/01/rdf-schema#comment> "not every editorial is an opinion" .
+_:revmeta_mapping_0100 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0100 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.EditorialCommentary> .
+_:revmeta_mapping_0100 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Opinion> .
+_:revmeta_mapping_0100 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0100 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0100 <https://w3id.org/sssom/object_label> "Opinion" .
+_:revmeta_mapping_0100 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0100 <https://w3id.org/sssom/subject_label> "Editorial or commentary" .
+_:revmeta_mapping_0101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0101 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0101 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.EditorialCommentary> .
+_:revmeta_mapping_0101 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_b239> .
+_:revmeta_mapping_0101 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0101 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0101 <https://w3id.org/sssom/object_label> "editorial" .
+_:revmeta_mapping_0101 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0101 <https://w3id.org/sssom/subject_label> "Editorial or commentary" .
+_:revmeta_mapping_0102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0102 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0102 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.EditorialCommentary> .
+_:revmeta_mapping_0102 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/D97F-VB57> .
+_:revmeta_mapping_0102 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0102 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0102 <https://w3id.org/sssom/object_label> "commentary" .
+_:revmeta_mapping_0102 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0102 <https://w3id.org/sssom/subject_label> "Editorial or commentary" .
+_:revmeta_mapping_0103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0103 <http://www.w3.org/2000/01/rdf-schema#comment> "FaBiO has no general guideline class" .
+_:revmeta_mapping_0103 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0103 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.Guideline> .
+_:revmeta_mapping_0103 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ClinicalGuideline> .
+_:revmeta_mapping_0103 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0103 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0103 <https://w3id.org/sssom/object_label> "ClinicalGuideline" .
+_:revmeta_mapping_0103 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0103 <https://w3id.org/sssom/subject_label> "Guideline" .
+_:revmeta_mapping_0104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0104 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0104 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.JournalArticle> .
+_:revmeta_mapping_0104 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/JournalArticle> .
+_:revmeta_mapping_0104 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0104 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0104 <https://w3id.org/sssom/object_label> "JournalArticle" .
+_:revmeta_mapping_0104 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0104 <https://w3id.org/sssom/subject_label> "Journal article" .
+_:revmeta_mapping_0105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0105 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0105 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.JournalArticle> .
+_:revmeta_mapping_0105 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_6501> .
+_:revmeta_mapping_0105 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0105 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0105 <https://w3id.org/sssom/object_label> "journal article" .
+_:revmeta_mapping_0105 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0105 <https://w3id.org/sssom/subject_label> "Journal article" .
+_:revmeta_mapping_0106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0106 <http://www.w3.org/2000/01/rdf-schema#comment> "FaBiO preprint = version first submitted to publisher; RevMeta requires public dissemination" .
+_:revmeta_mapping_0106 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0106 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.Preprint> .
+_:revmeta_mapping_0106 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Preprint> .
+_:revmeta_mapping_0106 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0106 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0106 <https://w3id.org/sssom/object_label> "Preprint" .
+_:revmeta_mapping_0106 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0106 <https://w3id.org/sssom/subject_label> "Preprint" .
+_:revmeta_mapping_0107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0107 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0107 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.Preprint> .
+_:revmeta_mapping_0107 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_816b> .
+_:revmeta_mapping_0107 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0107 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0107 <https://w3id.org/sssom/object_label> "preprint" .
+_:revmeta_mapping_0107 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0107 <https://w3id.org/sssom/subject_label> "Preprint" .
+_:revmeta_mapping_0108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0108 <http://www.w3.org/2000/01/rdf-schema#comment> "fabio:InstructionManual covers product/equipment manuals only" .
+_:revmeta_mapping_0108 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0108 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.ProgrammeManual> .
+_:revmeta_mapping_0108 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/InstructionalWork> .
+_:revmeta_mapping_0108 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0108 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0108 <https://w3id.org/sssom/object_label> "instructional work" .
+_:revmeta_mapping_0108 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0108 <https://w3id.org/sssom/subject_label> "Programme manual" .
+_:revmeta_mapping_0109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0109 <http://www.w3.org/2000/01/rdf-schema#comment> "RevMeta also covers professional/regulatory standards" .
+_:revmeta_mapping_0109 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0109 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.Standard> .
+_:revmeta_mapping_0109 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/TechnicalStandard> .
+_:revmeta_mapping_0109 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0109 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0109 <https://w3id.org/sssom/object_label> "TechnicalStandard" .
+_:revmeta_mapping_0109 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0109 <https://w3id.org/sssom/subject_label> "Standard" .
+_:revmeta_mapping_0110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0110 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#narrowMatch> .
+_:revmeta_mapping_0110 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.Standard> .
+_:revmeta_mapping_0110 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/ReportingStandard> .
+_:revmeta_mapping_0110 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0110 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0110 <https://w3id.org/sssom/object_label> "reporting standard" .
+_:revmeta_mapping_0110 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0110 <https://w3id.org/sssom/subject_label> "Standard" .
+_:revmeta_mapping_0111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0111 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0111 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.TechnicalReport> .
+_:revmeta_mapping_0111 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/TechnicalReport> .
+_:revmeta_mapping_0111 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0111 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0111 <https://w3id.org/sssom/object_label> "TechnicalReport" .
+_:revmeta_mapping_0111 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0111 <https://w3id.org/sssom/subject_label> "Technical report" .
+_:revmeta_mapping_0112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0112 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0112 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.TechnicalReport> .
+_:revmeta_mapping_0112 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_18gh> .
+_:revmeta_mapping_0112 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0112 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0112 <https://w3id.org/sssom/object_label> "technical report" .
+_:revmeta_mapping_0112 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0112 <https://w3id.org/sssom/subject_label> "Technical report" .
+_:revmeta_mapping_0113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0113 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0113 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.Thesis> .
+_:revmeta_mapping_0113 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Thesis> .
+_:revmeta_mapping_0113 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0113 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0113 <https://w3id.org/sssom/object_label> "Thesis" .
+_:revmeta_mapping_0113 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0113 <https://w3id.org/sssom/subject_label> "Thesis" .
+_:revmeta_mapping_0114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0114 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0114 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.Thesis> .
+_:revmeta_mapping_0114 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_46ec> .
+_:revmeta_mapping_0114 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0114 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0114 <https://w3id.org/sssom/object_label> "thesis" .
+_:revmeta_mapping_0114 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0114 <https://w3id.org/sssom/subject_label> "Thesis" .
+_:revmeta_mapping_0115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0115 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0115 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasSourceDocumentType.WhitePaper> .
+_:revmeta_mapping_0115 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/WhitePaper> .
+_:revmeta_mapping_0115 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0115 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0115 <https://w3id.org/sssom/object_label> "WhitePaper" .
+_:revmeta_mapping_0115 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0115 <https://w3id.org/sssom/subject_label> "White paper" .
+_:revmeta_mapping_0116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0116 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0116 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0116 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/hasUpdateMode.LivingUpdateMode> .
+_:revmeta_mapping_0116 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0116 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0116 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0116 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0116 <https://w3id.org/sssom/subject_label> "Living update mode" .
+_:revmeta_mapping_0117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0117 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0117 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0117 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.BenchmarkArtifact> .
+_:revmeta_mapping_0117 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0117 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0117 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0117 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0117 <https://w3id.org/sssom/subject_label> "Benchmark artifact" .
+_:revmeta_mapping_0118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0118 <http://www.w3.org/2000/01/rdf-schema#comment> "every review-produced conceptual model is a model" .
+_:revmeta_mapping_0118 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0118 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.ConceptualModelArtifact> .
+_:revmeta_mapping_0118 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Model> .
+_:revmeta_mapping_0118 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0118 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0118 <https://w3id.org/sssom/object_label> "model" .
+_:revmeta_mapping_0118 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0118 <https://w3id.org/sssom/subject_label> "Conceptual model artifact" .
+_:revmeta_mapping_0119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0119 <http://www.w3.org/2000/01/rdf-schema#comment> "partial overlap: COAR design = plans/drawings" .
+_:revmeta_mapping_0119 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0119 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.DesignArtifact> .
+_:revmeta_mapping_0119 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/542X-3S04> .
+_:revmeta_mapping_0119 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0119 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0119 <https://w3id.org/sssom/object_label> "design" .
+_:revmeta_mapping_0119 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0119 <https://w3id.org/sssom/subject_label> "Design artifact" .
+_:revmeta_mapping_0120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0120 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0120 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.DesignArtifact> .
+_:revmeta_mapping_0120 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Specification> .
+_:revmeta_mapping_0120 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0120 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0120 <https://w3id.org/sssom/object_label> "specification" .
+_:revmeta_mapping_0120 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0120 <https://w3id.org/sssom/subject_label> "Design artifact" .
+_:revmeta_mapping_0121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0121 <http://www.w3.org/2000/01/rdf-schema#comment> "no counterpart found in checked sources" .
+_:revmeta_mapping_0121 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0121 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.EvidenceMap> .
+_:revmeta_mapping_0121 <http://www.w3.org/2002/07/owl#annotatedTarget> <https://w3id.org/sssom/NoTermFound> .
+_:revmeta_mapping_0121 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0121 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0121 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0121 <https://w3id.org/sssom/subject_label> "Evidence map" .
+_:revmeta_mapping_0122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0122 <http://www.w3.org/2000/01/rdf-schema#comment> "not every framework is a model" .
+_:revmeta_mapping_0122 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0122 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.FrameworkArtifact> .
+_:revmeta_mapping_0122 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Model> .
+_:revmeta_mapping_0122 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0122 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0122 <https://w3id.org/sssom/object_label> "model" .
+_:revmeta_mapping_0122 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0122 <https://w3id.org/sssom/subject_label> "Framework artifact" .
+_:revmeta_mapping_0123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0123 <http://www.w3.org/2000/01/rdf-schema#comment> "Weak association: MeSH Concept UI (Research Priorities) under the generic descriptor Research (D012106)." .
+_:revmeta_mapping_0123 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0123 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.ResearchAgenda> .
+_:revmeta_mapping_0123 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/M0018840> .
+_:revmeta_mapping_0123 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0123 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0123 <https://w3id.org/sssom/object_label> "Research Priorities (concept under D012106 Research)" .
+_:revmeta_mapping_0123 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0123 <https://w3id.org/sssom/subject_label> "Research agenda" .
+_:revmeta_mapping_0124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0124 <http://www.w3.org/2000/01/rdf-schema#comment> "relatedMatch, not narrowMatch: the target class includes datasets not produced by a review." .
+_:revmeta_mapping_0124 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0124 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.ResearchResource> .
+_:revmeta_mapping_0124 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Dataset> .
+_:revmeta_mapping_0124 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0124 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0124 <https://w3id.org/sssom/object_label> "Dataset" .
+_:revmeta_mapping_0124 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0124 <https://w3id.org/sssom/subject_label> "Research resource" .
+_:revmeta_mapping_0125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0125 <http://www.w3.org/2000/01/rdf-schema#comment> "relatedMatch, not narrowMatch: the target class includes datasets not produced by a review." .
+_:revmeta_mapping_0125 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0125 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.ResearchResource> .
+_:revmeta_mapping_0125 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_ddb1> .
+_:revmeta_mapping_0125 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0125 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0125 <https://w3id.org/sssom/object_label> "dataset" .
+_:revmeta_mapping_0125 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0125 <https://w3id.org/sssom/subject_label> "Research resource" .
+_:revmeta_mapping_0126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0126 <http://www.w3.org/2000/01/rdf-schema#comment> "relatedMatch, not narrowMatch: the target class includes software not produced by a review." .
+_:revmeta_mapping_0126 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0126 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.ResearchResource> .
+_:revmeta_mapping_0126 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/coar/resource_type/c_5ce6> .
+_:revmeta_mapping_0126 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0126 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0126 <https://w3id.org/sssom/object_label> "software" .
+_:revmeta_mapping_0126 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0126 <https://w3id.org/sssom/subject_label> "Research resource" .
+_:revmeta_mapping_0127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0127 <http://www.w3.org/2000/01/rdf-schema#comment> "relatedMatch, not narrowMatch: fabio:Taxonomy includes taxonomies not produced by a review and requires hierarchy, which RevMeta does not." .
+_:revmeta_mapping_0127 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0127 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/producesOutputArtifact.TaxonomyArtifact> .
+_:revmeta_mapping_0127 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.org/spar/fabio/Taxonomy> .
+_:revmeta_mapping_0127 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0127 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0127 <https://w3id.org/sssom/object_label> "Taxonomy" .
+_:revmeta_mapping_0127 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0127 <https://w3id.org/sssom/subject_label> "Taxonomy artifact" .
+_:revmeta_mapping_0128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0128 <http://www.w3.org/2000/01/rdf-schema#comment> "topical descriptor; RevMeta requires substantive network/bibliometric synthesis" .
+_:revmeta_mapping_0128 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#broadMatch> .
+_:revmeta_mapping_0128 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.BibliometricNetworkSynthesis> .
+_:revmeta_mapping_0128 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D015706> .
+_:revmeta_mapping_0128 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0128 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0128 <https://w3id.org/sssom/object_label> "Bibliometrics" .
+_:revmeta_mapping_0128 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0128 <https://w3id.org/sssom/subject_label> "Bibliometric/network synthesis" .
+_:revmeta_mapping_0129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0129 <http://www.w3.org/2000/01/rdf-schema#comment> "D000099290 is a publication type (child of Review); a method is only related to it" .
+_:revmeta_mapping_0129 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0129 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.DescriptiveMappingSynthesis> .
+_:revmeta_mapping_0129 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0129 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0129 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0129 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0129 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0129 <https://w3id.org/sssom/subject_label> "Descriptive mapping synthesis" .
+_:revmeta_mapping_0130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0130 <http://www.w3.org/2000/01/rdf-schema#comment> "D000099290 is a publication type (child of Review); a method is only related to it" .
+_:revmeta_mapping_0130 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0130 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.FrameworkSynthesis> .
+_:revmeta_mapping_0130 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0130 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0130 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0130 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0130 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0130 <https://w3id.org/sssom/subject_label> "Framework synthesis" .
+_:revmeta_mapping_0131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0131 <http://www.w3.org/2000/01/rdf-schema#comment> "publication type for reports of a meta-analysis; the method is mapped to D015201 and STATO_0000155" .
+_:revmeta_mapping_0131 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0131 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.MetaAnalysis> .
+_:revmeta_mapping_0131 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D017418> .
+_:revmeta_mapping_0131 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0131 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0131 <https://w3id.org/sssom/object_label> "Meta-Analysis (Publication Type)" .
+_:revmeta_mapping_0131 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0131 <https://w3id.org/sssom/subject_label> "Meta-analysis" .
+_:revmeta_mapping_0132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0132 <http://www.w3.org/2000/01/rdf-schema#comment> "MeSH heading for the method itself" .
+_:revmeta_mapping_0132 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0132 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.MetaAnalysis> .
+_:revmeta_mapping_0132 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D015201> .
+_:revmeta_mapping_0132 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0132 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0132 <https://w3id.org/sssom/object_label> "Meta-Analysis as Topic" .
+_:revmeta_mapping_0132 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0132 <https://w3id.org/sssom/subject_label> "Meta-analysis" .
+_:revmeta_mapping_0133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0133 <http://www.w3.org/2000/01/rdf-schema#comment> "STATO data transformation combining effect size estimates" .
+_:revmeta_mapping_0133 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#closeMatch> .
+_:revmeta_mapping_0133 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.MetaAnalysis> .
+_:revmeta_mapping_0133 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://purl.obolibrary.org/obo/STATO_0000155> .
+_:revmeta_mapping_0133 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0133 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0133 <https://w3id.org/sssom/object_label> "meta analysis" .
+_:revmeta_mapping_0133 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0133 <https://w3id.org/sssom/subject_label> "Meta-analysis" .
+_:revmeta_mapping_0134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0134 <http://www.w3.org/2000/01/rdf-schema#comment> "D000099290 is a publication type (child of Review); a method is only related to it" .
+_:revmeta_mapping_0134 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0134 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.MetaNarrativeSynthesis> .
+_:revmeta_mapping_0134 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0134 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0134 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0134 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0134 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0134 <https://w3id.org/sssom/subject_label> "Meta-narrative synthesis" .
+_:revmeta_mapping_0135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0135 <http://www.w3.org/2000/01/rdf-schema#comment> "D000099290 is a publication type (child of Review); a method is only related to it" .
+_:revmeta_mapping_0135 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0135 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.MixedMethodsSynthesis> .
+_:revmeta_mapping_0135 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0135 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0135 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0135 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0135 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0135 <https://w3id.org/sssom/subject_label> "Mixed-methods synthesis" .
+_:revmeta_mapping_0136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0136 <http://www.w3.org/2000/01/rdf-schema#comment> "D000099290 is a publication type (child of Review); a method is only related to it" .
+_:revmeta_mapping_0136 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0136 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.NarrativeSynthesis> .
+_:revmeta_mapping_0136 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0136 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0136 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0136 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0136 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0136 <https://w3id.org/sssom/subject_label> "Narrative synthesis" .
+_:revmeta_mapping_0137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0137 <http://www.w3.org/2000/01/rdf-schema#comment> "D000099290 is a publication type (child of Review); a method is only related to it" .
+_:revmeta_mapping_0137 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0137 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.QualitativeContentAnalysis> .
+_:revmeta_mapping_0137 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0137 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0137 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0137 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0137 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0137 <https://w3id.org/sssom/subject_label> "Qualitative content analysis" .
+_:revmeta_mapping_0138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0138 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0138 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.QualitativeContentAnalysis> .
+_:revmeta_mapping_0138 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000092002> .
+_:revmeta_mapping_0138 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0138 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0138 <https://w3id.org/sssom/object_label> "Document Analysis" .
+_:revmeta_mapping_0138 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0138 <https://w3id.org/sssom/subject_label> "Qualitative content analysis" .
+_:revmeta_mapping_0139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0139 <http://www.w3.org/2000/01/rdf-schema#comment> "D000099290 is a publication type (child of Review); a method is only related to it" .
+_:revmeta_mapping_0139 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0139 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.QualitativeMetaSynthesis> .
+_:revmeta_mapping_0139 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0139 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0139 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0139 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0139 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0139 <https://w3id.org/sssom/subject_label> "Qualitative meta-synthesis" .
+_:revmeta_mapping_0140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0140 <http://www.w3.org/2000/01/rdf-schema#comment> "D000099290 is a publication type (child of Review); a method is only related to it" .
+_:revmeta_mapping_0140 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0140 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.RealistSynthesis> .
+_:revmeta_mapping_0140 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0140 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0140 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0140 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0140 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0140 <https://w3id.org/sssom/subject_label> "Realist synthesis" .
+_:revmeta_mapping_0141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Axiom> .
+_:revmeta_mapping_0141 <http://www.w3.org/2000/01/rdf-schema#comment> "D000099290 is a publication type (child of Review); a method is only related to it" .
+_:revmeta_mapping_0141 <http://www.w3.org/2002/07/owl#annotatedProperty> <http://www.w3.org/2004/02/skos/core#relatedMatch> .
+_:revmeta_mapping_0141 <http://www.w3.org/2002/07/owl#annotatedSource> <https://w3id.org/revmeta/usesSynthesisMethod.ThematicSynthesis> .
+_:revmeta_mapping_0141 <http://www.w3.org/2002/07/owl#annotatedTarget> <http://id.nlm.nih.gov/mesh/D000099290> .
+_:revmeta_mapping_0141 <https://w3id.org/sssom/mapping_justification> <https://w3id.org/semapv/vocab/ManualMappingCuration> .
+_:revmeta_mapping_0141 <https://w3id.org/sssom/mapping_tool> "LLM-assisted candidate generation (Claude Opus 5.5; OpenAI GPT); manual curation and verification by reviewer" .
+_:revmeta_mapping_0141 <https://w3id.org/sssom/object_label> "Evidence Synthesis (Publication Type)" .
+_:revmeta_mapping_0141 <https://w3id.org/sssom/reviewer_label> "Marcin Michał Mirończuk" .
+_:revmeta_mapping_0141 <https://w3id.org/sssom/subject_label> "Thematic synthesis" .

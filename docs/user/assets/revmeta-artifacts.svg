@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1420 840" width="1420" height="840" role="img" aria-labelledby="title description">
+<title id="title">RevMeta sources, deterministic builder and eight machine-readable artifacts</title><desc id="description">Three frozen sources flow into the deterministic builder. The eight generated files include SKOS vocabulary with 102 concepts, 14 defined facet collections and 691 Codebook statements; seven decision states; 141 reviewed SSSOM mapping records, 107 SKOS alignments, HTML documentation and a checksum manifest. Outside this build, annotation profiles can be created by annotators or tools using controlled terms from the vocabulary, decision states and coding rules from the Codebook. The blue arrows point from profiles to these three resources; no profile generator or verified profile corpus is implemented.</desc>
+<defs>
+ <style>
+  .t{font-family:'TeX Gyre Termes','Times New Roman',serif;fill:#0b0b0b}
+  .s{font-family:'TeX Gyre Heros','Liberation Sans',Arial,sans-serif;fill:#0b0b0b}
+  .m{font-family:'DejaVu Sans Mono',monospace;fill:#0b0b0b}
+  .mut{fill:#52514e}
+  .blu{fill:#1d5fb0}
+  .in{fill:#f0efec;stroke:#8a8984;stroke-width:2}
+  .out{fill:#e8f1fd;stroke:#2a78d6;stroke-width:2}
+  .grp{fill:none;stroke:#104281;stroke-width:2.5}
+  .ext{fill:#ffffff;stroke:#a3a29c;stroke-width:2}
+  .dash{stroke-dasharray:8 6}
+  .ar{stroke:#52514e;stroke-width:2.2;fill:none;marker-end:url(#a)}
+  .arb{stroke:#2a78d6;stroke-width:2.2;fill:none;marker-end:url(#ab)}
+ </style>
+ <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#52514e"/></marker>
+ <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#2a78d6"/></marker>
+</defs>
+<rect width="1420" height="840" fill="#fcfcfb"/>
+
+<text class="t" x="20" y="36" font-size="28" font-weight="bold">Inputs (sources/)</text>
+<text class="t" x="330" y="36" font-size="28" font-weight="bold">Build</text>
+<text class="t" x="590" y="36" font-size="28" font-weight="bold">Outputs (dist/)</text>
+
+<!-- INPUTS -->
+<text class="s mut" x="20" y="64" font-size="16">canonical RevMeta source triplet</text>
+<text class="s mut" x="20" y="84" font-size="16">(historical RSP lineage retained)</text>
+
+<rect class="in" x="20" y="100" width="290" height="100" rx="8"/>
+<text class="m" x="36" y="132" font-size="21" font-weight="bold">registry.json</text>
+<text class="s" x="36" y="162" font-size="19">102 terms · 14 facets</text>
+<text class="s" x="36" y="186" font-size="19">labels, definitions, depth</text>
+
+<rect class="in" x="20" y="220" width="290" height="100" rx="8"/>
+<text class="m" x="36" y="252" font-size="21" font-weight="bold">mappings.xlsx</text>
+<text class="s" x="36" y="282" font-size="19">141 reviewed mapping records</text>
+<text class="s" x="36" y="306" font-size="19">107 links · 34 unmatched</text>
+
+<rect class="in" x="20" y="340" width="290" height="124" rx="8"/>
+<text class="m" x="36" y="372" font-size="21" font-weight="bold">codebook.md</text>
+<text class="s" x="36" y="402" font-size="19">code when / do not code when</text>
+<text class="s" x="36" y="426" font-size="19">boundaries · examples</text>
+<text class="s" x="36" y="450" font-size="19">for the same 102 term IDs</text>
+
+<!-- BUILD -->
+<rect x="330" y="60" width="210" height="506" rx="10" fill="#104281"/>
+<text class="m" x="435" y="100" font-size="22" font-weight="bold" text-anchor="middle" style="fill:#ffffff">build.py</text>
+<g class="s" font-size="19" style="fill:#ffffff">
+ <text x="348" y="150">deterministic</text>
+ <text x="348" y="176">(byte-identical</text>
+ <text x="348" y="200">rebuilds)</text>
+ <text x="348" y="250">checks:</text>
+ <text x="348" y="278">· SHACL</text>
+ <text x="348" y="304">· SSSOM validation</text>
+ <text x="348" y="330">· SHA-256 of</text>
+ <text x="348" y="354">  every file</text>
+ <text x="348" y="386">· Codebook parity</text>
+</g>
+<path class="ar" d="M310 150 H328"/><path class="ar" d="M310 270 H328"/><path class="ar" d="M310 402 H328"/>
+<path class="ar" d="M540 91 H588"/><path class="ar" d="M540 235 H588"/><path class="ar" d="M540 468 H588"/>
+
+<!-- docs row -->
+<rect class="out" x="590" y="60" width="270" height="62" rx="8"/>
+<text class="m" x="604" y="86" font-size="19" font-weight="bold">index.html</text>
+<text class="s" x="604" y="110" font-size="17">documentation for people</text>
+<rect class="out" x="880" y="60" width="270" height="62" rx="8"/>
+<text class="m" x="894" y="86" font-size="19" font-weight="bold">manifest.json</text>
+<text class="s" x="894" y="110" font-size="17">source + output SHA-256</text>
+
+<!-- B -->
+<rect class="grp" x="590" y="150" width="560" height="170" rx="12"/>
+<text class="s blu" x="606" y="178" font-size="21" font-weight="bold">B · Mappings</text>
+<rect class="out" x="606" y="192" width="290" height="114" rx="8"/>
+<text class="m" x="620" y="220" font-size="18" font-weight="bold">mappings.sssom.tsv/.ttl</text>
+<text class="s" x="620" y="250" font-size="18">141 records with provenance</text>
+<text class="s" x="620" y="274" font-size="18">(34: no counterpart found</text>
+<text class="s" x="620" y="296" font-size="18">in the checked sources)</text>
+<rect class="out" x="940" y="192" width="194" height="114" rx="8"/>
+<text class="m" x="954" y="220" font-size="18" font-weight="bold">alignments.ttl</text>
+<text class="s" x="954" y="250" font-size="18">107 direct</text>
+<text class="s" x="954" y="274" font-size="18">SKOS links</text>
+<path class="arb" d="M896 249 H938"/>
+<text class="s blu" x="917" y="240" font-size="15" text-anchor="middle">view</text>
+
+<rect class="ext" x="1190" y="182" width="212" height="132" rx="8"/>
+<text class="s" x="1204" y="210" font-size="18" font-weight="bold">External</text>
+<text class="s" x="1204" y="232" font-size="18" font-weight="bold">vocabularies</text>
+<text class="s" x="1204" y="258" font-size="16">FaBiO · MeSH · COAR</text>
+<text class="s" x="1204" y="280" font-size="16">STATO · ML-Schema</text>
+<text class="s" x="1204" y="302" font-size="16">DCAT · PROV-O</text>
+<path class="arb" d="M1134 249 H1188"/>
+<text class="s blu" x="1161" y="240" font-size="15" text-anchor="middle">to</text>
+
+<!-- B -> A -->
+<path class="arb" d="M820 306 V410"/>
+<text class="s blu" x="830" y="351" font-size="16">subject of each mapping = a RevMeta term</text>
+
+<!-- A -->
+<rect class="grp" x="590" y="370" width="560" height="196" rx="12"/>
+<text class="s blu" x="606" y="398" font-size="21" font-weight="bold">A · Vocabulary</text>
+<rect class="out" x="606" y="412" width="300" height="140" rx="8"/>
+<text class="m" x="620" y="440" font-size="19" font-weight="bold">vocabulary.ttl / .jsonld</text>
+<text class="s" x="620" y="468" font-size="18">1 scheme · 14 facet collections</text>
+<text class="s" x="620" y="492" font-size="18">102 concepts with definitions</text>
+<rect class="out" x="620" y="506" width="272" height="32" rx="6" style="fill:#ffffff"/>
+<text class="s" x="632" y="528" font-size="16">691 typed Codebook items</text>
+<rect class="out" x="926" y="412" width="208" height="140" rx="8"/>
+<text class="m" x="940" y="440" font-size="16" font-weight="bold">decision-states.ttl</text>
+<text class="s" x="940" y="468" font-size="18">7 decision states</text>
+<text class="s" x="940" y="492" font-size="18">with definitions</text>
+<text class="s mut" x="940" y="520" font-size="15">(SATISFIED, AMBIGUOUS,</text>
+<text class="s mut" x="940" y="540" font-size="15">VOCABULARY_GAP, …)</text>
+
+<!-- C -->
+<rect class="grp dash" x="20" y="616" width="1130" height="140" rx="12"/>
+<text class="s blu" x="36" y="646" font-size="21" font-weight="bold">C · Publication coding profiles (created by annotators or tools)</text>
+<text class="s" x="36" y="678" font-size="19">A complete profile would contain 102 decisions, one per term:</text>
+<text class="s" x="36" y="704" font-size="19">term + decision state + source evidence + provenance</text>
+<text class="s mut" x="36" y="734" font-size="17">Profiles are outside this build; profile RDF export is not implemented.</text>
+
+<path class="arb" d="M165 616 V466"/>
+<text class="s blu" x="176" y="535" font-size="16">uses coding rules</text>
+<path class="arb" d="M760 616 V554"/>
+<text class="s blu" x="770" y="594" font-size="16">uses controlled terms</text>
+<path class="arb" d="M1030 616 V554"/>
+<text class="s blu" x="1040" y="594" font-size="16">uses decision states</text>
+
+<!-- legend -->
+<g transform="translate(20,790)">
+ <rect class="in" x="0" y="0" width="34" height="20" rx="4"/><text class="s" x="44" y="16" font-size="17">input</text>
+ <rect class="out" x="120" y="0" width="34" height="20" rx="4"/><text class="s" x="164" y="16" font-size="17">generated output</text>
+ <line x1="330" y1="10" x2="372" y2="10" stroke="#52514e" stroke-width="2.2" marker-end="url(#a)"/><text class="s" x="384" y="16" font-size="17">produced from / used to make</text>
+ <line x1="640" y1="10" x2="682" y2="10" class="arb"/><text class="s" x="694" y="16" font-size="17">refers to</text>
+ <line x1="800" y1="10" x2="842" y2="10" stroke="#52514e" stroke-width="2.2" class="dash"/><text class="s" x="854" y="16" font-size="17">planned or outside the build</text>
+</g>
+</svg>

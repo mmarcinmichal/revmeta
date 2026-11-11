@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69,<82"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "revmeta"
+version = "1.0.0"
+description = "Private RevMeta research vocabulary and reproducible data workflows"
+requires-python = ">=3.12"
+dependencies = ["rdflib==7.6.0"]
+
+[project.optional-dependencies]
+validation = ["pyshacl==0.40.2", "sssom==0.4.21", "openpyxl==3.1.5"]
+analysis = ["matplotlib==3.10.6"]
+
+[project.scripts]
+revmeta = "revmeta.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"revmeta.build" = ["shapes/*.ttl"]
