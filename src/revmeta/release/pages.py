@@ -105,6 +105,13 @@ def prepare(source: Path, destination: Path, *, inputs: Path = VOCABULARY_INPUTS
         if w3id_draft.exists():
             raise ValueError("W3ID draft destination must not already exist")
     graph = verified_graph(source, inputs)
+    # Validate every W3ID identifier family before creating any preview files.
+    # The eight-file site contract is unchanged: no new RDF formats are minted.
+    redirect_draft = None
+    if w3id_draft is not None:
+        states_graph = Graph().parse(source / "decision-states.ttl", format="turtle")
+        mappings_graph = Graph().parse(source / "mappings.sssom.ttl", format="turtle")
+        redirect_draft = render_w3id_draft(graph, states_graph, mappings_graph)
     with tempfile.TemporaryDirectory(prefix="revmeta-pages-") as temporary:
         staged = Path(temporary) / "site"
         staged.mkdir()
@@ -116,7 +123,7 @@ def prepare(source: Path, destination: Path, *, inputs: Path = VOCABULARY_INPUTS
         shutil.copytree(staged, destination)
     if w3id_draft is not None:
         w3id_draft.parent.mkdir(parents=True, exist_ok=True)
-        w3id_draft.write_text(render_w3id_draft(graph), encoding="utf-8")
+        w3id_draft.write_text(redirect_draft, encoding="utf-8")
     return destination
 
 

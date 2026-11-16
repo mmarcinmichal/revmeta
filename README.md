@@ -5,6 +5,7 @@ RevMeta is a controlled vocabulary and mapping resource for describing research 
 ## Explore RevMeta
 
 - [Browse the vocabulary](https://mmarcinmichal.github.io/revmeta/) — definitions and structured HTML documentation.
+- [Persistent W3ID namespace](https://w3id.org/revmeta/) — registered identifiers resolving to the published human- or machine-readable representation (HTML, Turtle, or JSON-LD for the vocabulary).
 - [User guide](docs/user/README.md) — concept definitions, coding guidance, decision states, mapping provenance, and illustrations.
 - [Source data](resources/inputs/vocabulary/) — the registry, Codebook, and reviewed mapping table.
 - [RDF and SSSOM exports](resources/outputs/vocabulary/) — Turtle, JSON-LD, SSSOM TSV/Turtle, alignments, decision states, and the [SHA-256 manifest](resources/outputs/vocabulary/manifest.json).
@@ -24,4 +25,4 @@ Generated files and their checksums are listed in [`manifest.json`](resources/ou
 
 RevMeta project-owned content is available under the [Apache License 2.0](LICENSE). See [`CITATION.cff`](CITATION.cff) for citation metadata.
 
-The RDF uses `https://w3id.org/revmeta/` as its identifier namespace. HTTP resolution through W3ID is not yet available.
+The RDF uses the registered [`https://w3id.org/revmeta/`](https://w3id.org/revmeta/) persistent identifier namespace. Representative HTTP 303 redirects, destination HTTP 200 responses and correct content types were verified on 2026-11-16. W3ID registration does not imply a tagged GitHub Release, a DOI or independent scientific validation.
