@@ -4,7 +4,7 @@ RevMeta (*Review Metadata*) is a controlled vocabulary for describing methodolog
 
 This single guide is the user-facing entry point. It covers rebuilding the artifacts, interpreting the vocabulary and coding rules, reading SSSOM mappings, and checking provenance. The three diagrams below are illustrations of the resource and coding workflow, not empirical results.
 
-**Resource identity:** `VERSION=1.0.0` identifies the reproducible resource version. The author licenses RevMeta project-owned sources, generator and figures under Apache-2.0. Publication status is determined by a specific tagged **public GitHub Release**, not by the build manifest. Verify the actual `https://w3id.org/revmeta/` registration and redirects before relying on persistent URI resolution; this guide does not claim independent scientific validation, DOI registration or a publication-profile exporter.
+**Resource identity:** `VERSION=1.0.0` identifies the reproducible resource version. The author licenses RevMeta project-owned sources, generator and figures under Apache-2.0. Publication status is determined by a specific tagged **public GitHub Release**, not by the build manifest. The registered namespace [`https://w3id.org/revmeta/`](https://w3id.org/revmeta/) passed representative live HTTP 303/200/MIME checks on 2026-11-16; this does not claim independent scientific validation, a final tagged GitHub Release, DOI registration or a publication-profile exporter.
 
 ![RevMeta sources, deterministic build and eight resulting artifacts](assets/revmeta-artifacts.svg)
 
@@ -50,7 +50,7 @@ Outputs:
 
 The canonical Codebook is required even for development RDF builds; generation fails closed if it is missing or cannot be parsed. Builds without a mappings workbook may be incomplete and are **not release-ready**. Generated artifacts are never hand edited.
 
-The canonical IRI prefix is `https://w3id.org/revmeta/`; it only becomes an operational persistent identifier after registration and verification of live redirects. The version number alone is not a DOI or independent quality certification.
+The canonical IRI prefix is the registered [`https://w3id.org/revmeta/`](https://w3id.org/revmeta/) namespace. W3ID resolves vocabulary IRIs to the published HTML/Turtle/JSON-LD representations; representative live 303/200 and MIME checks passed on 2026-11-16. The version number alone is not a DOI or independent quality certification.
 
 See [provenance, version and license status](#provenance-licensing-and-release-status) and the [mapping interpretation policy](#mapping-and-interpretation-policy). An offline **candidate** may be staged with `revmeta release stage --output /absolute/path/outside/repo`; this is not a publication action. A verified public GitHub Release/tag establishes publication status; W3ID resolution must be checked independently.
 
@@ -132,10 +132,11 @@ order, roles, facet coverage and source SHA-256. SHACL validates minimum
 cardinalities and typed data. The generated HTML renders these instructions
 directly from the RDF, not from a separate hardcoded copy.
 
-The IRI prefix requires an accepted `w3id.org` registration for live
-resolution. These machine-readable **build outputs** do not themselves
-constitute a public release, DOI, or independently verified
-publication-profile judgment; Apache-2.0 is separately declared in LICENSE.
+The IRI prefix has an accepted `w3id.org` registration and verified
+representative live redirects (2026-11-16). These machine-readable **build
+outputs** and identifier registration do not themselves constitute a final
+tagged GitHub Release, DOI, or independently verified publication-profile
+judgment; Apache-2.0 is separately declared in LICENSE.
 
 For coding-status definitions, see [decision states](#seven-coding-decision-states).
 
@@ -250,7 +251,7 @@ Source labels, definitions and all 691 coding items are in English. The generate
 ### Licensing, citation and remaining publication metadata
 
 - **License and rights:** Apache License 2.0 (`Apache-2.0`; `https://www.apache.org/licenses/LICENSE-2.0`) is the owner's confirmed license for RevMeta code, the three authoritative project-owned scientific inputs and generated figures. The owner explicitly declares the right to distribute these materials, including the three SVGs generated from the owner's code, under Apache-2.0 (private decision D031, 2026-11-10). The SKOS schemes and SSSOM mapping set carry the machine-readable `dcterms:license` URI. This is an **owner attestation**, not independent legal analysis or a claim to own external ontologies linked by the SSSOM mappings.
-- **Persistent namespace:** `https://w3id.org/revmeta/` is the intended canonical prefix. Its redirect registration and HTTP/MIME behavior must be verified in the live W3ID registry before claiming operational persistent identifiers.
+- **Persistent namespace:** [`https://w3id.org/revmeta/`](https://w3id.org/revmeta/) is registered in the W3ID repository ([PR #7162](https://github.com/perma-id/w3id.org/pull/7162), merged 2026-11-16). A representative HTTP GET audit verified W3ID `303`, `Location`, destination `200` and MIME for HTML/Turtle/JSON-LD on 2026-11-16. Decision-state and mapping-set IRIs currently resolve to Turtle even if JSON-LD is requested; there is no public JSON-LD for those two separate graphs.
 - **Citation metadata:** Root [`CITATION.cff`](../../CITATION.cff) records author **Marcin Michał Mirończuk**, title *RevMeta — Review Metadata*, type `dataset`, resource version `1.0.0` and license Apache-2.0. Missing DOI, ORCID or `date-released` are not placeholders to be inferred from Git history.
 - **Mapping provenance:** `reviewer_label` and `mapping_tool` retain curated workbook metadata. They are not proof of independently replicated expert validation. The 34 `NoTermFound` decisions are bounded by the seven external vocabulary families described above, according to the resource owner's methodological declaration; they are not an exhaustive or independently replicated negative-search log.
 
